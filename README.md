@@ -1,14 +1,19 @@
-# xcpc
+# 前言
 
-<center> $\mathcal{\pmb{Wida}}$ 的 XCPC 在线模板库 </center>
+$\mathcal{\pmb{Wida}}$ 的 XCPC 在线模板库
+
+感谢我的两位队友 $\mathcal{\pmb{Hamine}}$、$\mathcal{\pmb{ppafo}}$ 在本文成文过程中提供的帮助，同时感谢实验室其他成员的付出。
+
+本文主要分为三个大模块，分别是在线比赛模板、打印稿模板以及 $\mathcal{\pmb{Jiangly}}$ 常用模板收集，仅供参考。
+
+在我退役前会持续维护更新，大约一周一次；退役后再看~
 
 # 大目录
 
 ## 00 - 杂类
 
-在线比赛 自用快捷debug头文件：[wida.h](https://github.com/hh2048/xcpc/blob/main/01%20-%20%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/wida.h)
-
-在线比赛 竞速使用的超长火车头：[在线头文件.cpp](https://github.com/hh2048/xcpc/blob/main/01%20-%20%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E5%9C%A8%E7%BA%BF%E5%A4%B4%E6%96%87%E4%BB%B6.cpp)
+- 在线比赛 自用快捷debug头文件
+- 在线比赛 竞速使用的超长火车头
 
 ## 01 - 基础算法
 
