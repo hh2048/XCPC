@@ -38,13 +38,11 @@ struct Flow {
             return f;
         }
         auto r = f;
-        double res = 0;
         for (int &i = cur[u]; i < int(g[u].size()); ++i) {
             const int j = g[u][i];
             auto [v, c] = e[j];
             if (c > 0 && h[v] == h[u] + 1) {
                 auto a = dfs(v, t, std::min(r, c));
-                res += a;
                 e[j].cap -= a;
                 e[j ^ 1].cap += a;
                 r -= a;
@@ -53,7 +51,7 @@ struct Flow {
                 }
             }
         }
-        return res;
+        return f - r;
     }
     void addEdge(int u, int v, T c) {
         g[u].push_back(e.size());
@@ -65,9 +63,8 @@ struct Flow {
         T ans = 0;
         while (bfs(s, t)) {
             cur.assign(n, 0);
-            ans += dfs(s, t, 1E100);
+            ans += dfs(s, t, std::numeric_limits<T>::max());
         }
         return ans;
     }
 };
-
