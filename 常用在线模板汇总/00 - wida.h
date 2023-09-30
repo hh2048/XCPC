@@ -152,5 +152,13 @@ template<class... Args> void _3(Args... args) {
     cout << "\n";
 }
 
+// 常用宏定义
+#define FOR(i, a, b) for (int i = (int)(a); i <= (int)(b); i++)
+#define FOR2(i, a, b) for (int i = (int)(a); i <= (int)(b); i += 2)
+#define FORD(i, b, a) for (int i = (int)(a); i >= (int)(b); i--)
+#define ALL(a) a.begin(), a.end()
+#define rALL(a) a.rbegin(), a.rend()
 #define ED exit(0);
-#define EX exit(0);
+#define CE continue;
+#define CO continue;
+#define BK break;
