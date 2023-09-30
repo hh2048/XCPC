@@ -2,7 +2,7 @@
 
 $\mathcal{\pmb{Wida}}$ 的 XCPC 在线模板库
 
-感谢我的两位队友 $\mathcal{\pmb{Hamine}}$、$\mathcal{pafo}$ 在本文成文过程中提供的帮助，同时感谢实验室其他成员的付出。
+感谢我的两位队友 $\mathcal{\pmb{Hamine}}$、$\pmb{ppafo}$ 在本文成文过程中提供的帮助，同时感谢实验室其他成员的付出。
 
 本文主要分为三个大模块，分别是在线比赛模板、打印稿模板以及 $\mathcal{\pmb{Jiangly}}$ 常用模板收集，仅供参考。
 
