@@ -26,7 +26,7 @@ namespace WIDA {
     #define fi first
     #define se second
     #define sz size()
-
+    
     // 常用库函数重定义
     template<typename T> T min(const vector<T> &v) {
         return *min_element(v.begin(), v.end());
@@ -77,6 +77,11 @@ namespace WIDA {
             if (k & 1) r = r * n % p;
         }
         return r;
+    }
+    template<class... Args> void __(Args... args) {
+        auto _ = [&](auto x) { cout << x << " "; };
+        int __[] = {(_(args), 0)...};
+        cout << "\n";
     }
     const int N = 1e6 + 7;
     const int INF = numeric_limits<int>::max();
