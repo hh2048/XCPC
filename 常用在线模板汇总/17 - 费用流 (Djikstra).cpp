@@ -14,17 +14,17 @@ struct MinCostFlow {
     
     MinCostFlow(int n) : n(n), g(n) {}
     void add(int u, int v, int c, int f) { // c 流量, f 费用
-        if (f < 0) {
-            g[u].push_back(e.size());
-            e.emplace_back(v, 0, f);
-            g[v].push_back(e.size());
-            e.emplace_back(u, c, -f);
-        } else {
+        // if (f < 0) {
+        //     g[u].push_back(e.size());
+        //     e.emplace_back(v, 0, f);
+        //     g[v].push_back(e.size());
+        //     e.emplace_back(u, c, -f);
+        // } else {
             g[u].push_back(e.size());
             e.emplace_back(v, c, f);
             g[v].push_back(e.size());
             e.emplace_back(u, 0, -f);
-        }
+        // }
     }
     bool dijkstra(int s, int t) {
         dis.assign(n, INF);
