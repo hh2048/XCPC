@@ -13,7 +13,7 @@ template<class T> constexpr T mypow(T n, i64 k) {
 template<int MOD> struct Zmod {
     int x;
     Zmod(int x = 0) : x(norm(x % MOD)) {}
-    Zmod(i64 x = 0) : x(norm(x % MOD)) {}
+    Zmod(i64 x) : x(norm(x % MOD)) {}
 
     constexpr int norm(int x) const {
         if (x < 0) {
@@ -49,7 +49,7 @@ template<int MOD> struct Zmod {
         return *this;
     }
     constexpr Zmod &operator--() {
-        x = norm(x - 1)
+        x = norm(x - 1);
         return *this;
     }
     constexpr Zmod &operator+=(const Zmod &i) {
