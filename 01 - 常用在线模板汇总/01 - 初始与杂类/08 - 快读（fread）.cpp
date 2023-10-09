@@ -1,3 +1,5 @@
+// 注意，在当前较新的 C++ 版本中，使用 getchar() 的快读是无意义的，只有使用 fread() 的才能提速
+
 namespace QuickRead { // 快读
     char buf[1 << 21], *p1 = buf, *p2 = buf;
     inline int getc() {
