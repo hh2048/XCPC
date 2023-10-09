@@ -1,3 +1,5 @@
+#include <ext/pb_ds/assoc_container.hpp>
+
 struct myhash {
     static uint64_t hash(uint64_t x) {
         x += 0x9e3779b97f4a7c15;
@@ -16,6 +18,5 @@ struct myhash {
 };
 #define mymap __gnu_pbds::gp_hash_table
 
-MAP<int, int, myhash> dic;
-unordered_map<int, int, myhash> dic;
-String hash(mod, base, N);
+// mymap<int, int, myhash> dic;
+// unordered_map<int, int, myhash> dic;
