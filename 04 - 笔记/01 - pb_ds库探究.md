@@ -1,3 +1,9 @@
+### 参考文献
+
+【于纪平】C++的pb_ds库在OI中的应用.pdf
+
+CodeForces [C++ STL: Order of magnitude faster hash tables with Policy Based Data Structures](https://codeforces.com/blog/entry/60737)
+
 ### 万能头文件
 
 CodeForces在 $\tt C^{20(64)}_{++}$ 版本下无法使用 `bits`；如果需要使用 `priority_queue` 则无法使用 `using`（会和 `std` 撞名字）。
@@ -227,7 +233,7 @@ cout << p.size() << endl;
 个人尚未做过相关测试，引用论文中图表：
 
 <center>
-    <img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="01 - p03.png" width="70%" />
+    <img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://s2.loli.net/2023/10/12/unZNEMyVbplDoKA.png" width="70%" />
     <div style="border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999;">论文相关测试结果</div>
 </center>
 
@@ -272,11 +278,11 @@ gp_hash_table<int, int, myhash> dic; // 支持自定义随机哈希种子
 - CodeForces在 $\tt C^{20(64)}_{++}$ 版本下使用 `std::map` [耗时920ms](https://codeforces.com/contest/1225/submission/223593424)，使用自定义随机哈希种子 `std::unordered_map` [耗时842ms](https://codeforces.com/contest/1225/submission/223593693)；使用 `gp_hash_table` [耗时764ms](https://codeforces.com/contest/1225/submission/223594104)；使用自定义随机哈希种子 `gp_hash_table` [耗时780ms](https://codeforces.com/problemset/submission/1225/223594473) 。
 
 <center>
-    <img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="01 - p02.png" width="70%" />
+    <img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://s2.loli.net/2023/10/12/Vwegsz9aAFdKjyo.png" width="70%" />
     <div style="border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999;">论文相关测试结果</div>
 </center>
 
 <center>
-    <img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="01 - p01.png" width="70%" />
+    <img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://s2.loli.net/2023/10/12/i2DthXdVPJueRvE.png" width="70%" />
     <div style="border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999;">CodeForces相关测试结果</div>
 </center>
