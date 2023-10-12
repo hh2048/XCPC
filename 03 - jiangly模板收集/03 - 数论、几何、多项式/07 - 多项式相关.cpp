@@ -367,3 +367,82 @@ MInt<P> linearRecurrence(Poly<P> p, Poly<P> q, i64 n) {
     return p[0] / q[0];
 }
 
+struct Comb {
+    int n;
+    std::vector<Z> _fac;
+    std::vector<Z> _invfac;
+    std::vector<Z> _inv;
+    
+    Comb() : n{0}, _fac{1}, _invfac{1}, _inv{0} {}
+    Comb(int n) : Comb() {
+        init(n);
+    }
+    
+    void init(int m) {
+        m = std::min(m, Z::getMod() - 1);
+        if (m <= n) return;
+        _fac.resize(m + 1);
+        _invfac.resize(m + 1);
+        _inv.resize(m + 1);
+        
+        for (int i = n + 1; i <= m; i++) {
+            _fac[i] = _fac[i - 1] * i;
+        }
+        _invfac[m] = _fac[m].inv();
+        for (int i = m; i > n; i--) {
+            _invfac[i - 1] = _invfac[i] * i;
+            _inv[i] = _invfac[i] * _fac[i - 1];
+        }
+        n = m;
+    }
+    
+    Z fac(int m) {
+        if (m > n) init(2 * m);
+        return _fac[m];
+    }
+    Z invfac(int m) {
+        if (m > n) init(2 * m);
+        return _invfac[m];
+    }
+    Z inv(int m) {
+        if (m > n) init(2 * m);
+        return _inv[m];
+    }
+    Z binom(int n, int m) {
+        if (n < m || m < 0) return 0;
+        return fac(n) * invfac(m) * invfac(n - m);
+    }
+} comb;
+
+Poly<P> get(int n, int m) {
+    if (m == 0) {
+        return Poly(n + 1);
+    }
+    if (m % 2 == 1) {
+        auto f = get(n, m - 1);
+        Z p = 1;
+        for (int i = 0; i <= n; i++) {
+            f[n - i] += comb.binom(n, i) * p;
+            p *= m;
+        }
+        return f;
+    }
+    auto f = get(n, m / 2);
+    auto fm = f;
+    for (int i = 0; i <= n; i++) {
+        fm[i] *= comb.fac(i);
+    }
+    Poly pw(n + 1);
+    pw[0] = 1;
+    for (int i = 1; i <= n; i++) {
+        pw[i] = pw[i - 1] * (m / 2);
+    }
+    for (int i = 0; i <= n; i++) {
+        pw[i] *= comb.invfac(i);
+    }
+    fm = fm.mulT(pw);
+    for (int i = 0; i <= n; i++) {
+        fm[i] *= comb.invfac(i);
+    }
+    return f + fm;
+}
