@@ -115,7 +115,7 @@ void addEdge(int u, int v, int c, int f) { // 最大流
 
 ## 07 - 多项式相关
 
-[2023-08-04](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63256799)
+[2023-09-20](https://atcoder.jp/contests/arc163/submissions/45737810)
 
 ***
 
