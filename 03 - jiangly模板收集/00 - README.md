@@ -34,9 +34,9 @@
 
 [2021-12-24](https://codeforces.com/contest/1615/submission/140509278)
 
-## 05 - 2-Sat【久远】TwoSat 
+## 05 - 2-Sat TwoSat 
 
-[2022-06-12](https://codeforces.com/contest/1697/problem/F)
+[2023-09-29](https://atcoder.jp/contests/arc161/submissions/46031530)
 
 ## 06 - 最大流（旧版）Flow 
 
@@ -113,7 +113,11 @@ void addEdge(int u, int v, int c, int f) { // 最大流
 
 [2023-04-09](https://cf.dianhsu.com/gym/104288/submission/201412835)
 
-## 07 - 多项式相关
+## 07 - 多项式相关（旧版）
+
+[2023-02-06](https://atcoder.jp/contests/arc155/submissions/38664055)
+
+## 07 - 多项式相关（新版配合取模类）
 
 [2023-09-20](https://atcoder.jp/contests/arc163/submissions/45737810)
 
@@ -152,6 +156,8 @@ void addEdge(int u, int v, int c, int f) { // 最大流
 ## 05 - 取模类（新版）MLong MInt  
 
 [2023-08-14](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63433564)
+
+根据输入内容动态修改 MOD 的方法：`Z::setMod(p);` 。
 
 ## 06 - 状压RMQ
 
