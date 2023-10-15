@@ -1,8 +1,23 @@
+</br></br>
+
+
+$\textcolor{#70695d}{\Huge {\pmb {\mathfrak{I\ took\ the\ one\ less\ traveled\ by,}}}}$
+
+$\textcolor{#70695d}{\Huge {\pmb {\mathfrak{and\ that\ has\ made\ all\ the\ difference.}}}}$
+
+</br>
+
+${\LARGE \mathcal{{\pmb ZJSU\ -AA\ Lab\ \ }}}$
+
+$2020-2023{\tt,\ Created\ \pmb{and}\ maintained\ by\ \mathcal{\pmb{Wida}}.}$
+
+</br>
+
 # 前言
 
-这里是 $\mathcal{\pmb{Wida}}$ 的 XCPC 在线模板库
+这里是 $\mathcal{\pmb{Wida}}$ 的 XCPC 在线模板库。
 
-感谢我的两位队友 $\mathcal{\pmb{Hamine}}$ 和 $\pmb{ppafo}$ 在本文成文过程中提供的建议与帮助，同时感谢实验室其他成员的付出。
+感谢我的两位队友 $\mathcal{\pmb{Hamine}}$ 和 $\pmb{ppafo}$ 在本仓库建立过程中提供的帮助与支持。
 
 本文主要分为三个大模块，分别是在线比赛模板、打印稿模板以及 $\mathcal{\pmb{ Jiangly}}$ 常用模板收集，仅供参考。
 
