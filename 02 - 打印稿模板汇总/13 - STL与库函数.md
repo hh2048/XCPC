@@ -1,5 +1,14 @@
 ## STL 与库函数
 
+### pb_ds 库头文件
+
+```c++
+#include <bits/extc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
+template<class S, class T> using omap = __gnu_pbds::gp_hash_table<S, T, myhash>;
+template<class S, class T> using umap = unordered_map<S, T, myhash>;
+```
+
 ### 查找后继 lower\_bound、upper\_bound
 
 `lower` 表示 $\ge$ ，`upper` 表示 $>$ 。使用前记得**先进行排序**。
@@ -10,6 +19,13 @@ cout << lower_bound(a + start, a + end, x);
 
 cout << lower_bound(a, a + n, x) - a; //在a数组中查找第一个>=x的元素下标
 upper_bound(a, a + n, k) - lower_bound(a, a + n, k) //查找k在a中出现了几次
+```
+
+### 数组打乱 shuffle
+
+```c++
+mt19937 rnd(chrono::steady_clock::now().time_since_epoch().count());
+shuffle(ver.begin(), ver.end(), rnd); gt
 ```
 
 ### 二分搜索 binary\_search
