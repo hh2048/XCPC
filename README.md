@@ -1,15 +1,15 @@
 </br></br>
 
 
-$\textcolor{#70695d}{\Huge {\pmb {\mathfrak{I\ took\ the\ one\ less\ traveled\ by,}}}}$
+$\textcolor{#70695d}{\LARGE {\pmb {\mathfrak{I\ took\ the\ one\ less\ traveled\ by,}}}}$
 
-$\textcolor{#70695d}{\Huge {\pmb {\mathfrak{and\ that\ has\ made\ all\ the\ difference.}}}}$
+$\textcolor{#70695d}{\LARGE {\pmb {\mathfrak{and\ that\ has\ made\ all\ the\ difference.}}}}$
 
 </br>
 
-${\LARGE \mathcal{{\pmb ZJSU\ -AA\ Lab\ \ }}}$
+$\mathcal{{\pmb ZJSU\ -AA\ Lab}}$
 
-$2020-2023{\tt,\ Created\ \pmb{and}\ maintained\ by\ \mathcal{\pmb{Wida}}.}$
+$2020-2023{\tt,\ Created\ \pmb{and}\ maintained\ \pmb{by}\ \mathcal{Wida}.}$
 
 </br>
 
