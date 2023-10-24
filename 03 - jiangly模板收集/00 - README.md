@@ -89,35 +89,47 @@ void addEdge(int u, int v, int c, int f) { // 最大流
 
 # 03 - 数论
 
-## 01 - 欧拉筛
+## 01 - 快速幂
+
+[2023-10-09](https://atcoder.jp/contests/tenka1-2017/submissions/46411797)
+
+## 02 - 欧拉筛
 
 [2023-08-29](https://cf.dianhsu.com/gym/104479/submission/220987267)
 
-## 02 - 素数+莫比乌斯函数筛（莫比乌斯函数/反演）
+## 03 - 素数+莫比乌斯函数筛（莫比乌斯函数/反演）
 
 [2023-03-04](https://atcoder.jp/contests/tupc2022/submissions/39391116)
 
-## 03 - 组合数 Comb 
+## 04 - 求解单个数的欧拉函数
+
+[2023-10-09](https://atcoder.jp/contests/tenka1-2017/submissions/46411797)
+
+## 05 - 扩展欧几里得
+
+[2023-10-09](https://atcoder.jp/contests/tenka1-2017/submissions/46411797)
+
+## 06 - 组合数 Comb 
 
 [2023-08-26](https://codeforces.com/contest/1864/submission/220584872)
 
-## 04 - Miller-Rabin 素数测试 与 Pollard-Rho 因式分解
+## 07 - Miller-Rabin 素数测试 与 Pollard-Rho 因式分解
 
 [2023-05-16](https://cf.dianhsu.com/gym/104354/submission/206130894)
 
-## 05 - 平面几何
+## 08 - 平面几何
 
 [2023-07-17](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=62808640)
 
-## 06 - 静态凸包
+## 09 - 静态凸包
 
 [2023-04-09](https://cf.dianhsu.com/gym/104288/submission/201412835)
 
-## 07 - 多项式相关（旧版）
+## 10 - 多项式相关（旧版）
 
 [2023-02-06](https://atcoder.jp/contests/arc155/submissions/38664055)
 
-## 07 - 多项式相关（新版配合取模类）
+## 10 - 多项式相关（新版配合取模类）
 
 [2023-09-20](https://atcoder.jp/contests/arc163/submissions/45737810)
 
