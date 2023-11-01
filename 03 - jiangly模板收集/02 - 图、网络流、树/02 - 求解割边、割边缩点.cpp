@@ -1,3 +1,5 @@
+std::set<std::pair<int, int>> E;
+
 struct EBCC {
     int n;
     std::vector<std::vector<int>> adj;

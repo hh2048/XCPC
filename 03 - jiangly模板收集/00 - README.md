@@ -26,11 +26,11 @@
 
 [2023-05-11](https://codeforces.com/contest/118/submission/205426518)
 
-## 03 - 二分图最大权匹配 (KM)【久远】
+## 03 - 二分图最大权匹配 (KM)【久远】MaxAssignment
 
 [2022-04-10](https://atcoder.jp/contests/abc247/submissions/30867023)
 
-## 04 - 一般图最大匹配（带花树算法）【久远】Graph 
+## 04 - 一般图最大匹配（带花树算法）【久远】
 
 [2021-12-24](https://codeforces.com/contest/1615/submission/140509278)
 

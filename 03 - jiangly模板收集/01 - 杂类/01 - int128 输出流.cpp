@@ -9,4 +9,3 @@ std::ostream &operator<<(std::ostream &os, i128 n) {
     std::reverse(s.begin(), s.end());
     return os << s;
 }
-
