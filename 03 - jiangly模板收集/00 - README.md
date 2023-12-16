@@ -14,6 +14,12 @@
 
 [2023-03-20](https://codeforces.com/contest/1806/submission/198413531)
 
+## 02 - 库函数重载
+
+上取整下取整 [2023-10-15](https://codeforces.com/contest/293/submission/228297248)
+
+最大值赋值 [2023-09-30](https://codeforces.com/contest/1874/submission/226069129)
+
 ***
 
 # 02 - 图论
@@ -109,9 +115,13 @@ void addEdge(int u, int v, int c, int f) { // 最大流
 
 [2023-10-09](https://atcoder.jp/contests/tenka1-2017/submissions/46411797)
 
-## 06 - 组合数 Comb 
+## 06 - 组合数（配合取模类） Comb 
 
 [2023-08-26](https://codeforces.com/contest/1864/submission/220584872)
+
+## 06 - 组合数/二项式（任意模数） Binomial
+
+[2023-08-22](https://codeforces.com/contest/896/submission/219861532)
 
 ## 07 - Miller-Rabin 素数测试 与 Pollard-Rho 因式分解
 
@@ -153,6 +163,8 @@ void addEdge(int u, int v, int c, int f) { // 最大流
 
 [2022-04-23](https://codeforces.com/contest/1672/submission/154766851)
 
+[2023-10-18](https://cf.dianhsu.com/gym/104417/submission/223800089)
+
 ## 04 - 懒标记线段树 LazySegmentTree 
 
 [2023-07-17](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=62804432)
@@ -179,6 +191,8 @@ void addEdge(int u, int v, int c, int f) { // 最大流
 
 [2023-02-15](https://atcoder.jp/contests/joi2023ho/submissions/38901674)
 
+[2023-09-30](https://cf.dianhsu.com/gym/104479/submission/221036520)
+
 ## 08 - 其他平衡树
 
 [2023-08-04](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63246177)
@@ -192,6 +206,10 @@ void addEdge(int u, int v, int c, int f) { // 最大流
 ## 09 - 分数四则运算 Frac 
 
 [2023-04-23](https://codeforces.com/contest/598/submission/203186397)
+
+## 10 - 线性基 Basis
+
+[2023-12-03](https://codeforces.com/contest/1902/submission/235594491)
 
 ***
 
