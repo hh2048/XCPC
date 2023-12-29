@@ -147,9 +147,13 @@ void addEdge(int u, int v, int c, int f) { // 最大流
 
 # 04 - 数据结构
 
-## 01 - 树状数组 Fenwick 
+## 01 - 树状数组（旧版）Fenwick 
 
 [2023-08-11](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63382128)
+
+## 01 - 树状数组（新版）Fenwick 
+
+[2023-12-28](https://codeforces.com/contest/1915/submission/239262801)
 
 ## 02 - 并查集 DSU 
 
