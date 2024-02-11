@@ -100,19 +100,3 @@ struct SegmentTree {
         return findLast(1, 0, n, l, r, pred);
     }
 };
-
-struct Info {
-    int x = 0;
-    int cnt = 0;
-};
-
-Info operator+(Info a, Info b) {
-    if (a.x == b.x) {
-        return {a.x, a.cnt + b.cnt};
-    } else if (a.cnt > b.cnt) {
-        return {a.x, a.cnt - b.cnt};
-    } else {
-        return {b.x, b.cnt - a.cnt};
-    }
-}
-

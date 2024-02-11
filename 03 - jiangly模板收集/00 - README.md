@@ -24,43 +24,39 @@
 
 # 02 - 图论
 
-## 01 - 强连通分量缩点 SCC 
+## 01 - 强连通分量缩点（SCC）
 
 [2023-06-18](https://codeforces.com/contest/1835/submission/210147209)
 
-## 02 - 求解割边、割边缩点 EBCC 
+## 02 - 求解割边、割边缩点（EBCC）
 
 [2023-05-11](https://codeforces.com/contest/118/submission/205426518)
 
-## 03 - 二分图最大权匹配 (KM)【久远】MaxAssignment
+## 03 - 二分图最大权匹配（MaxAssignment）【久远】
 
-[2022-04-10](https://atcoder.jp/contests/abc247/submissions/30867023)
+基于KM[2022-04-10](https://atcoder.jp/contests/abc247/submissions/30867023)
 
-## 04 - 一般图最大匹配（带花树算法）【久远】
+## 04 - 一般图最大匹配（Graph）【久远】
 
-[2021-12-24](https://codeforces.com/contest/1615/submission/140509278)
+带花树算法[2021-12-24](https://codeforces.com/contest/1615/submission/140509278)
 
-## 05 - 2-Sat TwoSat 
+## 05 - TwoSat（2-Sat）
 
 [2023-09-29](https://atcoder.jp/contests/arc161/submissions/46031530)
 
-## 06 - 最大流（旧版）Flow 
+## 06 - 最大流（MaxFlow）
 
-整数：[2022-09-03](https://codeforces.com/contest/1717/submission/170688062)
+A（Flow 旧版其一，整数应用）[2022-09-03](https://codeforces.com/contest/1717/submission/170688062)
 
-浮点数：[2022-04-09](https://cf.dianhsu.com/gym/104288/submission/201412765)
+B（Flow 旧版其二，浮点数应用）[2022-04-09](https://cf.dianhsu.com/gym/104288/submission/201412765)
 
-## 06 - 最大流（新版）MaxFlow 
+C（MaxFlow 新版）[2023-07-21](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=62915815)
 
-[2023-07-21](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=62915815)
+## 07 - 费用流（MCFGraph）
 
-## 07 - 费用流（最小费用可行流） MCFGraph 
+A（最小费用可行流）[2022-12-12](https://codeforces.com/contest/1766/submission/184974697)
 
-[2022-12-12](https://codeforces.com/contest/1766/submission/184974697)
-
-## 07 - 费用流（最小费用最大流） MCFGraph
-
-同上，但是需要注释掉建边限制。
+B（最小费用最大流）代码同上，但是需要注释掉建边限制。以下为参考：
 
 ```c
 void addEdge(int u, int v, int c, int f) { // 可行流
@@ -87,7 +83,7 @@ void addEdge(int u, int v, int c, int f) { // 最大流
 }
 ```
 
-## 08 - 树链剖分 HLD 
+## 08 - 树链剖分（HLD）
 
 [2023-08-31](https://codeforces.com/contest/1863/submission/221214363)
 
@@ -103,7 +99,7 @@ void addEdge(int u, int v, int c, int f) { // 最大流
 
 [2023-08-29](https://cf.dianhsu.com/gym/104479/submission/220987267)
 
-## 03 - 素数+莫比乌斯函数筛（莫比乌斯函数/反演）
+## 03 - 莫比乌斯函数筛（莫比乌斯函数/反演）
 
 [2023-03-04](https://atcoder.jp/contests/tupc2022/submissions/39391116)
 
@@ -111,79 +107,71 @@ void addEdge(int u, int v, int c, int f) { // 最大流
 
 [2023-10-09](https://atcoder.jp/contests/tenka1-2017/submissions/46411797)
 
-## 05 - 扩展欧几里得
+## 05 - 扩展欧几里得（exGCD）
 
 [2023-10-09](https://atcoder.jp/contests/tenka1-2017/submissions/46411797)
 
-## 06 - 组合数（配合取模类） Comb 
+## 06 - 组合数（Comb+MInt & MLong）
 
 [2023-08-26](https://codeforces.com/contest/1864/submission/220584872)
 
-## 06 - 组合数/二项式（任意模数） Binomial
+## 07 - 二项式（Binomial 任意模数计算）
 
 [2023-08-22](https://codeforces.com/contest/896/submission/219861532)
 
-## 07 - Miller-Rabin 素数测试 与 Pollard-Rho 因式分解
+## 08 - 素数测试与因式分解（Miller-Rabin & Pollard-Rho）
 
 [2023-05-16](https://cf.dianhsu.com/gym/104354/submission/206130894)
 
-## 08 - 平面几何
+## 09 - 平面几何
 
 [2023-07-17](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=62808640)
 
-## 09 - 静态凸包
+## 10 - 静态凸包
 
 [2023-04-09](https://cf.dianhsu.com/gym/104288/submission/201412835)
 
-## 10 - 多项式相关（旧版）
+## 11 - 多项式相关（Poly）
 
-[2023-02-06](https://atcoder.jp/contests/arc155/submissions/38664055)
+A（Z 旧版）[2023-02-06](https://atcoder.jp/contests/arc155/submissions/38664055)
 
-## 10 - 多项式相关（新版配合取模类）
-
-[2023-09-20](https://atcoder.jp/contests/arc163/submissions/45737810)
+B（Poly+MInt & MLong 新版）[2023-09-20](https://atcoder.jp/contests/arc163/submissions/45737810)
 
 ***
 
 # 04 - 数据结构
 
-## 01 - 树状数组（旧版）Fenwick 
+## 01 - 树状数组（Fenwick）
 
-[2023-08-11](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63382128)
+A（Fenwick 旧版）[2023-08-11](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63382128)
 
-## 01 - 树状数组（新版）Fenwick 
+B（Fenwick 新版）[2023-12-28](https://codeforces.com/contest/1915/submission/239262801)
 
-[2023-12-28](https://codeforces.com/contest/1915/submission/239262801)
-
-## 02 - 并查集 DSU 
+## 02 - 并查集（DSU）
 
 [2023-08-04](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63239142)
 
-## 03 - 线段树 SegmentTree 
+## 03 - 线段树（SegmentTree）
 
-[2023-08-11](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63382128)
+A（SegmentTree 基础区间加乘）[2023-10-18](https://cf.dianhsu.com/gym/104417/submission/223800089)
 
-[2023-08-29](https://cf.dianhsu.com/gym/104479/submission/220987267)
+B（SegmentTree+Info 查找前驱后继）[2023-08-11](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63382128)
 
-[2022-04-23](https://codeforces.com/contest/1672/submission/154766851)
+C（SegmentTree+Info+Merge 区间合并）[2022-04-23](https://codeforces.com/contest/1672/submission/154766851)
 
-[2023-10-18](https://cf.dianhsu.com/gym/104417/submission/223800089)
+## 04 - 懒标记线段树（LazySegmentTree）
 
-## 04 - 懒标记线段树 LazySegmentTree 
+A（LazySegmentTree 基础区间修改）[2023-03-12](https://codeforces.com/contest/1804/submission/197106837)
 
-[2023-07-17](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=62804432)
+B（LazySegmentTree 查找前驱后继）[2023-07-17](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=62804432)
 
-[2023-03-12](https://codeforces.com/contest/1804/submission/197106837)
+C（LazySegmentTree 二分修改）[2023-03-03](https://atcoder.jp/contests/joi2023yo2/submissions/39363123)
 
-[2023-03-03](https://atcoder.jp/contests/joi2023yo2/submissions/39363123)
+## 05 - 取模类（MLong & MInt）
 
-## 05 - 取模类（旧版）Z
+A（Z 旧版）[2022-06-12](https://codeforces.com/contest/1697/submission/160317720)
 
-[2022-06-12](https://codeforces.com/contest/1697/submission/160317720)
-
-## 05 - 取模类（新版）MLong MInt  
-
-[2023-08-14](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63433564)
+B（MLong & MInt 新版）[2023-08-14](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63433564)
 
 根据输入内容动态修改 MOD 的方法：`Z::setMod(p);` 。
 
@@ -193,19 +181,19 @@ void addEdge(int u, int v, int c, int f) { // 最大流
 
 ## 07 - Splay
 
-[2023-02-15](https://atcoder.jp/contests/joi2023ho/submissions/38901674)
+A[2023-02-15](https://atcoder.jp/contests/joi2023ho/submissions/38901674)
 
-[2023-09-30](https://cf.dianhsu.com/gym/104479/submission/221036520)
+B[2023-09-30](https://cf.dianhsu.com/gym/104479/submission/221036520)
 
 ## 08 - 其他平衡树
 
-[2023-08-04](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63246177)
+A[2023-08-04](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63246177)
 
-[2023-08-26](https://codeforces.com/contest/1864/submission/220558951)
+B[2023-08-26](https://codeforces.com/contest/1864/submission/220558951)
 
-[2023-04-03](https://codeforces.com/contest/38/submission/200537139)
+C[2023-04-03](https://codeforces.com/contest/38/submission/200537139)
 
-[2023-07-31](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63162242)
+D[2023-07-31](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63162242)
 
 ## 09 - 分数四则运算 Frac 
 
@@ -219,7 +207,7 @@ void addEdge(int u, int v, int c, int f) { // 最大流
 
 # 05 - 字符串
 
-## 01 - Manacher
+## 01 - 马拉车（Manacher）
 
 [2023-05-14](https://codeforces.com/contest/1827/submission/205865086)
 
@@ -227,22 +215,26 @@ void addEdge(int u, int v, int c, int f) { // 最大流
 
 [2023-08-11](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63378373)
 
-## 03 - 后缀数组 SA 
+## 03 - 后缀数组（SA）
 
 [2023-03-14](https://atcoder.jp/contests/discovery2016-qual/submissions/39727257)
 
-## 04 - 后缀自动机 SAM 
+## 04 - 后缀自动机（SuffixAutomaton）
 
-[2023-05-27](https://cf.dianhsu.com/gym/104353/submission/207318083)
+A（SuffixAutomaton 旧版）[2022-08-17](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=53409023&returnHomeType=1&uid=329687984)
 
-## 05 - AC自动机（旧版）AC 
+B（SAM 新版）[2023-05-27](https://cf.dianhsu.com/gym/104353/submission/207318083)
 
-[2021-07-07](https://codeforces.com/contest/710/problem/F)
+## 05 - 回文自动机（PAM）
 
-## 05 - AC自动机（新版）AhoCorasick 
+[2023-05-19](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=62237107&returnHomeType=1&uid=329687984)
 
-[2023-04-07](https://codeforces.com/contest/1801/submission/201155712)
+## 06 - AC自动机（AhoCorasick）
 
-## 06 - 随机生成模底版字符串哈希（例题）
+A（AC 旧版）[2021-07-07](https://codeforces.com/contest/710/problem/F)
+
+B（AhoCorasick 新版）[2023-04-07](https://codeforces.com/contest/1801/submission/201155712)
+
+## 07 - 随机生成模底 字符串哈希（例题）
 
 [2022-06-09](https://codeforces.com/contest/1598/submission/160006998)
