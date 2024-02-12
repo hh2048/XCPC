@@ -1,8 +1,6 @@
 ## 声明
 
-该文件夹代码非本人原创，我只做了整理归档。大部分代码来自于 [Codefroces Jiangly](https://codeforces.com/submissions/jiangly) 的提交，部分来自于GYM、牛客多校、Atcoder。
-
-首发地址：[个人博客园](https://www.cnblogs.com/WIDA/p/17633758.html)
+自用！非本人原创，仅作整理归档。大部分代码来自于 [CodeForces Jiangly](https://codeforces.com/submissions/jiangly) 的提交，部分来自于GYM、牛客、Atcoder。[文章博客链接](https://www.cnblogs.com/WIDA/p/17633758.html)，[文章 GitHub 链接](https://github.com/hh2048/XCPC/tree/main/03%20-%20jiangly%E6%A8%A1%E6%9D%BF%E6%94%B6%E9%9B%86)。
 
 灵感参考链接：[beiyouwuyanzu/cf_code_jiangly](https://github.com/beiyouwuyanzu/cf_code_jiangly)
 
