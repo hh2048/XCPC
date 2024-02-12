@@ -22,7 +22,7 @@
 
 ***
 
-# 02 - 图论
+# 02 - 图与网络
 
 ## 01 - 强连通分量缩点（SCC）
 
@@ -89,7 +89,7 @@ void addEdge(int u, int v, int c, int f) { // 最大流
 
 ***
 
-# 03 - 数论
+# 03 - 数论、几何与多项式
 
 ## 01 - 快速幂
 
@@ -175,7 +175,7 @@ B（MLong & MInt 新版）[2023-08-14](https://ac.nowcoder.com/acm/contest/view-
 
 根据输入内容动态修改 MOD 的方法：`Z::setMod(p);` 。
 
-## 06 - 状压RMQ
+## 06 - 状压RMQ（RMQ）
 
 [2023-03-02](https://atcoder.jp/contests/joi2022ho/submissions/39351739)
 
@@ -195,11 +195,11 @@ C[2023-04-03](https://codeforces.com/contest/38/submission/200537139)
 
 D[2023-07-31](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63162242)
 
-## 09 - 分数四则运算 Frac 
+## 09 - 分数四则运算（Frac）
 
 [2023-04-23](https://codeforces.com/contest/598/submission/203186397)
 
-## 10 - 线性基 Basis
+## 10 - 线性基（Basis）
 
 [2023-12-03](https://codeforces.com/contest/1902/submission/235594491)
 
