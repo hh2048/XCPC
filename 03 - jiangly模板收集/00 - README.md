@@ -183,6 +183,8 @@ A[2023-02-15](https://atcoder.jp/contests/joi2023ho/submissions/38901674)
 
 B[2023-09-30](https://cf.dianhsu.com/gym/104479/submission/221036520)
 
+C[2024-03-30](https://codeforces.com/contest/1942/submission/254202464)
+
 ## 08 - 其他平衡树
 
 A[2023-08-04](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63246177)
