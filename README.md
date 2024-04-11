@@ -9,7 +9,7 @@ $\textcolor{#70695d}{\LARGE {\pmb {\mathfrak{and\ that\ has\ made\ all\ the\ dif
 
 $\mathcal{{\pmb ZJSU\ -AA\ Lab}}$
 
-$2020-2023{\tt,\ Created\ \pmb{and}\ maintained\ \pmb{by}\ \mathcal{Wida}.}$
+$2020-2024{\rm,\ Created\ \pmb{and}\ maintained\ \pmb{by}\ \mathcal{Wida}.}$
 
 </br>
 
@@ -19,484 +19,164 @@ $2020-2023{\tt,\ Created\ \pmb{and}\ maintained\ \pmb{by}\ \mathcal{Wida}.}$
 
 感谢我的两位队友 $\mathcal{\pmb{Hamine}}$ 和 $\pmb{ppafo}$ 在本仓库建立过程中提供的帮助与支持。
 
-本文主要分为三个大模块，分别是在线比赛模板、打印稿模板以及 $\mathcal{\pmb{ Jiangly}}$ 常用模板收集，仅供参考。
+本文主要分为如下几个大模块：
+- 我个人常用的在线比赛模板 
+- 我个人线下赛会使用的打印稿模板[（>目录）](https://github.com/hh2048/XCPC/blob/main/02%20-%20%E6%89%93%E5%8D%B0%E7%A8%BF%E6%A8%A1%E6%9D%BF%E6%B1%87%E6%80%BB/00%20-%20README.md)
+- $\mathcal{\pmb{ Jiangly}}$ 常用的在线比赛模板[（>目录，个人收集，仅供参考）](https://github.com/hh2048/XCPC/blob/main/03%20-%20jiangly%E6%A8%A1%E6%9D%BF%E6%94%B6%E9%9B%86/00%20-%20README.md)
+- 一些个人的博客以及可能有用笔记搬运
 
-~~在我退役前会持续维护更新，大约一周一次~~ 已经退役哩，有缘更新。
+~~在我退役前会持续维护更新，大约一周一次~~ 已经退役哩，大家有缘再见。
 
-# 打印稿大目录
+# 历年XCPC真题补题链接整理
 
-注：由于单个 Markdown 文件过长可能导致加载缓慢，所以对于部分超长文件进行了A、B、C的拆分。
+应群友需求整理，首发于[个人博客](https://www.cnblogs.com/WIDA/p/18122995)。注：所有 UOJ、UCPC 的比赛可能存在改题、换题序的问题，大家自行判断。
 
-版本：v8.4（2023.11.02定稿修改：ICPC南京区域赛）。[点此查看各版本更新日志](https://github.com/hh2048/XCPC/blob/main/02%20-%20%E6%89%93%E5%8D%B0%E7%A8%BF%E6%A8%A1%E6%9D%BF%E6%B1%87%E6%80%BB/%E6%9C%AC%E5%9C%B0%E5%8E%86%E5%8F%B2%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95.md) 。
+## 浙江省赛
 
-## 基础算法
+|  中文名称  |  英文名称  |  别名  |  链接  |
+|:--:|:--:|:--:|:--:|
+|2023年第20届浙江省赛|The 19th Zhejiang Provincial Collegiate Programming Contest|The 1st Universal Cup. Stage 15: Hangzhou|[QOJ](https://qoj.ac/contest/1221)|
+|2022年第19届浙江省赛|The 19th Zhejiang Provincial Collegiate Programming Contest||[GYM](https://codeforces.com/gym/103687)|
+|2021年第18届浙江省赛|The 18th Zhejiang Provincial Collegiate Programming Contest||[GYM](https://codeforces.com/gym/103055)|
+|2020年第17届浙江省赛|The 17th Zhejiang Provincial Collegiate Programming Contest||[GYM](https://codeforces.com/gym/102770)|
+|2019年第16届浙江省赛|The 16th Zhejiang Provincial Collegiate Programming Contest Sponsored by TuSimple||[Vjudge](https://vjudge.net/contest/298098)|
+|2018年第15届浙江省赛|The 15th Zhejiang Provincial Collegiate Programming Contest Sponsored by TuSimple||[Vjudge](https://vjudge.net/contest/226750)|
+|2017年第14届浙江省赛|The 14th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/160686)|
+|2016年第13届浙江省赛|The 13th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/117083)|
+|2015年第12届浙江省赛|The 12th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/76679)|
+|2014年第11届浙江省赛|The 11th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/44195)|
+|2013年第10届浙江省赛|The 10th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/23786)|
+|2012年第9届浙江省赛|The 9th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/16323)|
+|2011年第8届浙江省赛|The 8th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/6709)|
+|2010年第7届浙江省赛|The 7th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/7492)|
+|2009年第6届浙江省赛|The 6th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/9881)|
+|2008年第5届浙江省赛|The 5th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/7321)|
 
-- 头文件
-- 常用函数
-- 最大公约数 gcd
-  - 欧几里得算法
-  - 位运算优化
-- 整数域二分
-  - 旧版（无法处理负数情况）
-  - 新版
-- 实数域二分
-- 整数域三分
-- 实数域三分
+## ICPC 48th 2023 赛季
 
-## 树上问题
+|  简称  |  官方名称  |  其他别名  |  补题链接  |
+|:--:|:--:|:--:|:--:|
+|网络预选赛(I)|The 2023 ICPC Asia EC Regionals Online Contest (I)|The 2023 ICPC Asia Regionals Online Contest (I)|[PTA](https://pintia.cn/market/item/1703381331863785472)，[GYM](https://codeforces.com/gym/104639)|
+|网络预选赛(II)|The 2023 ICPC Asia Regionals Online Contest (II)||[PTA](https://pintia.cn/market/item/1705511462254264320)|
+|西安||||
+|南京|The 2023 ICPC Asia Nanjing Regional Contest|The 2nd Universal Cup. Stage 11: Nanjing|[GYM](https://codeforces.com/gym/104821)|
+|沈阳|The 2023 ICPC Asia Shenyang Regional Contest|The 2nd Universal Cup. Stage 13: Shenyang|[GYM](https://codeforces.com/gym/104869)|
+|合肥|The 2023 ICPC Asia Hefei Regional Contest|The 2nd Universal Cup. Stage 12: Hefei|[GYM](https://codeforces.com/gym/104857)|
+|济南|The 2023 ICPC Asia Jinan Regional Contest|The 2nd Universal Cup. Stage 17: Jinan|[GYM](https://codeforces.com/gym/104901)|
+|杭州|The 2023 ICPC Asia Hangzhou Regional Contest|The 2nd Universal Cup. Stage 22: Hangzhou|[GYM](https://codeforces.com/gym/104976)|
+|**总决赛（上海）**|The 2023 ICPC Asia East Continent Final Contest|The 2nd Universal Cup. Stage 23: Shanghai|[QOJ](https://contest.ucup.ac/contest/1522)|
+|香港|The 2023 ICPC Asia Hong Kong Regional Programming Contest|The 1st Universal Cup, Stage 2:Hong Kong|[GYM](https://codeforces.com/gym/104172)|
+|澳门|The 2023 ICPC Asia Macau Regional Contest|The 2nd Universal Cup. Stage 15: Macau|[GYM](https://codeforces.com/gym/104891)|
+|台湾网络预选赛|2023 ICPC Asia Taiwan Online Programming Contest||[GYM](https://codeforces.com/gym/104619)|
+|台湾||||
 
-- 树的直径
-- 树论大封装（直径+重心+中心）
-- 点分治 / 树的重心
-- 最近公共祖先 LCA
-  - 树链剖分解法
-  - 树上倍增解法
-- 树上路径交
-- 树上启发式合并 (DSU on tree)
+## CCPC 9th 2023 赛季
 
-## 图论A
+|  简称  |  官方名称  |  其他别名  |  补题链接  |
+|:--:|:--:|:--:|:--:|
+|湖南邀请赛|2023 National Invitational of CCPC (Hunan)|2023 Jiangsu Collegiate Programming Contest, The 13th Xiangtan Collegiate Programming Contest|[GYM](https://codeforces.com/gym/104396)|
+|河南邀请赛|2023 CCPC Henan Provincial Collegiate Programming Contest||[GYM](https://codeforces.com/gym/104354)|
+|广东邀请赛||广东省赛||
+|网络预选赛|The 2023 CCPC Online Contest|The 2nd Universal Cup. Stage 3: Binjiang|[GYM](https://codeforces.com/gym/104651)，[QOJ](https://contest.ucup.ac/contest/1358)|
+|秦皇岛|The 2023 CCPC (Qinhuangdao) Onsite|The 2nd Universal Cup. Stage 9: Qinhuangdao|[GYM](https://codeforces.com/gym/104787)|
+|女生专场|2023年中国大学生程序设计竞赛女生专场||[PTA](https://pintia.cn/market/item/1715964967755325440)|
+|高职专场|2023年中国大学生程序设计竞赛高职专场||[PTA](https://pintia.cn/market/item/1715966057963986944)|
+|桂林|2023 China Collegiate Programming Contest (CCPC) Guilin Onsite|The 2nd Universal Cup. Stage 8: Guilin|[GYM](https://codeforces.com/gym/104768)|
+|哈尔滨|The 9th CCPC (Harbin) Onsite|The 2nd Universal Cup. Stage 10: Harbin|[GYM](https://codeforces.com/gym/104813)|
+|深圳|第九届中国大学生程序设计竞赛 深圳站（CCPC 2023 Shenzhen Site）|The 2nd Universal Cup. Stage 25: Shenzhen|[QOJ](https://qoj.ac/contest/1540)|
+|**决赛**||The 2nd Universal Cup. Stage 28: Chengdu|2023.04.13上UCPC|
 
-- 常见概念
-- 单源最短路径（SSSP 问题）
-  - （正权稀疏图）动态数组存图+Djikstra算法
-  - （负权图）Bellman-ford 算法
-  - （负权图）SPFA 算法
-  - （正权稠密图）邻接矩阵存图+Djikstra算法
-- 多源汇最短路（APSP 问题）
-- 平面图最短路（对偶图）
-- 最小生成树（MST 问题）
-  - （稀疏图）Prim算法
-  - （稠密图）Kruskal算法
-- 缩点（Tarjan 算法）
-  - （有向图）强连通分量缩点
-  - （无向图）割边缩点
-  - （无向图）割点缩点
-- 染色法判定二分图 (dfs算法)
-- 链式前向星建图与搜索
-- 一般图最大匹配（带花树算法）
-- 一般图最大权匹配（带权带花树算法）
-- 二分图最大匹配
-  - 匈牙利算法（KM 算法）解
-  - HopcroftKarp算法（HK 算法、基于最大流模型）解
-- 二分图最大权匹配（二分图完美匹配）
-- 二分图最大独立点集（Konig 定理）
-- 最长路（topsort+DP 算法）
-- 最短路径树（SPT 问题）
-- 无源汇点的最小割问题 Stoer–Wagner
-- 欧拉路径/欧拉回路 Hierholzers
-  - 有向图欧拉路径存在判定
-  - 无向图欧拉路径存在判定
-  - 有向图欧拉路径求解（字典序最小）
-  - 无向图欧拉路径求解
-- 差分约束
-- 2-Sat
-  - 基础封装
-  - 答案不唯一时不输出
+## ICPC 47th 2022 赛季
 
-## 图论B
+|  中文名称  |  英文名称  |  别名  |  链接  |
+|:--:|:--:|:--:|:--:|
+|网络预选赛(I)|The 2022 ICPC Asia Regionals Online Contest (I)||[PTA](https://pintia.cn/market/item/1571156622976593920)|
+|网络预选赛(II)|The 2022 ICPC Asia Regionals Online Contest (II)||[PTA](https://pintia.cn/market/item/1574061957311737856)|
+|南京|The 2022 ICPC Asia Nanjing Regional Contest|The 1st Universal Cup. Stage 0: Nanjing (Trial Contest)|[GYM](https://codeforces.com/gym/104128)|
+|沈阳|The 2022 ICPC Asia Shenyang Regional Contest (The 1st Universal Cup, Stage 1: Shenyang)|The 1st Universal Cup. Stage 1: Shenyang|[GYM](https://codeforces.com/gym/104160)|
+|西安|The 2022 ICPC Asia Xian Regional Contest||[GYM](https://codeforces.com/gym/104077)|
+|合肥|||这一场烂了，应该不会再有了|
+|济南|2022 International Collegiate Programming Contest, Jinan Site||[GYM](https://codeforces.com/gym/104076)|
+|杭州|The 2022 ICPC Asia Hangzhou Regional Programming Contest||[GYM](https://codeforces.com/gym/104090)|
+|**决赛（上海）**|The 2022 ICPC Asia East Continent Final Contest (EC-Final 2022)||[QOJ](https://qoj.ac/contest/1197)|
+|香港|The 2023 ICPC Asia Hong Kong Regional Programming Contest (The 1st Universal Cup, Stage 2:Hong Kong)|The 1st Universal Cup. Stage 2: Hong Kong|[GYM](https://codeforces.com/gym/104172)|
+|台湾网络预选赛|2022 ICPC Asia Taiwan Online Programming Contest||[GYM](https://codeforces.com/gym/103990)|
+|台湾（桃园）|The 2022 ICPC Asia Taoyuan Regional Programming Contest|The 1st Universal Cup. Stage 6: Taiwan|[QOJ](https://qoj.ac/contest/1124)|
 
-- 常见结论
-- 常见例题
-  - 杂
-  - Prüfer 序列：凯莱公式
-  - Prüfer 序列
-  - 单源最短/次短路计数
-  - 判定图中是否存在负环
-  - 输出任意一个三元环
-  - 带权最小环大小与计数
-  - 最小环大小
-  - 本质不同简单环计数
-  - 输出任意一个非二元简单环
-  - 有向图环计数
-  - 输出有向图任意一个环
-  - 判定带环图是否是平面图
+## CCPC 8th 2022 赛季
 
-## 网络流
+|  中文名称  |  英文名称  |  别名  |  链接  |
+|:--:|:--:|:--:|:--:|
+|河南邀请赛|2022 CCPC Henan Provincial Collegiate Programming Contest||[GYM](https://codeforces.com/gym/103941)|
+|高职专场|2022中国大学生程序设计竞赛高职专场||[PTA](https://pintia.cn/market/item/1584479359201062912)|
+|女生专场|2022年中国大学生程序设计竞赛女生专场||[GYM](https://codeforces.com/gym/104081)|
+|桂林|2022 China Collegiate Programming Contest (CCPC) Guilin Site||[GYM](https://codeforces.com/gym/104008)|
+|威海|2022 China Collegiate Programming Contest (CCPC) Weihai Site||[GYM](https://codeforces.com/gym/104023)|
+|广州|2022 China Collegiate Programming Contest (CCPC) Guangzhou Onsite||[GYM](https://codeforces.com/gym/104053)|
+|绵阳|2022 China Collegiate Programming Contest (CCPC) Mianyang Onsite||[GYM](https://codeforces.com/gym/104065)|
+|**决赛**|第八届中国大学生程序设计竞赛总决赛（CCPC Final 2022）|The 1st Universal Cup. Stage 17: Guangzhou|[QOJ](https://qoj.ac/contest/1244)|
 
-- 最大流
-  - Dinic 解
-  - 预流推进 HLPP
-- 最小割
-- 费用流
+## ICPC 46th 2021 赛季
 
-## 数论A
+|  简称  |  官方名称  |  其他别名  |  补题链接  |
+|:--:|:--:|:--:|:--:|
+|网络预选赛(I)|The 2021 ICPC Asia Regionals Online Contest (I)||[PTA](https://pintia.cn/market/item/1439765428045058048)|
+|网络预选赛(II)|The 2021 ICPC Asia Regionals Online Contest (II)||[PTA](https://pintia.cn/market/item/1442013218528759808)|
+|济南|The 2021 ICPC Asia Jinan Regional Contest||[PTA](https://pintia.cn/market/item/1459833348620926976)|
+|沈阳|The 2021 ICPC Asia Shenyang Regional Contest||[GYM](https://codeforces.com/gym/103427)|
+|上海|The 2021 ICPC Asia Shanghai Regional Programming Contest||[GYM](https://codeforces.com/gym/103446)|
+|南京|The 2021 ICPC Asia Nanjing Regional Contest|XXII Open Cup, Grand Prix of Nanjing|[GYM](https://codeforces.com/gym/103470)|
+|昆明|第46届ICPC亚洲区域赛（昆明）||[NowCoder](https://ac.nowcoder.com/acm/contest/32708)|
+|**决赛（西安）**|2021 ICPC Asia East Continent Final||[GYM](https://codeforces.com/gym/103861)|
+|澳门|The 2021 ICPC Asia Macau Regional Contest|第46屆ICPC 東亞洲區域賽（澳門）|[GYM](https://codeforces.com/gym/104373)，[NowCoder](https://ac.nowcoder.com/acm/contest/31454)|
+|台湾网络预选赛|2021 ICPC Asia Taiwan Online Programming Contest||[GYM](https://codeforces.com/gym/103373)|
+|台湾（台北）|The 2021 ICPC Asia Taipei Regional Programming Contest||[GYM](https://codeforces.com/gym/103443)|
 
-- 常见数列
-  - 调和级数
-  - 素数密度与分布
-  - 因数最多数字与其因数数量
-- 欧拉筛（线性筛）
-- 防爆模乘
-  - 借助浮点数实现
-  - 借助 int128 实现
-- 裴蜀定理
-- 逆元
-  - 费马小定理解（借助快速幂）
-  - 扩展欧几里得解
-  - 离线求解：线性递推解
-- 扩展欧几里得 exgcd
-- 离散对数 bsgs 与 exbsgs
-- 欧拉函数
-  - 直接求解单个数的欧拉函数
-  - 求解 1 到 N 所有数的欧拉函数
-  - 使用莫比乌斯反演求解欧拉函数
-- 组合数
-  - debug
-  - 逆元+卢卡斯定理（质数取模）
-  - 质因数分解
-  - 杨辉三角（精确计算）
-- 求解连续数字的正约数集合——倍数法
-- 试除法判是否是质数
-  - 标准解
-  - 常数优化法
-- 容斥原理
-  - 二进制枚举解
-  - dfs 解
-- 同余方程组、拓展中国剩余定理 excrt
-- 求解连续数字的按位异或
-- 高斯消元求解线性方程组
-- 康拓展开
-  - 正向展开普通解法
-  - 正向展开树状数组解
-  - 逆向还原
-- Min25 筛
-- 矩阵四则运算
-- 矩阵快速幂
-- 矩阵加速
-- 莫比乌斯函数/反演
-- 整除（数论）分块
-- Miller-Rabin 素数测试
-- Pollard-Rho 因式分解
+## CCPC 7th 2021 赛季
 
-## 数论B
+|  简称  |  官方名称  |  其他别名  |  补题链接  |
+|:--:|:--:|:--:|:--:|
+|女生专场|2021年中国大学生程序设计竞赛女生专场||[PTA](https://pintia.cn/market/item/1455438762095583232)，[GYM](https://codeforces.com/gym/103389)|
+|桂林|The 2021 CCPC Guilin Onsite|XXII Open Cup, Grand Prix of EDG|[GYM](https://codeforces.com/gym/103409)|
+|广州|The 2021 CCPC Guangzhou Onsite||[GYM](https://codeforces.com/gym/103415)|
+|威海|The 2021 CCPC Weihai Onsite||[GYM](https://codeforces.com/gym/103428)|
+|哈尔滨|The 2021 China Collegiate Programming Contest (Harbin)||[GYM](https://codeforces.com/gym/103447)|
+|**决赛**|The 7th China Collegiate Programming Contest, Finals (CCPC Finals 2021)||[GYM](https://codeforces.com/gym/103860)|
 
-- 常见结论
-  - 球盒模型（八种）
-  - 麦乐鸡定理
-  - 抽屉原理（鸽巢原理）
-  - 哥德巴赫猜想
-  - 除法、取模运算的本质
-  - 与、或、异或
-  - 调和级数近似公式
-  - 欧拉函数常见性质
-  - 组合数学常见性质
-  - 范德蒙德卷积公式
-  - 卡特兰数
-  - 狄利克雷卷积
-  - 斐波那契数列
-  - 杂
-- 常见例题
+## ICPC 45th 2020 赛季
 
-## 几何A
+|  中文名称  |  英文名称  |  别名  |  链接  |
+|:--:|:--:|:--:|:--:|
+|上海||||
+|济南||||
+|昆明||||
+|沈阳||||
+|南京||||
+|**决赛**||||
+|澳门||||
+|台湾网络预选赛||||
+|台湾（新竹）||||
 
-- 库实数类实现（双精度）
-- 平面几何必要初始化
-  - 字符串读入浮点数
-  - 预置函数
-  - 点线封装
-  - 叉乘
-  - 点乘
-  - 欧几里得距离公式
-  - 曼哈顿距离公式
-  - 将向量转换为单位向量
-  - 向量旋转
-- 平面角度与弧度
-  - 弧度角度相互转换
-  - 正弦定理
-  - 余弦定理（已知三角形三边，求角）
-  - 求两向量的夹角
-  - 向量旋转任意角度
-  - 点绕点旋转任意角度
-- 平面点线相关
-  - 点是否在直线上（三点是否共线）
-  - 点是否在向量（直线）左侧
-  - 两点是否在直线同侧/异侧
-  - 两直线相交交点
-  - 两直线是否平行/垂直/相同
-  - 点到直线的最近距离与最近点
-  - 点是否在线段上
-  - 点到线段的最近距离与最近点
-  - 点在直线上的投影点（垂足）
-  - 线段的中垂线
-  - 两线段是否相交及交点
-- 平面圆相关（浮点数处理）
-  - 点到圆的最近点
-  - 根据圆心角获取圆上某点
-  - 直线是否与圆相交及交点
-  - 线段是否与圆相交及交点
-  - 两圆是否相交及交点
-  - 两圆相交面积
-  - 三点确定一圆
-  - 求解点到圆的切线数量与切点
-  - 求解两圆的内公、外公切线数量与切点
-- 平面三角形相关（浮点数处理）
-  - 三角形面积
-  - 三角形外心
-  - 三角形内心
-  - 三角形垂心
-- 平面直线方程转换
-  - 浮点数计算直线的斜率
-  - 分数精确计算直线的斜率
-  - 两点式转一般式
-  - 一般式转两点式
-  - 抛物线与 x 轴是否相交及交点
 
-## 几何B
+## ICPC 44th 2019 赛季
 
-- 平面多边形
-  - 两向量构成的平面四边形有向面积
-  - 判断四个点能否组成矩形/正方形
-  - 点是否在任意多边形内
-  - 线段是否在任意多边形内部
-  - 任意多边形的面积
-  - 皮克定理
-  - 任意多边形上/内的网格点个数（仅能处理整数）
-- 二维凸包
-  - 获取二维静态凸包（Andrew 算法）
-  - 二维动态凸包
-  - 点与凸包的位置关系
-  - 闵可夫斯基和
-  - 半平面交
+（请参考[Vjudge](https://vjudge.net/article/2446)）
+|  中文名称  |  英文名称  |  别名  |  链接  |
+|:--:|:--:|:--:|:--:|
+|上海||||
+|南昌||||
+|南京||||
+|银川||||
+|沈阳||||
+|徐州||||
+|**决赛**||||
+|香港||||
+|台湾网络预选赛||||
+|台湾（新竹）||||
 
-## 几何C
+## ICPC 43th 2018 赛季
 
-- 三维几何必要初始化
-  - 点线面封装
-  - 其他函数
-- 三维点线面相关
-  - 空间三点是否共线
-  - 四点是否共面
-  - 空间点是否在线段上
-  - 空间两点是否在线段同侧
-  - 两点是否在平面同侧
-  - 空间两直线是否平行/垂直
-  - 两平面是否平行/垂直
-  - 空间两直线是否是同一条
-  - 两平面是否是同一个
-  - 直线是否与平面平行
-  - 空间两线段是否相交
-  - 空间两直线是否相交及交点
-  - 直线与平面是否相交及交点
-  - 两平面是否相交及交线
-- 点到直线的最近点与最近距离
-  - 点到平面的最近点与最近距离
-  - 空间两直线的最近距离与最近点对
-- 三维角度与弧度
-  - 空间两直线夹角的 cos 值
-  - 空间两平面夹角的 cos 值
-  - 直线与平面夹角的 sin 值
-- 空间多边形
-  - 正N棱锥体积公式
-  - 四面体体积
-  - 点是否在空间三角形上
-  - 线段是否与空间三角形相交及交点
-  - 空间三角形是否相交
-- 常用结论
-  - 平面几何结论归档
-  - 立体几何结论归档
-- 常用例题
-  - 将平面某点旋转任意角度
-  - 平面最近点对（set 解）
-  - 平面若干点能构成的最大四边形的面积（简单版，暴力枚举）
-  - 平面若干点能构成的最大四边形的面积（困难版，分类讨论+旋转卡壳）
-  - 线段将多边形切割为几个部分
-  - 平面若干点能否构成凸包（暴力枚举）
-  - 凸包上的点能构成的最大三角形（暴力枚举）
-  - 凸包上的点能构成的最大四角形的面积（旋转卡壳）
-  - 判断一个凸包是否完全在另一个凸包内
-
-## 多项式
-
-- 多项式封装
-- 离散傅里叶变换 dft 与其逆变换 idft
-- Berlekamp-Massey 算法（杜教筛）
-- Linear-Recurrence 算法
-- 快速傅里叶变换 FFT
-- 快速数论变换 NTT
-- 拉格朗日插值
-- 常用结论
-  - 杂
-  - 普通生成函数 / OGF
-  - 指数生成函数 / EGF
-
-## 数据结构A
-
-- 并查集（全功能）
-- 树状数组
-  - 常规（单点增减+区间和查询）
-  - 逆序对扩展
-  - 前驱后继扩展（常规+第 k 小值查询+元素排名查询+元素前驱后继查询）
-  - 最值查询扩展（常规+区间最值查询+单点修改）
-- 二维树状数组
-- 线段树
-  - 完整长封装
-  - 快速线段树（单点修改+区间最值）
-  - 区间加法修改、区间最小值查询、区间合并
-  - 同时需要处理区间加法与乘法修改
-  - 区间赋值/推平
-  - 区间取模
-  - 区间异或修改
-  - 拆位运算
-- 坐标压缩与离散化
-  - 简单版本
-  - 封装
-- 轻重链剖分/树链剖分
-- 普通莫队
-- 带修改的莫队（带时间维度的莫队）
-- 分数运算类
-- 主席树（可持久化线段树）
-- KD Tree
-- ST 表
-
-## 数据结构B
-
-- 基于状压的线性 RMQ 算法
-- pbds 扩展库实现平衡二叉树
-- vector 模拟实现平衡二叉树
-- 线性基（高斯消元法）
-- 珂朵莉树 (OD Tree)
-- 取模类
-- 大整数类（高精度计算）
-- 常见结论
-- 常见例题
-
-## 动态规划
-
-- 01背包
-- 完全背包
-- 多重背包
-- 混合背包
-- 二维费用的背包
-- 分组背包
-- 有依赖的背包
-- 背包问题求方案数
-- 背包问题求具体方案
-- 数位 DP
-- 状压 DP
-- 常用例题
-
-## 串
-
-- 子串与子序列
-- 字符串模式匹配算法 KMP
-  - 全串匹配
-  - 统计原串中某个子串重复出现的次数（例题）
-- Z函数（扩展 KMP）
-- 最长公共子序列 LCS
-  - 小数据解
-  - 大数据解
-- 字符串哈希
-  - 双哈希封装
-  - 前后缀去重
-- 马拉车
-- 字典树 trie
-  - 基础封装
-  - 01 字典树
-- 后缀数组 SA
-- AC 自动机
-- 回文自动机 PAM（回文树）
-- 后缀自动机 SAM
-
-## 博弈论
-
-- 巴什博奕
-- 扩展巴什博弈
-- Nim 博弈
-- Nim 游戏具体取法
-- Moore’s Nim 游戏（Nim-K 游戏）
-- Anti-Nim 游戏（反 Nim 游戏）
-- 阶梯 - Nim 博弈
-- SG 游戏（有向图游戏）
-- Anti-SG 游戏（反 SG 游戏）
-- Lasker’s-Nim 游戏（ Multi-SG 游戏）
-- Every-SG 游戏
-- 威佐夫博弈
-- 斐波那契博弈
-- 树上删边游戏
-- 无向图删边游戏（Fusion Principle 定理）
-
-## 常用例题
-
-- 逆序对（归并排序解）
-- 统计区间不同数字的数量（离线查询）
-- 选数（DFS 解）
-- 网格路径计数
-- 德州扑克
-- N*M 数独字典序最小方案
-- 高精度进制转换
-- 物品装箱
-  - 从前往后装（线段树解）
-  - 选择最优的箱子装（multiset 解）
-- 浮点数比较
-
-## STL 与库函数
-
-- pb_ds 库头文件
-- 查找后继 lower_bound、upper_bound
-- 数组打乱 shuffle
-- 二分搜索 binary_search
-- 批量递增赋值函数 iota
-- 数组去重函数 unique
-- 位运算函数 \_\_builtin_
-- 数字转字符串函数
-- 字符串转数字
-- 全排列算法 next_permutation、prev_permutation
-- 字符串转换为数值函数 sto
-- 数值转换为字符串函数 to_string
-- 判断非递减 is_sorted
-- 累加 accumulate
-- 迭代器 iterator
-- 容器与成员函数
-  - 元组 tuple
-  - 数组 array
-  - 变长数组 vector
-  - 栈  stack
-  - 队列 queue
-  - 双向队列 deque
-  - 优先队列 priority_queue
-  - 字符串 string
-  - 有序、多重有序集合 set、multiset
-  - map、multimap
-  - bitset
-  - 哈希系列 unordered
-  - 对 pair、tuple 定义哈希
-  - 对结构体定义哈希
-  - 对 vector 定义哈希
-- 程序标准化
-  - 使用 Lambda 函数
-  - 使用构造函数
-
-## 杂类
-
-- 阿达马矩阵 (Hadamard matrix)
-- 幻方
-- 最长严格/非严格递增子序列 (LIS)
-  - 一维
-  - 二维+输出方案
-- cout 输出流控制
-- 读取一行数字，个数未知
-- 约瑟夫问题
-- 日期换算（基姆拉尔森公式）
-- 单调队列
-- 高精度快速幂
-  - 魔改十进制快速幂（暴力计算）
-  - 扩展欧拉定理（欧拉降幂公式）
-- 快读
-- int128 输入输出流控制
-- 对拍版子
-- 随机数生成与样例构造
-- 手工哈希
-- Python常用语法
-  - 读入与定义
-  - 格式化输出
-  - 排序
-  - 文件IO
-  - 自定义结构体
-  - 数据结构
-  - 其他
-- OJ测试
-  - GNU C++ 版本测试
-  - 编译器位数测试
-  - 评测器环境测试
-  - 运算速度测试
-- 编译器设置
+|  中文名称  |  英文名称  |  别名  |  链接  |
+|:--:|:--:|:--:|:--:|
+|预选赛（青岛）|The 2018 ACM-ICPC Asia Qingdao Regional Contest, Online|The 2nd Universal Cup. Stage 1: Qingdao|[GYM](https://codeforces.com/gym/104566)|
+|青岛|The 2018 ICPC Asia Qingdao Regional Contest|The 1st Universal Cup. Stage 9: Qingdao|[QOJ](https://qoj.ac/contest/1187)|
