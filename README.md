@@ -180,3 +180,7 @@ $2020-2024{\rm,\ Created\ \pmb{and}\ maintained\ \pmb{by}\ \mathcal{Wida}.}$
 |:--:|:--:|:--:|:--:|
 |预选赛（青岛）|The 2018 ACM-ICPC Asia Qingdao Regional Contest, Online|The 2nd Universal Cup. Stage 1: Qingdao|[GYM](https://codeforces.com/gym/104566)|
 |青岛|The 2018 ICPC Asia Qingdao Regional Contest|The 1st Universal Cup. Stage 9: Qingdao|[QOJ](https://qoj.ac/contest/1187)|
+
+## CCCC 天梯赛
+
+[PTA](https://pintia.cn/problem-sets/994805046380707840/exam/problems/type/7)
