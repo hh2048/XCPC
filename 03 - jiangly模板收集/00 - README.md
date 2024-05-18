@@ -127,7 +127,9 @@ void addEdge(int u, int v, int c, int f) { // 最大流
 
 ## 10 - 静态凸包
 
-[2023-04-09](https://cf.dianhsu.com/gym/104288/submission/201412835)
+A（with. Point）[2023-04-09](https://cf.dianhsu.com/gym/104288/submission/201412835)
+
+B（with. std::complex）[2022-02-04](https://loj.ac/s/1370861)
 
 ## 11 - 多项式相关（Poly）
 
@@ -209,7 +211,9 @@ D[2023-07-31](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=6
 
 ## 01 - 马拉车（Manacher）
 
-[2023-05-14](https://codeforces.com/contest/1827/submission/205865086)
+A（Manacher 旧版）[2023-05-14](https://codeforces.com/contest/1827/submission/205865086)
+
+B（Manacher 新版）[2024-04-14](https://atcoder.jp/contests/abc349/submissions/52365777)
 
 ## 02 - Z函数
 
@@ -234,6 +238,8 @@ B（SAM 新版）[2023-05-27](https://cf.dianhsu.com/gym/104353/submission/20731
 A（AC 旧版）[2021-07-07](https://codeforces.com/contest/710/problem/F)
 
 B（AhoCorasick 新版）[2023-04-07](https://codeforces.com/contest/1801/submission/201155712)
+
+C（AhoCorasick 新新版）[2024-04-09](https://www.luogu.com.cn/record/155114676)
 
 ## 07 - 随机生成模底 字符串哈希（例题）
 
