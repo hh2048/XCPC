@@ -1,0 +1,328 @@
+# 赛制安排
+
+1. 各地省赛：一般而言，各地每一年都会举办本省的赛事；为了增加影响力，部分省份会与 ICPC 或 CCPC 的主办方合作举办，将部分正式赛外卡名额作为激励名额，奖励给省赛排名靠前的学校，通常这样的省赛会标注“暨ICPC/CCPC邀请赛”，且会位于上半年举行。**由于关系较为暧昧，有时难以区分，本表可能会出现偏差，如有可靠信息，可以直接挂一条 Issues**。
+
+2. 两大赛事 ICPC 与 CCPC：疫情后这些年，会在暑期举办全国网络邀请赛，作为主要参赛名额发放手段；而上半年举行的邀请赛作为次要参赛名额发放手段。
+
+3. 区域赛正赛：一般会在每年下半年举行，举办地不定，场次不定，但一般会在固定的合作高校中轮流举办；除此之外，港澳赛区每年固定一场，台湾赛区暂不归属于同一地域赛区。
+
+# 规约
+
+1. 应群友需求整理，首发于[个人博客](https://www.cnblogs.com/WIDA/p/18122995)，没在表上的、整理有误的欢迎找我交流。除此之外，限于精力本表只整理了域内的比赛，[QOJ](https://qoj.ac/category/1)有世界各区域比赛整理页面。
+
+2. 所有 QOJ、UCPC 的比赛可能存在改题、换题序的问题；所有计蒜客的比赛可能存在无法补题的现象，请大家自行判断。
+
+3. 全部邀请赛都归类在省赛列表中，不再单独计算。
+
+## 2024 赛季
+
+### 省赛/邀请赛
+
+|<div style="width:100px;">简称</div>|官方名称|举办时间|补题链接|
+|:--:|:--:|:--:|:--:|
+|Z浙江|[「睿琪杯」浙江省第 21 届大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/zhejiang)|2024-04-13|【待补充】|
+|H湖北|[The 2024 ICPC in Hubei Province, China](https://board.xcpcio.com/provincial-contest/2024/hubei)|2024-04-27|【待补充】|
+|W武汉|[第 49 届 ICPC 国际大学生程序设计竞赛邀请赛武汉站](https://board.xcpcio.com/icpc/49th/wuhan-invitational)|2024-05-02|【待补充】|
+|J江苏|[「华为杯」2024 江苏省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/jiangsu)|2024-05-12|【待补充】|
+|H河南|[第 6 届 CCPC 河南省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/henan)|2024-05-12|【待补充】|
+|B北京|[2024 北京市大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/beijing)|2024-05-19|【待补充】|
+|G广西|[第七届广西大学生程序设计大赛](https://board.xcpcio.com/provincial-contest/2024/guangxi)|2024-05-19|【待补充】|
+|X西安|[第 49 届 ICPC 国际大学生程序设计竞赛邀请赛西安站](https://board.xcpcio.com/icpc/49th/xian-invitational)|2024-05-19|【待补充】|
+|K昆明|[第 49 届 ICPC 国际大学生程序设计竞赛邀请赛昆明站](https://board.xcpcio.com/icpc/49th/kunming-invitational)|2024-05-26|【待补充】|
+|G广东|[第二十一届广东省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/guangdong)|2024-05-26|【待补充】|
+|H河北|[2024 CCPC 河北省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/hebei)|2024-05-26|【待补充】|
+|S山东|[2024 CCPC 全国邀请赛（山东）暨山东省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/shandong)|2024-05-26|【待补充】|
+||[]()||【待补充】|
+
+### ICPC 49th
+
+|<div style="width:100px;"><div style="width:100px;">简称</div></div>|官方名称|举办时间|补题链接|
+|:--:|:--:|:--:|:--:|
+||[]()||【待补充】|
+
+### CCPC 10th
+
+|<div style="width:100px;"><div style="width:100px;">简称</div></div>|官方名称|举办时间|补题链接|
+|:--:|:--:|:--:|:--:|
+||[]()||【待补充】|
+
+## 2023 赛季
+
+### 各地独立赛
+
+|<div style="width:100px;">简称</div>|官方名称|举办时间|补题链接|
+|:--:|:--:|:--:|:--:|
+|浙江|[The 20th Zhejiang Provincial Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2023/zhejiang)<br/>*同时也被称呼为<br/>The 1st Universal Cup. Stage 15: Hangzhou*|2023-04-15|[QOJ](https://qoj.ac/contest/1221)|
+|湖北|[第五届 CCPC 湖北省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2023/hubei)|2023-04-30|【待补充】|
+|河南|[2023 CCPC Henan Provincial Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2023/henan)|2023-05-05|[GYM](https://codeforces.com/gym/104354)|
+|西安邀请赛|[The 2023 ICPC Xi'an Invitational Programming Contest](https://board.xcpcio.com/icpc/48th/xian-invitational)|2023-05-14|[QOJ](https://qoj.ac/contest/1291)|
+|广东|[The 2023 Guangdong Provincial Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2023/guangdong)|2023-05-14|[QOJ](https://qoj.ac/contest/1247)|
+|新疆1|[2023年国际大学生程序设计竞赛（ACM-ICPC）新疆赛区](https://board.xcpcio.com/provincial-contest/2023/xinjiang)|2023-05-20|[牛客](https://ac.nowcoder.com/acm/contest/57840)|
+|江西|[2023 年 ICPC 江西省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2023/jiangxi)|2023-05-21|【待补充】|
+|河北|[2023 年 CCPC 河北省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2023/hebei)|2023-05-21|【待补充】|
+|江苏|[2023 年 CCPC 江苏省赛 & 全国邀请赛（湖南）](https://board.xcpcio.com/ccpc/9th/jiangsu-and-xiangtan)|2023-05-28|【待补充】|
+|山东|[The 2023 ICPC China Shandong Provincial Programming Contest](https://board.xcpcio.com/provincial-contest/2023/shandong)|2023-06-04|[QOJ](https://qoj.ac/contest/1280)|
+|广西|[2023 年第六届广西大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2023/guangxi)|2023-06-04|[牛客](https://ac.nowcoder.com/acm/contest/59040)|
+|湖南邀请赛|[2023 National Invitational of CCPC (Hunan)](https://board.xcpcio.com/provincial-contest/2023/hunan)<br>*同时也被称呼为<br>2023 Jiangsu Collegiate Programming Contest <br> The 13th Xiangtan Collegiate Programming Contest*|2023-09-17|[GYM](https://codeforces.com/gym/104396)|
+|辽宁|第四届辽宁省大学生程序设计竞赛|2023-10-29|[牛客](https://ac.nowcoder.com/acm/contest/68504)|
+|新疆2|2023 中国大学生程序设计竞赛（CCPC）新疆赛区|2023-11-18|[NowCoder](https://ac.nowcoder.com/acm/contest/69555)|
+|北京|2023 北京市大学生程序设计竞赛|2023-12-23|[QOJ](https://qoj.ac/contest/1464)|
+||[]()||【待补充】|
+
+### ICPC 48th
+
+|<div style="width:100px;">简称</div>|官方名称|举办时间|补题链接|
+|:--:|:--:|:--:|:--:|
+|网络预选赛(I)|[The 2023 ICPC Asia EC Regionals Online Contest (I)](https://board.xcpcio.com/icpc/48th/online-qualification-1)|2023-09-17|[PTA](https://pintia.cn/market/item/1703381331863785472)，[GYM](https://codeforces.com/gym/104639)|
+|网络预选赛(II)|[The 2023 ICPC Asia Regionals Online Contest (II)](https://board.xcpcio.com/icpc/48th/online-qualification-2)|2023-09-23|[PTA](https://pintia.cn/market/item/1705511462254264320)|
+|西安|[第 48 届 ICPC 国际大学生程序设计竞赛区域赛西安站](https://board.xcpcio.com/icpc/48th/xian)|2023-10-22|【ucpc还在鸽！我的凹包呢？】|
+|南京|[The 2023 ICPC Asia Nanjing Regional Contest](https://board.xcpcio.com/icpc/48th/nanjing)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 11: Nanjing*|2023-11-05|[GYM](https://codeforces.com/gym/104821), [QOJ](https://qoj.ac/contest/1435)|
+|沈阳|[The 2023 ICPC Asia Shenyang Regional Contest](https://board.xcpcio.com/icpc/48th/shenyang)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 13: Shenyang*|2023-11-12|[GYM](https://codeforces.com/gym/104869), [QOJ](https://qoj.ac/contest/1449)|
+|合肥|[The 2023 ICPC Asia Hefei Regional Contest](https://board.xcpcio.com/icpc/48th/hefei)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 12: Hefei*|2023-11-26|[GYM](https://codeforces.com/gym/104857), [QOJ](https://qoj.ac/contest/1440)|
+|济南|[The 2023 ICPC Asia Jinan Regional Contest](https://board.xcpcio.com/icpc/48th/jinan)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 17: Jinan*|2023-12-03|[GYM](https://codeforces.com/gym/104901), [QOJ](https://qoj.ac/contest/1472)|
+|杭州|[The 2023 ICPC Asia Hangzhou Regional Contest](https://board.xcpcio.com/icpc/48th/hangzhou)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 22: Hangzhou*|2023-12-10|[GYM](https://codeforces.com/gym/104976), [QOJ](https://qoj.ac/contest/1516)|
+|**总决赛（上海）**|[The 2023 ICPC Asia East Continent Final Contest](https://board.xcpcio.com/icpc/48th/ecfinal)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 23: Shanghai*|2024-01-13|[QOJ](https://contest.ucup.ac/contest/1522)|
+|澳门|[The 2023 ICPC Asia Macau Regional Contest](https://board.xcpcio.com/icpc/48th/macau)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 15: Macau*|2023-11-19|[GYM](https://codeforces.com/gym/104891), [QOJ](https://qoj.ac/contest/1459)|
+|台湾网络预选赛|2023 ICPC Asia Taiwan Online Programming Contest||[GYM](https://codeforces.com/gym/104619)|
+|台湾||||
+
+### CCPC 9th
+
+|<div style="width:100px;">简称</div>|官方名称|举办时间|补题链接|
+|:--:|:--:|:--:|:--:|
+|网络预选赛|[The 2023 CCPC Online Contest](https://board.xcpcio.com/ccpc/9th/online-qualification)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 3: Binjiang*|2023-08-20|[GYM](https://codeforces.com/gym/104651)，[QOJ](https://contest.ucup.ac/contest/1358)|
+|秦皇岛|[The 2023 CCPC (Qinhuangdao) Onsite](https://board.xcpcio.com/ccpc/9th/qinhuangdao)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 9: Qinhuangdao*|2023-10-15|[GYM](https://codeforces.com/gym/104787)|
+|女生专场|[2023年中国大学生程序设计竞赛女生专场](https://board.xcpcio.com/ccpc/9th/girl)|2023-10-21|[PTA](https://pintia.cn/market/item/1715964967755325440)|
+|高职专场|[2023年中国大学生程序设计竞赛高职专场](https://board.xcpcio.com/ccpc/9th/vocational)|2023-10-21|[PTA](https://pintia.cn/market/item/1715966057963986944)|
+|桂林|[2023 China Collegiate Programming Contest (CCPC) Guilin Onsite](https://board.xcpcio.com/ccpc/9th/guilin)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 8: Guilin*|2023-10-29|[GYM](https://codeforces.com/gym/104768)|
+|哈尔滨|[The 9th CCPC (Harbin) Onsite](https://board.xcpcio.com/ccpc/9th/harbin)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 10: Harbin*|2023-11-05|[GYM](https://codeforces.com/gym/104813)|
+|深圳|[第九届中国大学生程序设计竞赛 深圳站（CCPC 2023 Shenzhen Site）](https://board.xcpcio.com/ccpc/9th/shenzhen)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 25: Shenzhen*|2023-11-12|[QOJ](https://qoj.ac/contest/1540)|
+|**决赛**|[第九届中国大学生程序设计竞赛总决赛（CCPC Final 2023）](https://board.xcpcio.com/ccpc/9th/final)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 28: Chengdu*|2024-03-31|[QOJ](https://qoj.ac/contest/1596)|
+
+## 2022 赛季
+
+### 各地独立赛
+
+|<div style="width:100px;">简称</div>|官方名称|其他别名|补题链接|
+|:--:|:--:|:--:|:--:|
+|浙江|The 19th Zhejiang Provincial Collegiate Programming Contest||[GYM](https://codeforces.com/gym/103687)|
+|山东|The 13th Shandong ICPC Provincial Collegiate Programming Contest||[GYM](https://codeforces.com/gym/104417)|
+|上海|2022 Shanghai Collegiate Programming Contest||[GYM](https://codeforces.com/gym/103931)|
+|江西|2022年江西省大学生程序设计竞赛|2022-10-23|[牛客](https://ac.nowcoder.com/acm/contest/43898)|
+|辽宁|2022年第三届辽宁省大学生程序设计竞赛|2022-10-23|[牛客](https://ac.nowcoder.com/acm/contest/43937)|
+|陕西|2021-2022年度国际大学生程序设计竞赛第10届陕西省程序设计竞赛|2022-10-22|[牛客](https://ac.nowcoder.com/acm/contest/44007)|
+|四川|“海康威视杯” 2022年第十四届四川省大学生程序设计大赛|2022-10-07|[牛客](https://ac.nowcoder.com/acm/contest/42105)|
+|上海|2022 年上海市大学生程序设计竞赛|2022-09-24|[牛客](https://ac.nowcoder.com/acm/contest/41614)|
+
+### ICPC 47th
+
+|<div style="width:100px;">简称</div>|官方名称|别名|链接|
+|:--:|:--:|:--:|:--:|
+|网络预选赛(I)|The 2022 ICPC Asia Regionals Online Contest (I)||[PTA](https://pintia.cn/market/item/1571156622976593920)|
+|网络预选赛(II)|The 2022 ICPC Asia Regionals Online Contest (II)||[PTA](https://pintia.cn/market/item/1574061957311737856)|
+|南京|The 2022 ICPC Asia Nanjing Regional Contest|The 1st Universal Cup. Stage 0: Nanjing (Trial Contest)|[GYM](https://codeforces.com/gym/104128), [QOJ](https://qoj.ac/contest/1093)|
+|沈阳|The 2022 ICPC Asia Shenyang Regional Contest (The 1st Universal Cup, Stage 1: Shenyang)|The 1st Universal Cup. Stage 1: Shenyang|[GYM](https://codeforces.com/gym/104160), [QOJ](https://qoj.ac/contest/1096)|
+|西安|The 2022 ICPC Asia Xian Regional Contest||[GYM](https://codeforces.com/gym/104077), [QOJ](https://qoj.ac/contest/1051)|
+|合肥|||这一场烂了，应该不会再有了|
+|济南|2022 International Collegiate Programming Contest, Jinan Site||[GYM](https://codeforces.com/gym/104076), [QOJ](https://qoj.ac/contest/1053)|
+|杭州|The 2022 ICPC Asia Hangzhou Regional Programming Contest||[GYM](https://codeforces.com/gym/104090), [QOJ](https://qoj.ac/contest/1071)|
+|**决赛（上海）**|The 2022 ICPC Asia East Continent Final Contest (EC-Final 2022)|The 1st Universal Cup. Stage 11: Shanghai|[QOJ](https://qoj.ac/contest/1197)|
+|香港|The 2023 ICPC Asia Hong Kong Regional Programming Contest|The 1st Universal Cup. Stage 2: Hong Kong $\rm{OR}$ Petrozavodsk Winter 2023. Day 3. 2023 ICPC Asia Hong Kong Regional.|[GYM](https://codeforces.com/gym/104172), [QOJ](https://qoj.ac/contest/1099)|
+|台湾网络预选赛|2022 ICPC Asia Taiwan Online Programming Contest||[GYM](https://codeforces.com/gym/103990)|
+|台湾桃园|The 2022 ICPC Asia Taoyuan Regional Programming Contest|The 1st Universal Cup. Stage 6: Taiwan|[QOJ](https://qoj.ac/contest/1124)|
+
+### CCPC 8th
+
+|<div style="width:100px;">简称</div>|官方名称|别名|链接|
+|:--:|:--:|:--:|:--:|
+|河南邀请赛|2022 CCPC Henan Provincial Collegiate Programming Contest||[GYM](https://codeforces.com/gym/103941)|
+|广东邀请赛|“小马智行杯“第十九届广东省大学生程序设计竞赛 暨中国大学生程序设计大赛广东||[PTA](https://pintia.cn/market/item/1534086632285245440)|
+|高职专场|2022中国大学生程序设计竞赛高职专场||[PTA](https://pintia.cn/market/item/1584479359201062912)|
+|女生专场|2022年中国大学生程序设计竞赛女生专场||[GYM](https://codeforces.com/gym/104081)|
+|桂林|2022 China Collegiate Programming Contest (CCPC) Guilin Site||[GYM](https://codeforces.com/gym/104008)，[QOJ](https://qoj.ac/contest/1303)|
+|威海|2022 China Collegiate Programming Contest (CCPC) Weihai Site||[GYM](https://codeforces.com/gym/104023)|
+|广州|2022 China Collegiate Programming Contest (CCPC) Guangzhou Onsite||[GYM](https://codeforces.com/gym/104053), [QOJ](https://qoj.ac/contest/1493)|
+|绵阳|2022 China Collegiate Programming Contest (CCPC) Mianyang Onsite||[GYM](https://codeforces.com/gym/104065)，[QOJ](https://qoj.ac/contest/1480)|
+|**决赛**|第八届中国大学生程序设计竞赛总决赛（CCPC Final 2022）|The 1st Universal Cup. Stage 17: Guangzhou|2023-05-14|[QOJ](https://qoj.ac/contest/1244)|
+
+## 2021 赛季
+
+### 各地独立赛
+
+|<div style="width:100px;">简称</div>|官方名称|其他别名|补题链接|
+|:--:|:--:|:--:|:--:|
+|浙江|The 18th Zhejiang Provincial Collegiate Programming Contest||[GYM](https://codeforces.com/gym/103055)|
+|山东|2021 Shandong Provincial Collegiate Programming Contest||[GYM](https://codeforces.com/gym/103118)|
+|上海|The 2021 Shanghai Collegiate Programming Contest||[GYM](https://codeforces.com/gym/103186)|
+|四川|The 2021 ICPC China Sichuan Provincial Programming Contest||[QOJ](https://qoj.ac/contest/1292)|
+
+### ICPC 46th 
+
+|<div style="width:100px;">简称</div>|官方名称|其他别名|补题链接|
+|:--:|:--:|:--:|:--:|
+|网络预选赛(I)|The 2021 ICPC Asia Regionals Online Contest (I)||[PTA](https://pintia.cn/market/item/1439765428045058048)|
+|网络预选赛(II)|The 2021 ICPC Asia Regionals Online Contest (II)||[PTA](https://pintia.cn/market/item/1442013218528759808)|
+|济南|The 2021 ICPC Asia Jinan Regional Contest||[PTA](https://pintia.cn/market/item/1459833348620926976)|
+|沈阳|The 2021 ICPC Asia Shenyang Regional Contest||[GYM](https://codeforces.com/gym/103427), [QOJ](https://qoj.ac/contest/1252)|
+|上海|The 2021 ICPC Asia Shanghai Regional Programming Contest||[GYM](https://codeforces.com/gym/103446)|
+|南京|The 2021 ICPC Asia Nanjing Regional Contest|XXII Open Cup named after E.V. Pankratiev, Grand Prix of Nanjing|[GYM](https://codeforces.com/gym/103470), [QOJ](https://qoj.ac/contest/1236)|
+|昆明|第46届ICPC亚洲区域赛（昆明）||[NowCoder](https://ac.nowcoder.com/acm/contest/32708)|
+|**决赛（西安）**|2021 ICPC Asia East Continent Final|XXII Open Cup named after E.V. Pankratiev, Grand Prix of China|[GYM](https://codeforces.com/gym/103861), [QOJ](https://qoj.ac/contest/1041)|
+|澳门|第46屆ICPC 東亞洲區域賽（澳門）|Moscow Pre-Finals Workshops 2022 Day 3|[GYM](https://codeforces.com/gym/104373), [NowCoder](https://ac.nowcoder.com/acm/contest/31454), [QOJ](https://qoj.ac/contest/911)|
+|台湾网络预选赛|2021 ICPC Asia Taiwan Online Programming Contest||[GYM](https://codeforces.com/gym/103373)|
+|台湾台北|The 2021 ICPC Asia Taipei Regional Programming Contest||[GYM](https://codeforces.com/gym/103443)|
+
+### CCPC 7th
+
+|<div style="width:100px;">简称</div>|官方名称|其他别名|补题链接|
+|:--:|:--:|:--:|:--:|
+|女生专场|2021年中国大学生程序设计竞赛女生专场||[PTA](https://pintia.cn/market/item/1455438762095583232)，[GYM](https://codeforces.com/gym/103389)|
+|桂林|The 2021 CCPC Guilin Onsite|XXII Open Cup named after E.V. Pankratiev, Grand Prix of EDG|[GYM](https://codeforces.com/gym/103409), [QOJ](https://qoj.ac/contest/1305)|
+|广州|The 2021 CCPC Guangzhou Onsite||[GYM](https://codeforces.com/gym/103415)|
+|威海|The 2021 CCPC Weihai Onsite||[GYM](https://codeforces.com/gym/103428)|
+|哈尔滨|The 2021 China Collegiate Programming Contest (Harbin)||[GYM](https://codeforces.com/gym/103447)|
+|**决赛**|The 7th China Collegiate Programming Contest, Finals (CCPC Finals 2021)||[GYM](https://codeforces.com/gym/103860)|
+
+## 2020 赛季
+
+### 各地独立赛
+
+|<div style="width:100px;">简称</div>|官方名称|别名|链接|
+|:--:|:--:|:--:|:--:|
+|浙江|The 17th Zhejiang Provincial Collegiate Programming Contest||[GYM](https://codeforces.com/gym/102770)|
+
+### ICPC 45th
+
+|<div style="width:100px;">简称</div>|官方名称|别名|链接|
+|:--:|:--:|:--:|:--:|
+|上海|The 2020 ICPC Asia Shanghai Regional Contest||[GYM](https://codeforces.com/gym/102900), [QOJ](https://qoj.ac/contest/1477)|
+|济南|第 45 届国际大学生程序设计竞赛（ICPC）亚洲区域赛（济南）||[NowCoder](https://ac.nowcoder.com/acm/contest/10662)|
+|昆明|第 45 届国际大学生程序设计竞赛（ICPC）亚洲区域赛（昆明）||[NowCoder](https://ac.nowcoder.com/acm/contest/12548)|
+|沈阳|The 2020 ICPC Asia Shenyang Regional Contest||[GYM](https://codeforces.com/gym/103202), [QOJ](https://qoj.ac/contest/1251)|
+|南京|The 2020 ICPC Asia Nanjing Regional Contest|XXI Open Cup named after E.V. Pankratiev, Grand Prix of Nanjing|[QOJ](https://qoj.ac/contest/1235)|
+|银川|The 2020 ICPC Asia Yinchuan Regional Contest||[QOJ](https://qoj.ac/contest/1322)|
+|**决赛（西安）**|The 2020 ICPC Asia East Continent Final Contest (EC-Final 2020)|XXI Open Cup named after E.V. Pankratiev, Grand Prix of Xi'an $\rm{OR}$ Moscow Pre-Finals Workshops 2021 Day 5|[QOJ](https://qoj.ac/contest/1040)|
+|澳门|The 2020 ICPC Asia Macau Regional Contest||[QOJ](https://qoj.ac/contest/1538)|
+|台湾网络预选赛||||
+|台湾新竹|The 2020 ICPC Asia Taipei-Hsinchu Site Programming Contest||[GYM](https://codeforces.com/gym/102835), [QOJ](https://qoj.ac/contest/469)|
+
+## CCPC 6th
+
+|<div style="width:100px;">简称</div>|官方名称|其他别名|补题链接|
+|:--:|:--:|:--:|:--:|
+|湖南邀请赛|第十六届湖南省大学生计算机程序设计竞赛（The 2020 Hunan Collegiate Programming Contest, HNCPC 2020）||[QOJ](https://qoj.ac/contest/908)|
+|**决赛**|第六届中国大学生程序设计竞赛（CCPC 2020）|XXI Open Cup named after E.V. Pankratiev, Grand Prix of Beijing|[QOJ](https://qoj.ac/contest/845)|
+
+## 2019 赛季
+
+### 各地邀请赛与独立赛
+
+|<div style="width:100px;">简称</div>|官方名称|链接|
+|:--:|:--:|:--:|
+|南昌&丝绸之路邀请赛|The 2019 ICPC China Nanchang National Invitational and International Silk-RoadProgramming Contest|[计蒜客](https://www.jisuanke.com/contest/3098)|
+|宁夏邀请赛|2018宁夏邀请赛|[计蒜客](https://www.jisuanke.com/contest/3110)|
+|南昌邀请赛|The Preliminary Contest for ICPC China Nanchang National Invitational|[计蒜客](https://www.jisuanke.com/contest/2290)|
+|陕西邀请赛|The 2019 ACM-ICPC China Shannxi Provincial Programming Contest|[GYM](https://codeforces.com/gym/104460), [QOJ](https://qoj.ac/contest/1285)|
+|陕西|The 2019 ICPC China Shaanxi Provincial Programming Contest|[GYM](https://codeforces.com/gym/104460), [QOJ](https://qoj.ac/contest/1285)|
+|浙江|The 16th Zhejiang Provincial Collegiate Programming Contest Sponsored by TuSimple|[Vjudge](https://vjudge.net/contest/298098)|
+|山东|The 2019 ICPC China Shandong Provincial Programming Contest|[QOJ](https://qoj.ac/contest/1281)|
+
+### ICPC 44th 大陆
+
+|<div style="width:100px;">简称</div>|官方名称|别名|链接|
+|:--:|:--:|:--:|:--:|
+|银川预选赛|The 2019 Asia Yinchuan First Round Online Programming||[计蒜客](https://www.jisuanke.com/contest/2991)|
+|银川|The 2019 ICPC Asia Yinchuan Regional Contest||[GYM](https://codeforces.com/gym/104021), [QOJ](https://qoj.ac/contest/1320), [计蒜客](https://www.jisuanke.com/contest/5527)|
+|南京预选赛|The Preliminary Contest for ICPC Asia Nanjing 2019||[计蒜客](https://www.jisuanke.com/contest/3004)|
+|南京|The 2019 ICPC Asia Nanjing Regional Contest||[GYM](https://codeforces.com/gym/103466), [QOJ](https://qoj.ac/contest/1321), [计蒜客](https://www.jisuanke.com/contest/5528)|
+|徐州预选赛|The Preliminary Contest for ICPC Asia Xuzhou 2019||[计蒜客](https://www.jisuanke.com/contest/3005)|
+|徐州|2019 ICPC Asia Xuzhou Regional||[计蒜客](https://www.jisuanke.com/contest/5529)|
+|南昌预选赛|The 2019 Asia Nanchang First Round Online Programming Contest||[计蒜客](https://www.jisuanke.com/contest/3870)|
+|南昌|2019 ICPC Asia Nanchang Regional||[计蒜客](https://www.jisuanke.com/contest/5530)|
+|沈阳预选赛||||
+|沈阳|The Preliminary Contest for ICPC Asia Shenyang 2019||[计蒜客](https://www.jisuanke.com/contest/3007)|
+|上海预选赛||||
+|上海|The Preliminary Contest for ICPC Asia Shanghai 2019||[计蒜客](https://www.jisuanke.com/contest/3003)|
+|**决赛（西安）**|The 2019 ICPC Asia East Continent Final Contest (EC-Final 2019)|XX Open Cup named after E.V. Pankratiev, Grand Prix of Xi'an||
+
+### ICPC 44th 港澳台
+
+|<div style="width:100px;">简称</div>|官方名称|别名|链接|
+|:--:|:--:|:--:|:--:|
+|香港|The 2019 ICPC Asia Hong Kong Regional Contest||[QOJ](https://qoj.ac/contest/1537)|
+|台湾网络预选赛||||
+|台湾新竹|2019-2020 ICPC Asia Taipei-Hsinchu Regional Contest||[GYM](https://codeforces.com/gym/102460), [QOJ](https://qoj.ac/contest/432)|
+
+### CCPC 5th
+
+|<div style="width:100px;">简称</div>|官方名称|别名|链接|
+|:--:|:--:|:--:|:--:|
+|秦皇岛|2019 China Collegiate Programming Contest Qinhuangdao Onsite||[GYM](https://codeforces.com/gym/102361)|
+|哈尔滨|The 2019 China Collegiate Programming Contest Harbin Site||[GYM](https://codeforces.com/gym/102394)|
+|厦门||||
+|**决赛**|2019 China Collegiate Programming Contest Final (CCPC-Final 2019)||[GYM](https://codeforces.com/gym/102431)|
+
+## 2018 赛季
+
+### 各地独立赛
+
+|<div style="width:100px;">简称</div>|官方名称|别名|链接|
+|:--:|:--:|:--:|:--:|
+|浙江|The 15th Zhejiang Provincial Collegiate Programming Contest Sponsored by TuSimple||[Vjudge](https://vjudge.net/contest/226750)|
+|山东|The 10th Shandong Provincial Collegiate Programming Contest||[GYM](https://codeforces.com/gym/104459)|
+
+### ICPC 43th 大陆
+
+|<div style="width:100px;">简称</div>|官方名称|别名|链接|
+|:--:|:--:|:--:|:--:|
+|南京预选赛|ACIM-ICPC 2018 南京赛区网络预赛||[计蒜客](https://www.jisuanke.com/contest/1555)|
+|南京|ACM-ICPC Nanjing Onsite 2018||[计蒜客](https://www.jisuanke.com/contest/1847)|
+|沈阳预选赛|ACM-ICPC 2018 沈阳赛区网络预赛||[计蒜客](https://www.jisuanke.com/contest/1556)|
+|沈阳|The 2018 ICPC Asia Shenyang Regional Programming Contest||[GYM](https://codeforces.com/gym/101955), [QOJ](https://qoj.ac/contest/1318), [计蒜客](https://www.jisuanke.com/contest/1849)|
+|焦作预选赛|ACM-ICPC 2018 焦作赛区网络预赛||[计蒜客](https://www.jisuanke.com/contest/1558)|
+|焦作|2018-2019 ACM-ICPC, Asia Jiaozuo Regional Contest||[GYM](https://codeforces.com/gym/102028), [QOJ](https://qoj.ac/contest/1319), [计蒜客](https://www.jisuanke.com/contest/1858)|
+|青岛预选赛|The 2018 ACM-ICPC Asia Qingdao Regional Contest, Online|The 2nd Universal Cup. Stage 1: Qingdao|[GYM](https://codeforces.com/gym/104566)|
+|青岛|The 2018 ICPC Asia Qingdao Regional Contest|The 1st Universal Cup. Stage 9: Qingdao|[GYM](https://codeforces.com/gym/104270), [QOJ](https://qoj.ac/contest/1187)|
+|徐州预选赛|ACM-ICPC 2018 徐州赛区网络预赛||[计蒜客](https://www.jisuanke.com/contest/1557), [计蒜客](https://www.jisuanke.com/contest/3113)|
+|徐州|2018-2019 ACM-ICPC, Asia Xuzhou Regional Contest||[GYM](https://codeforces.com/gym/102012), [QOJ](https://qoj.ac/contest/1317), [计蒜客](https://www.jisuanke.com/contest/1856)|
+|**决赛（西安）**|2018-2019 ACM-ICPC, Asia East Continent Finals||[GYM](https://codeforces.com/gym/102056)|
+
+### ICPC 43th 港澳台
+
+|<div style="width:100px;">简称</div>|官方名称|别名|链接|
+|:--:|:--:|:--:|:--:|
+|【待补充】||||
+
+### CCPC 4th
+
+|<div style="width:100px;">简称</div>|官方名称|别名|链接|
+|:--:|:--:|:--:|:--:|
+|丝绸之路邀请赛|2018 ACM-ICPC 中国大学生程序设计竞赛暨丝绸之路程序设计竞赛(The First ACM-ICPC Chinese Collegiate Programming Contest & International Silk Road Programming Contest)||[计蒜客](https://www.jisuanke.com/contest/1227)|
+|银川|The 2018 ACM-ICPC Chinese Collegiate Programming Contest (held by Ningxia Institute of Science and Technology)||[计蒜客](https://www.jisuanke.com/contest/1406)|
+|江苏|The 2018 ACM-ICPC China JiangSu Provincial Programming Contest (held by ChinaUniversity of Mining and Technology)||[计蒜客](https://www.jisuanke.com/contest/1408)|
+
+## CCCC 天梯赛
+
+[PTA](https://pintia.cn/problem-sets/994805046380707840/exam/problems/type/7)
+
+## 更早期的浙江省赛
+
+|<div style="width:100px;">简称</div>|官方名称|别名|链接|
+|:--:|:--:|:--:|:--:|
+|2017浙江|The 14th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/160686), [QOJ](https://qoj.ac/contest/1301)|
+|2016浙江|The 13th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/117083)|
+|2015浙江|The 12th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/76679)|
+|2014浙江|The 11th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/44195)|
+|2013浙江|The 10th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/23786)|
+|2012浙江|The 9th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/16323)|
+|2011浙江|The 8th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/6709)|
+|2010浙江|The 7th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/7492)|
+|2009浙江|The 6th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/9881)|
+|2008浙江|The 5th Zhejiang Provincial Collegiate Programming Contest||[Vjudge](https://vjudge.net/contest/7321)|
+
+## 引用与交叉验证
+
+1. [ProtectEMmm](https://vjudge.net/article/3389)在 VJ 上对于2022赛季ICPC/CCPC赛事的整理
+2. [ProtectEMmm](https://vjudge.net/article/3893)在 VJ 上对于2021赛季ICPC/CCPC赛事的整理
+3. [qq1735705660](https://vjudge.net/article/2446)在 VJ 上对于2019赛季ICPC/CCPC赛事的整理
+4. [hzu1514080902215](https://vjudge.net/article/836)在 VJ 上对于2018赛季ICPC赛事的整理
