@@ -27,7 +27,7 @@
 |Z浙江|“睿琪杯” [浙江省第 21 届大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/zhejiang)|2024-04-13|【待补充】|
 |H黑龙江|第十九届黑龙江省大学生程序设计竞赛|2024-04-14|[PTA](https://pintia.cn/market/item/1793901564338823168)|
 |H湖北邀请赛|[The 2024 International Collegiate Programming Contest in Hubei Province, China](https://board.xcpcio.com/provincial-contest/2024/hubei)|2024-04-27|[GYM](https://codeforces.com/gym/105139)|
-|W武汉|[第 49 届 ICPC 国际大学生程序设计竞赛邀请赛武汉站](https://board.xcpcio.com/icpc/49th/wuhan-invitational)|2024-05-02|【待补充】|
+|W武汉邀请赛|[2024 ICPC National Invitational Collegiate Programming Contest, Wuhan Site](https://board.xcpcio.com/icpc/49th/wuhan-invitational)|2024-05-02|[GYM](https://codeforces.com/gym/105143)|
 |N内蒙古|“华讯杯”内蒙古自治区第十七届大学生程序设计竞赛|2024-05-12|[PTA](https://pintia.cn/market/item/1793842121618161664)|
 |J江苏|“华为杯” [2024 Jiangsu Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2024/jiangsu)|2024-05-12|[GYM](https://codeforces.com/gym/105161)|
 |H河南邀请赛|[2024 National Invitational of CCPC (Zhengzhou)](https://board.xcpcio.com/provincial-contest/2024/henan)<br/>*同时也被称呼为*<br/>2024 CCPC Henan Provincial Collegiate Programming Contest|2024-05-12|[GYM](https://codeforces.com/gym/105158)|
@@ -40,7 +40,7 @@
 |G广东|[第二十一届广东省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/guangdong)|2024-05-26|【待补充】|
 |H河北|[2024 CCPC 河北省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/hebei)|2024-05-26|【待补充】|
 |S山东|[2024 CCPC 全国邀请赛（山东）暨山东省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/shandong)|2024-05-26|【待补充】|
-||[]()||【待补充】|
+|J江西|[]()|2024-06-02|【待补充】|
 
 ### ICPC 49th
 
@@ -82,7 +82,7 @@
 |广西|[2023 年第六届广西大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2023/guangxi)|2023-06-04|[牛客](https://ac.nowcoder.com/acm/contest/59040)|
 |湖南邀请赛|[2023 National Invitational of CCPC (Hunan)](https://board.xcpcio.com/provincial-contest/2023/hunan)<br>*同时也被称呼为*<br>*2023 Jiangsu Collegiate Programming Contest*<br>*The 13th Xiangtan Collegiate Programming Contest*|2023-09-17|[GYM](https://codeforces.com/gym/104396)|
 |辽宁|第四届辽宁省大学生程序设计竞赛|2023-10-29|[牛客](https://ac.nowcoder.com/acm/contest/68504)|
-|新疆2|2023 中国大学生程序设计竞赛（CCPC）新疆赛区|2023-11-18|[NowCoder](https://ac.nowcoder.com/acm/contest/69555)|
+|新疆2|2023 中国大学生程序设计竞赛（CCPC）新疆赛区|2023-11-18|[牛客](https://ac.nowcoder.com/acm/contest/69555)|
 |北京|2023 北京市大学生程序设计竞赛|2023-12-23|[QOJ](https://qoj.ac/contest/1464)|
 
 ### ICPC 48th
@@ -122,7 +122,9 @@
 |<div style="width:100px;">简称</div>|官方名称|举办时间|补题链接|
 |:--:|:--:|:--:|:--:|
 |浙江|[The 19th Zhejiang Provincial Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2022/zjcpc)|2022-04-16|[GYM](https://codeforces.com/gym/103687)|
+|黑龙江|“统信杯” 第十七届黑龙江省大学生程序设计竞赛|2022-05-15|[牛客](https://ac.nowcoder.com/acm/contest/34332)|
 |湖北|[2022 Hubei Provincial Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2022/hbcpc)|2022-05-22|[GYM](https://codeforces.com/gym/103729)|
+|东北地区|第十六届东北地区大学生程序设计竞赛|2022-05-22|[牛客](https://ac.nowcoder.com/acm/contest/35146)|
 |江苏|[2022 年江苏省大学生程序设计大赛](https://board.xcpcio.com/provincial-contest/2022/jiangsu)|2022-05-28|[GYM](https://codeforces.com/gym/103743)|
 |广东邀请赛|[“小马智行杯“第十九届广东省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2022/guangdong)<br/>*同时也被称呼为*<br/>*中国大学生程序设计大赛广东省赛*|2022-06-26|[PTA](https://pintia.cn/market/item/1534086632285245440)|
 |广西|[第五届广西大学生程序设计大赛](https://board.xcpcio.com/provincial-contest/2022/guangxi)|2022-06-26|[PTA](https://pintia.cn/market/item/1541299013331705856)|
@@ -142,7 +144,7 @@
 |网络预选赛(II)|[The 2022 ICPC Asia Regionals Online Contest (II)](https://board.xcpcio.com/icpc/47th/online-qualification-2)|2022-09-25|[PTA](https://pintia.cn/market/item/1574061957311737856)|
 |沈阳|[The 2022 ICPC Asia Shenyang Regional Contest](https://board.xcpcio.com/icpc/47th/shenyang)<br/>*同时也被称呼为<br/>The 1st Universal Cup. Stage 1: Shenyang*|2022-11-06|[GYM](https://codeforces.com/gym/104160), [QOJ](https://qoj.ac/contest/1096)|
 |西安|[The 2022 ICPC Asia Xian Regional Contest](https://board.xcpcio.com/icpc/47th/xian)|2022-11-13|[GYM](https://codeforces.com/gym/104077), [QOJ](https://qoj.ac/contest/1051)|
-|合肥|[第 47 届国际大学生程序设计竞赛亚洲区域赛合肥站](https://board.xcpcio.com/icpc/47th/hefei)|2022-11-20|【这一场烂了，应该不会再有了】|
+|合肥|[第 47 届国际大学生程序设计竞赛亚洲区域赛合肥站](https://board.xcpcio.com/icpc/47th/hefei)<br/>【这一场出了大锅，应该不会再有了】|2022-11-20|【待补充】|
 |济南|[2022 International Collegiate Programming Contest, Jinan Site](https://board.xcpcio.com/icpc/47th/jinan)|2022-11-27|[GYM](https://codeforces.com/gym/104076), [QOJ](https://qoj.ac/contest/1053)|
 |杭州|[The 2022 ICPC Asia Hangzhou Regional Programming Contest](https://board.xcpcio.com/icpc/47th/hangzhou)|2022-12-04|[GYM](https://codeforces.com/gym/104090), [QOJ](https://qoj.ac/contest/1071)|
 |南京|[The 2022 ICPC Asia Nanjing Regional Contest](https://board.xcpcio.com/icpc/47th/nanjing)<br/>*同时也被称呼为<br/>The 1st Universal Cup. Stage 0: Nanjing (Trial Contest)*|2022-12-18|[GYM](https://codeforces.com/gym/104128), [QOJ](https://qoj.ac/contest/1093)|
@@ -166,32 +168,41 @@
 
 ## 2020-2021 赛季
 
+> 受新冠疫情影响，本年度赛事存在不同程度推迟问题。
+
 ### 省赛/邀请赛
 
 |<div style="width:100px;">简称</div>|官方名称|举办时间|补题链接|
 |:--:|:--:|:--:|:--:|
-|四川|The 2021 ICPC China Sichuan Provincial Programming Contest||[QOJ](https://qoj.ac/contest/1292)|
 |浙江|[The 18th Zhejiang Provincial Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2021/zjcpc)|2021-04-17|[GYM](https://codeforces.com/gym/103055)|
-|山东|[2021 Shandong Provincial Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2021/sdcpc)|2021-05-09|[GYM](https://codeforces.com/gym/103118)|
+|山东|[2021 Shandong Provincial Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2021/sdcpc)|2021-05-09|[GYM](https://codeforces.com/gym/103118), [牛客](https://ac.nowcoder.com/acm/contest/15600)|
+|四川|The 2021 ICPC China Sichuan Provincial Programming Contest|2021-05-30|[QOJ](https://qoj.ac/contest/1292), [牛客](https://ac.nowcoder.com/acm/contest/17624)|
 |东北地区|“红旗杯”[第十五届东北地区大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2021/necpc)|2021-06-13|【待补充】|
+|广东|GDCPC广东省大学生程序设计竞赛|2021-06-20|[牛客](https://ac.nowcoder.com/acm/contest/17797)|
 |上海|“科大讯飞杯”[The 2021 Shanghai Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2021/shanghai)|2021-07-11|[GYM](https://codeforces.com/gym/103186)|
+|辽宁|2021辽宁省大学生程序设计竞赛|2021-10-23|[牛客](https://ac.nowcoder.com/acm/contest/22352)|
+|江西|2021 ICPC 江西省大学生程序设计竞赛|2021-10-23|[江西](https://ac.nowcoder.com/acm/contest/21592)|
 |河南|[2021 年河南省第三届 CCPC 大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2021/henan)|2021-10-30|【待补充】|
+|新疆|2021 CCPC 新疆省赛|2021-10-31|[牛客](https://ac.nowcoder.com/acm/contest/22754)|
+|河南|河南省第十三届ICPC大学生程序设计竞赛（重现赛）|2021-11-03|[牛客](https://ac.nowcoder.com/acm/contest/17148)|
 |吉林|[The 15th Jilin Provincial Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2021/jilin)|2021-11-30|[GYM](https://codeforces.com/gym/103486)|
+|湖北|2021 Hubei Provincial Collegiate Programming Contest|2021-12-05|[GYM](https://codeforces.com/gym/103104)|
 |江苏|[2021 年江苏省大学生程序设计大赛](https://board.xcpcio.com/provincial-contest/2021/jiangsu)|2021-12-25|[GYM](https://codeforces.com/gym/103495)|
-|湖北|2021 Hubei Provincial Collegiate Programming Contest||[GYM](https://codeforces.com/gym/103104)|
+|*山东*|“山大地纬杯”第十二届山东省ICPC大学生程序设计竞赛|2022-05-22|[牛客](https://ac.nowcoder.com/acm/contest/34980)|
+|*陕西邀请赛*|2021年ICPC国际大学生程序设计竞赛暨陕西省第九届大学生程序设计竞赛|2022-05-28|[牛客](https://ac.nowcoder.com/acm/contest/35232)|
 
 ### ICPC 46th
 
 |<div style="width:100px;">简称</div>|官方名称|举办时间|补题链接|
 |:--:|:--:|:--:|:--:|
-|网络预选赛(I)|The 2021 ICPC Asia Regionals Online Contest (I)||[PTA](https://pintia.cn/market/item/1439765428045058048)|
-|网络预选赛(II)|The 2021 ICPC Asia Regionals Online Contest (II)||[PTA](https://pintia.cn/market/item/1442013218528759808)|
+|网络预选赛(I)|The 2021 ICPC Asia Regionals Online Contest (I)|2021-09-19|[PTA](https://pintia.cn/market/item/1439765428045058048)|
+|网络预选赛(II)|The 2021 ICPC Asia Regionals Online Contest (II)|2021-09-25|[PTA](https://pintia.cn/market/item/1442013218528759808)|
 |济南|[The 2021 ICPC Asia Jinan Regional Contest](https://board.xcpcio.com/icpc/46th/jinan)|2021-11-14|[PTA](https://pintia.cn/market/item/1459833348620926976)|
-|沈阳|[The 2021 ICPC Asia Shenyang Regional Contest](2021-11-21)|2021-11-21|[GYM](https://codeforces.com/gym/103427), [QOJ](https://qoj.ac/contest/1252)|
-|上海|[The 2021 ICPC Asia Shanghai Regional Programming Contest](https://board.xcpcio.com/icpc/46th/shanghai)|2021-11-28|[GYM](https://codeforces.com/gym/103446)|
+|沈阳|[The 2021 ICPC Asia Shenyang Regional Contest](2021-11-21)|2021-11-21|[GYM](https://codeforces.com/gym/103427), [QOJ](https://qoj.ac/contest/1252), [牛客](https://ac.nowcoder.com/acm/contest/24346)|
+|上海|[The 2021 ICPC Asia Shanghai Regional Programming Contest](https://board.xcpcio.com/icpc/46th/shanghai)|2021-11-28|[GYM](https://codeforces.com/gym/103446), [牛客](https://ac.nowcoder.com/acm/contest/24872)|
 |南京|[The 2021 ICPC Asia Nanjing Regional Contest](https://board.xcpcio.com/icpc/46th/nanjing<br/>*同时也被称呼为*<br/>*XXII Open Cup named after E.V. Pankratiev, Grand Prix of Nanjing*|2021-12-04|[GYM](https://codeforces.com/gym/103470), [QOJ](https://qoj.ac/contest/1236)|
-|澳门|[第46屆ICPC 東亞洲區域賽（澳門）](https://board.xcpcio.com/icpc/46th/macau)<br/>*同时也被称呼为*<br/>*Moscow Pre-Finals Workshops 2022 Day 3*|2022-04-03|[GYM](https://codeforces.com/gym/104373), [NowCoder](https://ac.nowcoder.com/acm/contest/31454), [QOJ](https://qoj.ac/contest/911)|
-|昆明|[第46届ICPC亚洲区域赛（昆明）](https://board.xcpcio.com/icpc/46th/kunming)|2022-04-16|[NowCoder](https://ac.nowcoder.com/acm/contest/32708)|
+|澳门|[第46屆ICPC 東亞洲區域賽（澳門）](https://board.xcpcio.com/icpc/46th/macau)<br/>*同时也被称呼为*<br/>*Moscow Pre-Finals Workshops 2022 Day 3*|2022-04-03|[GYM](https://codeforces.com/gym/104373), [牛客](https://ac.nowcoder.com/acm/contest/31454), [QOJ](https://qoj.ac/contest/911)|
+|昆明|[第46届ICPC亚洲区域赛（昆明）](https://board.xcpcio.com/icpc/46th/kunming)|2022-04-16|[牛客](https://ac.nowcoder.com/acm/contest/32708)|
 |**决赛（西安）**|[2021 ICPC Asia East Continent Final](https://board.xcpcio.com/icpc/46th/ec-final<br/>*同时也被称呼为*<br/>*XXII Open Cup named after E.V. Pankratiev, Grand Prix of China*|2022-07-20|[GYM](https://codeforces.com/gym/103861), [QOJ](https://qoj.ac/contest/1041)|
 |台湾网络预选赛|2021 ICPC Asia Taiwan Online Programming Contest||[GYM](https://codeforces.com/gym/103373)|
 |台湾台北|The 2021 ICPC Asia Taipei Regional Programming Contest||[GYM](https://codeforces.com/gym/103443)|
@@ -209,34 +220,36 @@
 
 ## 2019-2020
 
+> 受新冠疫情影响，本年度赛事存在不同程度推迟问题。
+
 ### 省赛/邀请赛
 
 |<div style="width:100px;">简称</div>|官方名称|举办时间|链接|
 |:--:|:--:|:--:|:--:|
+|吉林|The 14th Jilin Provincial Collegiate Programming Contest|2020-09-27|[GYM](https://codeforces.com/gym/102800)|
 |东北|“红旗杯”[第十四届东北地区大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2020/necpc)|2020-10-11|【待补充】|
-|江西|[2020ICPC 江西省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2020/jscpc)|2020-11-15|【待补充】|
 |浙江|[The 17th Zhejiang Provincial Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2020/zjcpc)|2020-10-17|[GYM](https://codeforces.com/gym/102770)|
-|江苏|2020 Jiangsu Collegiate Programming Contest||[GYM](https://codeforces.com/gym/102875)|
 |湖南邀请赛|第十六届湖南省大学生计算机程序设计竞赛（The 2020 Hunan Collegiate Programming Contest, HNCPC 2020）|2020-10-18|[QOJ](https://qoj.ac/contest/908)|
+|江西|[2020ICPC 江西省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2020/jscpc)|2020-11-15|[牛客](https://ac.nowcoder.com/acm/contest/8827)|
+|江苏|2020 Jiangsu Collegiate Programming Contest|2020-11-15|[GYM](https://codeforces.com/gym/102875)|
 |河南|“卓见杯”[2020 CCPC Henan Provincial Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2020/henancpc)|2020-11-21|[GYM](https://codeforces.com/gym/104095)|
-|吉林|The 14th Jilin Provincial Collegiate Programming Contest||[GYM](https://codeforces.com/gym/102800)|
 
 ### ICPC 45th
 
-> 受新冠疫情影响，本年度赛事存在不同程度推迟问题。
-
 |<div style="width:100px;">简称</div>|官方名称|举办时间|链接|
 |:--:|:--:|:--:|:--:|
-|网络预选赛(I)|[ICPC2020-ICPC·小米 网络选拔赛第一场](https://board.xcpcio.com/icpc/2020/xiaomi-preliminary-contest-1)|2020-10-25|【待补充】|
-|网络预选赛(II)|[ICPC2020-ICPC·小米 网络选拔赛第二场](https://board.xcpcio.com/icpc/2020/xiaomi-preliminary-contest-2)|2020-10-31|【待补充】|
-|上海|[The 2020 ICPC Asia Shanghai Regional Contest](https://board.xcpcio.com/icpc/2020/shanghai)|2020-12-13|[GYM](https://codeforces.com/gym/102900), [QOJ](https://qoj.ac/contest/1477)|
-|南京|[The 2020 ICPC Asia Nanjing Regional Contest](https://board.xcpcio.com/icpc/2020/nanjing)<br/>*同时也被称呼为*<br/>*XXI Open Cup named after E.V. Pankratiev, Grand Prix of Nanjing*|2020-12-20|[QOJ](https://qoj.ac/contest/1235)|
-|济南|[第 45 届国际大学生程序设计竞赛（ICPC）亚洲区域赛（济南）](https://board.xcpcio.com/icpc/2020/jinan)|2020-12-27|[NowCoder](https://ac.nowcoder.com/acm/contest/10662)|
-|昆明|[第 45 届国际大学生程序设计竞赛（ICPC）亚洲区域赛（昆明）](https://board.xcpcio.com/icpc/2020/kunming)|2021-04-03|[NowCoder](https://ac.nowcoder.com/acm/contest/12548)|
+|小米·网络预选赛(I)|[ICPC2020-ICPC·小米 网络选拔赛第一场](https://board.xcpcio.com/icpc/2020/xiaomi-preliminary-contest-1)|2020-10-25|[牛客](https://ac.nowcoder.com/acm/contest/7501)|
+|小米·网络预选赛(II)|[ICPC2020-ICPC·小米 网络选拔赛第二场](https://board.xcpcio.com/icpc/2020/xiaomi-preliminary-contest-2)|2020-10-31|[牛客](https://ac.nowcoder.com/acm/contest/7502)|
+|网络预选赛模拟赛|第 45 届国际大学生程序设计竞赛（ICPC）亚洲网上区域赛模拟赛|2020-10-31|[牛客](https://ac.nowcoder.com/acm/contest/8688)|
+|**小米·决赛**|2020 ICPC·小米邀请赛 决赛|2020-11-22|[牛客](https://ac.nowcoder.com/acm/contest/9328)|
+|上海|[The 2020 ICPC Asia Shanghai Regional Contest](https://board.xcpcio.com/icpc/2020/shanghai)|2020-12-13|[GYM](https://codeforces.com/gym/102900), [QOJ](https://qoj.ac/contest/1477), [牛客](https://ac.nowcoder.com/acm/contest/9925)|
+|南京|[The 2020 ICPC Asia Nanjing Regional Contest](https://board.xcpcio.com/icpc/2020/nanjing)<br/>*同时也被称呼为*<br/>*XXI Open Cup named after E.V. Pankratiev, Grand Prix of Nanjing*|2020-12-20|[QOJ](https://qoj.ac/contest/1235), [牛客](https://ac.nowcoder.com/acm/contest/10272)|
+|济南|[第 45 届国际大学生程序设计竞赛（ICPC）亚洲区域赛（济南）](https://board.xcpcio.com/icpc/2020/jinan)|2020-12-27|[牛客](https://ac.nowcoder.com/acm/contest/10662)|
+|昆明|[第 45 届国际大学生程序设计竞赛（ICPC）亚洲区域赛（昆明）](https://board.xcpcio.com/icpc/2020/kunming)|2021-04-03|[牛客](https://ac.nowcoder.com/acm/contest/12548)|
 |**决赛（西安）**|[The 2020 ICPC Asia East Continent Final Contest (EC-Final 2020)](https://board.xcpcio.com/icpc/2020/ec-final)<br/>*同时也被称呼为*<br/>*XXI Open Cup named after E.V. Pankratiev, Grand Prix of Xi'an*<br/>*Moscow Pre-Finals Workshops 2021 Day 5*|2021-04-18|[QOJ](https://qoj.ac/contest/1040)|
 |银川|[The 2020 ICPC Asia Yinchuan Regional Contest](https://board.xcpcio.com/icpc/2020/yinchuan)|2021-05-16|[QOJ](https://qoj.ac/contest/1322)|
 |澳门|The 2020 ICPC Asia Macau Regional Contest|2021-06-01|[QOJ](https://qoj.ac/contest/1538)|
-|沈阳|The 2020 ICPC Asia Shenyang Regional Contest|2021-07-18|[GYM](https://codeforces.com/gym/103202), [QOJ](https://qoj.ac/contest/1251)|
+|沈阳|The 2020 ICPC Asia Shenyang Regional Contest|2021-07-18|[GYM](https://codeforces.com/gym/103202), [QOJ](https://qoj.ac/contest/1251), [牛客](https://ac.nowcoder.com/acm/contest/18713)|
 |台湾网络预选赛||||
 |台湾新竹|The 2020 ICPC Asia Taipei-Hsinchu Site Programming Contest||[GYM](https://codeforces.com/gym/102835), [QOJ](https://qoj.ac/contest/469)|
 
@@ -253,7 +266,7 @@
 |长春|[2020 China Collegiate Programming Contest Changchun Onsite](https://board.xcpcio.com/ccpc/2020/changchun)|2020-11-08|[GYM](https://codeforces.com/gym/102832)|
 |**决赛**|[第六届中国大学生程序设计竞赛（CCPC 2020）](https://board.xcpcio.com/ccpc/2020/final)<br/>*同时也被称呼为*<br/>*XXI Open Cup named after E.V. Pankratiev, Grand Prix of Beijing*|2021-05-30|[QOJ](https://qoj.ac/contest/845)|
 
-# 2019 疫情前赛季
+# 2019 疫情前赛季（未作整理）
 
 ## 2019 赛季
 
@@ -285,7 +298,7 @@
 |沈阳|||
 |上海预选赛|The Preliminary Contest for ICPC Asia Shanghai 2019|[计蒜客](https://www.jisuanke.com/contest/3003)|
 |上海|The 2019 ICPC Asia Shanghai Regional Contest|[牛客](https://ac.nowcoder.com/acm/contest/4370)|
-|**决赛（西安）**|2019 ICPC Asia-East Continent Final<br/>*同时也被称呼为*<br/>*XX Open Cup named after E.V. Pankratiev, Grand Prix of Xi'an*|[GYM](https://codeforces.com/gym/102471), [QOJ](https://qoj.ac/contest/1039)|
+|**决赛（西安）**|2019 ICPC Asia-East Continent Final<br/>*同时也被称呼为*<br/>*XX Open Cup named after E.V. Pankratiev, Grand Prix of Xi'an*|[GYM](https://codeforces.com/gym/102471), [QOJ](https://qoj.ac/contest/1039), [牛客](https://ac.nowcoder.com/acm/contest/3732)|
 
 ### ICPC 44th 港澳台
 
