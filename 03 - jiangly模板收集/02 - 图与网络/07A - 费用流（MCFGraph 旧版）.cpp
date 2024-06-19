@@ -1,3 +1,8 @@
+/**   费用流（MCFGraph 旧版）
+ *    2022-12-12: https://codeforces.com/contest/1766/submission/184974697
+ *
+ *    下方为最小费用**最大流**模板，如需求解最小费用**可行流**，需要去除建边限制
+**/
 struct MCFGraph {
     struct Edge {
         int v, c, f;
@@ -34,17 +39,17 @@ struct MCFGraph {
     }
     MCFGraph(int n) : n(n), g(n) {}
     void addEdge(int u, int v, int c, int f) {
-        if (f < 0) {
+        // if (f < 0) {
             g[u].push_back(e.size());
             e.emplace_back(v, 0, f);
             g[v].push_back(e.size());
             e.emplace_back(u, c, -f);
-        } else {
-            g[u].push_back(e.size());
-            e.emplace_back(v, c, f);
-            g[v].push_back(e.size());
-            e.emplace_back(u, 0, -f);
-        }
+        // } else {
+        //     g[u].push_back(e.size());
+        //     e.emplace_back(v, c, f);
+        //     g[v].push_back(e.size());
+        //     e.emplace_back(u, 0, -f);
+        // }
     }
     std::pair<int, i64> flow(int s, int t) {
         int flow = 0;

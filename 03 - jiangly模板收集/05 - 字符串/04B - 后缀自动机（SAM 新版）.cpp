@@ -1,3 +1,9 @@
+/**   后缀自动机（SAM 新版）
+ *    2023-05-27: https://cf.dianhsu.com/gym/104353/submission/207318083
+ *    2023-09-25: https://qoj.ac/submission/188106
+ *    2024-04-09: https://qoj.ac/submission/384423 【模板】
+ *    2024-04-09: https://qoj.ac/submission/384429 【模板】
+**/
 struct SAM {
     static constexpr int ALPHABET_SIZE = 26;
     struct Node {

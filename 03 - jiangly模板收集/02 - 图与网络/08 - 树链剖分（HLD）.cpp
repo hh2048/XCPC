@@ -1,3 +1,6 @@
+/**   树链剖分（HLD）
+ *    2023-08-31: https://codeforces.com/contest/1863/submission/221214363
+**/
 struct HLD {
     int n;
     std::vector<int> siz, top, dep, parent, in, out, seq;
@@ -117,4 +120,3 @@ struct HLD {
         return lca(a, b) ^ lca(b, c) ^ lca(c, a);
     }
 };
-

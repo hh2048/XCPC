@@ -1,3 +1,6 @@
+/**   组合数（Comb, with. MInt & MLong）
+ *    2023-08-26: https://codeforces.com/contest/1864/submission/220584872
+**/
 struct Comb {
     int n;
     std::vector<Z> _fac;

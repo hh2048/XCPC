@@ -1,3 +1,6 @@
+/**   莫比乌斯函数筛（莫比乌斯函数/反演）
+ *    2023-03-04: https://atcoder.jp/contests/tupc2022/submissions/39391116
+**/
 std::unordered_map<int, Z> fMu;
 
 constexpr int N = 1E7;
@@ -34,7 +37,6 @@ void sieve(int n) {
     }
 }
 
-
 Z sumMu(int n) {
     if (n <= N) {
         return mu[n];
@@ -52,29 +54,3 @@ Z sumMu(int n) {
     }
     return ans;
 }
-
-int main() {
-    std::ios::sync_with_stdio(false);
-    std::cin.tie(nullptr);
-    
-    sieve(N);
-    
-    int L, R;
-    std::cin >> L >> R;
-    L -= 1;
-    
-    Z ans = 0;
-    for (int l = 1, r; l <= R; l = r + 1) {
-        r = R / (R / l);
-        if (l <= L) {
-            r = std::min(r, L / (L / l));
-        }
-        
-        ans += (power(Z(2), R / l - L / l) - 1) * (sumMu(r) - sumMu(l - 1));
-    }
-    
-    std::cout << ans << "\n";
-    
-    return 0;
-}
-

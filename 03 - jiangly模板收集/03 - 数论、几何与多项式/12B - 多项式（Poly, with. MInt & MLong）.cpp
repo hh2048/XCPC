@@ -1,3 +1,6 @@
+/**   多项式相关（Poly, with. MInt & MLong）
+ *    2023-09-20: https://atcoder.jp/contests/arc163/submissions/45737810
+**/
 std::vector<int> rev;
 template<int P>
 std::vector<MInt<P>> roots{0, 1};

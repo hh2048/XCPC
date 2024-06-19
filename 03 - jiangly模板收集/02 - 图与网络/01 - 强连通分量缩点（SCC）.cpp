@@ -1,3 +1,6 @@
+/**   强连通分量缩点（SCC）
+ *    2023-06-18: https://codeforces.com/contest/1835/submission/210147209
+**/
 struct SCC {
     int n;
     std::vector<std::vector<int>> adj;
@@ -57,4 +60,3 @@ struct SCC {
         return bel;
     }
 };
-

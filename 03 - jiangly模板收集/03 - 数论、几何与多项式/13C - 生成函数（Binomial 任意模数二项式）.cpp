@@ -1,3 +1,6 @@
+/**   生成函数（Binomial 任意模数二项式）
+ *    2023-08-22: https://codeforces.com/contest/896/submission/219861532
+**/
 std::vector<std::pair<int, int>> factorize(int n) {
     std::vector<std::pair<int, int>> factors;
     for (int i = 2; static_cast<long long>(i) * i <= n; i++) {

@@ -1,3 +1,6 @@
+/**   树状数组（Fenwick 新版）
+ *    2023-12-28: https://codeforces.com/contest/1915/submission/239262801
+**/
 template <typename T>
 struct Fenwick {
     int n;

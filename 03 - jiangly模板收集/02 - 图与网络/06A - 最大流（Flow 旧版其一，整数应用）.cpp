@@ -1,3 +1,6 @@
+/**   最大流（Flow 旧版其一，整数应用）
+ *    2022-09-03: https://codeforces.com/contest/1717/submission/170688062
+**/
 template<class T>
 struct Flow {
     const int n;

@@ -1,4 +1,8 @@
-std::vector<int> zFunction(std::string s) {
+/**   Z函数
+ *    2023-08-11: https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63378373
+ *    2024-04-09: https://qoj.ac/submission/384405 【模板】
+**/
+std::vector<int> Z(std::string s) {
     int n = s.size();
     std::vector<int> z(n + 1);
     z[0] = n;

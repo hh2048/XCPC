@@ -1,3 +1,6 @@
+/**   int128 输出流自定义
+ *    2023-03-20: https://codeforces.com/contest/1806/submission/198413531
+**/
 using i128 = __int128;
 
 std::ostream &operator<<(std::ostream &os, i128 n) {

@@ -1,3 +1,6 @@
+/**   TwoSat（2-Sat）
+ *    2023-09-29: https://atcoder.jp/contests/arc161/submissions/46031530
+**/
 struct TwoSat {
     int n;
     std::vector<std::vector<int>> e;
@@ -41,4 +44,3 @@ struct TwoSat {
     }
     std::vector<bool> answer() { return ans; }
 };
-

@@ -1,3 +1,6 @@
+/**   静态凸包（with. Point，旧版）
+ *    2023-04-09: https://cf.dianhsu.com/gym/104288/submission/201412835
+**/
 struct Point {
     i64 x;
     i64 y;
@@ -69,4 +72,3 @@ std::vector<Point> getHull(std::vector<Point> p) {
     l.insert(l.end(), h.begin(), h.end());
     return l;
 }
-

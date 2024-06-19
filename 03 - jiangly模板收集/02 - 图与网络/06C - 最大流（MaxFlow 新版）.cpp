@@ -1,3 +1,6 @@
+/**   最大流（MaxFlow 新版）
+ *    2023-07-21: https://ac.nowcoder.com/acm/contest/view-submission?submissionId=62915815
+**/
 constexpr int inf = 1E9;
 template<class T>
 struct MaxFlow {
@@ -109,4 +112,3 @@ struct MaxFlow {
         return a;
     }
 };
-

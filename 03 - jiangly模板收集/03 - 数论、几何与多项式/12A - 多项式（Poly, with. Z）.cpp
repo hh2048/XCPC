@@ -1,3 +1,6 @@
+/**   多项式相关（Poly, with. Z）
+ *    2023-02-06: https://atcoder.jp/contests/arc155/submissions/38664055
+**/
 std::vector<int> rev;
 std::vector<Z> roots{0, 1};
 void dft(std::vector<Z> &a) {

@@ -1,3 +1,8 @@
+/**   后缀数组（SuffixArray 旧版）
+ *    2023-03-14: https://atcoder.jp/contests/discovery2016-qual/submissions/39727257
+ *    2023-09-05: https://qoj.ac/submission/164483
+ *    2024-04-09: https://qoj.ac/submission/384415 【模板】
+**/
 struct SuffixArray {
     int n;
     std::vector<int> sa, rk, lc;

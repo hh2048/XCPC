@@ -1,3 +1,6 @@
+/**   线段树（SegmentTree 区间乘+单点加）
+ *    2023-10-18: https://cf.dianhsu.com/gym/104417/submission/223800089
+**/
 struct SegmentTree {
     int n;
     std::vector<int> tag, sum;

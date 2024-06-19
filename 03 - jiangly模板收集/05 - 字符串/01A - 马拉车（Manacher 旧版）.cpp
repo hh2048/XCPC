@@ -1,3 +1,7 @@
+/**   马拉车（Manacher 旧版）
+ *    2024-04-06: https://qoj.ac/submission/380047
+ *    2024-04-09: https://qoj.ac/submission/384389 【模板】
+**/
 std::vector<int> manacher(std::string s) {
     std::string t = "#";
     for (auto c : s) {

@@ -1,14 +1,33 @@
-constexpr int inf = 1E9 + 1;
+/**   懒标记线段树（LazySegmentTree）
+ *    2023-03-03: https://atcoder.jp/contests/joi2023yo2/submissions/39363123
+ *    2023-03-12: https://codeforces.com/contest/1804/submission/197106837
+ *    2023-07-17: https://ac.nowcoder.com/acm/contest/view-submission?submissionId=62804432
+ *    2023-11-12: https://qoj.ac/submission/249505
+**/
 template<class Info, class Tag>
 struct LazySegmentTree {
-    const int n;
+    int n;
     std::vector<Info> info;
     std::vector<Tag> tag;
-    LazySegmentTree(int n) : n(n), info(4 << std::__lg(n)), tag(4 << std::__lg(n)) {}
-    LazySegmentTree(std::vector<Info> init) : LazySegmentTree(init.size()) {
+    LazySegmentTree() : n(0) {}
+    LazySegmentTree(int n_, Info v_ = Info()) {
+        init(n_, v_);
+    }
+    template<class T>
+    LazySegmentTree(std::vector<T> init_) {
+        init(init_);
+    }
+    void init(int n_, Info v_ = Info()) {
+        init(std::vector(n_, v_));
+    }
+    template<class T>
+    void init(std::vector<T> init_) {
+        n = init_.size();
+        info.assign(4 << std::__lg(n), Info());
+        tag.assign(4 << std::__lg(n), Tag());
         std::function<void(int, int, int)> build = [&](int p, int l, int r) {
             if (r - l == 1) {
-                info[p] = init[l];
+                info[p] = init_[l];
                 return;
             }
             int m = (l + r) / 2;
@@ -78,6 +97,65 @@ struct LazySegmentTree {
     void rangeApply(int l, int r, const Tag &v) {
         return rangeApply(1, 0, n, l, r, v);
     }
+    void half(int p, int l, int r) {
+        if (info[p].act == 0) {
+            return;
+        }
+        if ((info[p].min + 1) / 2 == (info[p].max + 1) / 2) {
+            apply(p, {-(info[p].min + 1) / 2});
+            return;
+        }
+        int m = (l + r) / 2;
+        push(p);
+        half(2 * p, l, m);
+        half(2 * p + 1, m, r);
+        pull(p);
+    }
+    void half() {
+        half(1, 0, n);
+    }
+    
+    template<class F>
+    int findFirst(int p, int l, int r, int x, int y, F pred) {
+        if (l >= y || r <= x || !pred(info[p])) {
+            return -1;
+        }
+        if (r - l == 1) {
+            return l;
+        }
+        int m = (l + r) / 2;
+        push(p);
+        int res = findFirst(2 * p, l, m, x, y, pred);
+        if (res == -1) {
+            res = findFirst(2 * p + 1, m, r, x, y, pred);
+        }
+        return res;
+    }
+    template<class F>
+    int findFirst(int l, int r, F pred) {
+        return findFirst(1, 0, n, l, r, pred);
+    }
+    template<class F>
+    int findLast(int p, int l, int r, int x, int y, F pred) {
+        if (l >= y || r <= x || !pred(info[p])) {
+            return -1;
+        }
+        if (r - l == 1) {
+            return l;
+        }
+        int m = (l + r) / 2;
+        push(p);
+        int res = findLast(2 * p + 1, m, r, x, y, pred);
+        if (res == -1) {
+            res = findLast(2 * p, l, m, x, y, pred);
+        }
+        return res;
+    }
+    template<class F>
+    int findLast(int l, int r, F pred) {
+        return findLast(1, 0, n, l, r, pred);
+    }
+    
     void maintainL(int p, int l, int r, int pre) {
         if (info[p].difl > 0 && info[p].maxlowl < pre) {
             return;
@@ -121,66 +199,19 @@ struct LazySegmentTree {
 };
 
 struct Tag {
-    int add = 0;
-    
-    void apply(Tag t) & {
-        add += t.add;
+    int x = 0;
+    void apply(const Tag &t) & {
+        x = std::max(x, t.x);
     }
 };
 
 struct Info {
-    int max = -1;
-    int maxl = -1;
-    int maxr = -1;
-    int difl = inf;
-    int difr = inf;
-    int maxlowl = -inf;
-    int maxlowr = -inf;
-    
-    void apply(Tag t) & {
-        if (max != -1) {
-            max += t.add;
-        }
-        difl += t.add;
-        difr += t.add;
+    int x = 0;
+    void apply(const Tag &t) & {
+        x = std::max(x, t.x);
     }
 };
 
-Info operator+(Info a, Info b) {
-    Info c;
-    if (a.max > b.max) {
-        c.max = a.max;
-        c.maxl = a.maxl;
-        c.maxr = a.maxr;
-    } else if (a.max < b.max) {
-        c.max = b.max;
-        c.maxl = b.maxl;
-        c.maxr = b.maxr;
-    } else {
-        c.max = a.max;
-        c.maxl = a.maxl;
-        c.maxr = b.maxr;
-    }
-    
-    c.difl = std::min(a.difl, b.difl);
-    c.difr = std::min(a.difr, b.difr);
-    if (a.max != -1) {
-        c.difl = std::min(c.difl, a.max - b.maxlowl);
-    }
-    if (b.max != -1) {
-        c.difr = std::min(c.difr, b.max - a.maxlowr);
-    }
-    
-    if (a.max == -1) {
-        c.maxlowl = std::max(a.maxlowl, b.maxlowl);
-    } else {
-        c.maxlowl = a.maxlowl;
-    }
-    if (b.max == -1) {
-        c.maxlowr = std::max(a.maxlowr, b.maxlowr);
-    } else {
-        c.maxlowr = b.maxlowr;
-    }
-    return c;
+Info operator+(const Info &a, const Info &b) {
+    return {std::max(a.x, b.x)};
 }
-

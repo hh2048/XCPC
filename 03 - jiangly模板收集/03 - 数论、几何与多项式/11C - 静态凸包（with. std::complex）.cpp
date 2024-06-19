@@ -1,3 +1,6 @@
+/**   静态凸包（with. std::complex）
+ *    2022-02-04: https://loj.ac/s/1370861
+**/
 using Point = std::complex<i64>;
 
 #define x real

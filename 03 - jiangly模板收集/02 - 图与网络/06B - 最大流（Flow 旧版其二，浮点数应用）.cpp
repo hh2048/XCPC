@@ -1,3 +1,6 @@
+/**   最大流（Flow 旧版其二，浮点数应用）
+ *    2022-04-09: https://cf.dianhsu.com/gym/104288/submission/201412765
+**/
 template<class T>
 struct Flow {
     const int n;

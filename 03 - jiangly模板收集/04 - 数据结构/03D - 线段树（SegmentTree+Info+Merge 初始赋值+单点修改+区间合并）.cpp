@@ -1,3 +1,6 @@
+/**   线段树（SegmentTree+Info+Merge 初始赋值+单点修改+区间合并）
+ *    2022-04-23: https://codeforces.com/contest/1672/submission/154766851
+**/
 template<class Info,
     class Merge = std::plus<Info>>
 struct SegmentTree {

@@ -1,3 +1,6 @@
+/**   树状数组（Fenwick 旧版）
+ *    2023-08-11: https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63382128
+**/
 template <typename T>
 struct Fenwick {
     int n;
@@ -41,4 +44,3 @@ struct Fenwick {
         return x;
     }
 };
-

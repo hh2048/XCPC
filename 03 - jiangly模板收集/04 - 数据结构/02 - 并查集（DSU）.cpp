@@ -1,3 +1,6 @@
+/**   并查集（DSU）
+ *    2023-08-04: https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63239142
+**/
 struct DSU {
     std::vector<int> f, siz;
     
@@ -38,4 +41,3 @@ struct DSU {
         return siz[find(x)];
     }
 };
-

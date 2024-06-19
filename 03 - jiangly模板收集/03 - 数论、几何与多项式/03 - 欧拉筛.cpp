@@ -1,3 +1,6 @@
+/**   欧拉筛
+ *    2023-11-14: https://qoj.ac/submission/251234
+**/
 std::vector<int> minp, primes;
 
 void sieve(int n) {
@@ -22,3 +25,6 @@ void sieve(int n) {
     }
 }
 
+bool isprime(int n) {
+    return minp[n] == n;
+}

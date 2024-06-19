@@ -1,3 +1,7 @@
+/**   状压RMQ（RMQ）
+ *    2023-03-02: https://atcoder.jp/contests/joi2022ho/submissions/39351739
+ *    2023-09-04: https://qoj.ac/submission/163598
+**/
 template<class T,
     class Cmp = std::less<T>>
 struct RMQ {

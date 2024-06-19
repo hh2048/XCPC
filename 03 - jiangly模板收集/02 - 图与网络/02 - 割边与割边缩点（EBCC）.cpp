@@ -1,3 +1,6 @@
+/**   割边与割边缩点（EBCC）
+ *    2023-05-11: https://codeforces.com/contest/118/submission/205426518
+**/
 std::set<std::pair<int, int>> E;
 
 struct EBCC {
@@ -85,4 +88,3 @@ struct EBCC {
         return g;
     }
 };
-

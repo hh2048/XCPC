@@ -1,3 +1,8 @@
+/**   二分图最大权匹配（MaxAssignment 基于KM）
+ *    2022-04-10: https://atcoder.jp/contests/abc247/submissions/30867023
+ *    2023-09-21: https://qoj.ac/submission/184824
+**/
+constexpr int inf = 1E7;
 template<class T>
 struct MaxAssignment {
     public:
