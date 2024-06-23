@@ -25,23 +25,27 @@
 
 |<div style="width:100px;">简称</div>|官方名称|<div style="width:100px;">举办时间</div>|<div style="width:70px;">补题链接</div>|
 |:--:|:--:|:--:|:--:|
-|Z浙江|“睿琪杯” [浙江省第 21 届大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/zhejiang)|2024-04-13|【待补充】|
-|H黑龙江|第十九届黑龙江省大学生程序设计竞赛|2024-04-14|[PTA](https://pintia.cn/market/item/1793901564338823168)|
-|H湖北邀请赛|[The 2024 International Collegiate Programming Contest in Hubei Province, China](https://board.xcpcio.com/provincial-contest/2024/hubei)|2024-04-27|[GYM](https://codeforces.com/gym/105139)|
-|W武汉邀请赛|[2024 ICPC National Invitational Collegiate Programming Contest, Wuhan Site](https://board.xcpcio.com/icpc/49th/wuhan-invitational)|2024-05-02|[GYM](https://codeforces.com/gym/105143)|
-|N内蒙古|“华讯杯”内蒙古自治区第十七届大学生程序设计竞赛|2024-05-12|[PTA](https://pintia.cn/market/item/1793842121618161664)|
-|J江苏|“华为杯” [2024 Jiangsu Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2024/jiangsu)|2024-05-12|[GYM](https://codeforces.com/gym/105161)|
-|H河南邀请赛|[2024 National Invitational of CCPC (Zhengzhou)](https://board.xcpcio.com/provincial-contest/2024/henan)<br/>*同时也被称呼为*<br/>2024 CCPC Henan Provincial Collegiate Programming Contest|2024-05-12|[GYM](https://codeforces.com/gym/105158)|
-|J吉林邀请赛|The 2024 CCPC National Invitational Contest (Changchun)<br/>*同时也被称呼为*<br/>*The 17th Jilin Provincial Collegiate Programming Contest*|2024-05-18|[GYM](https://codeforces.com/gym/105170)|
-|X新疆|2024年国际大学生程序设计竞赛（ACM-ICPC）新疆赛区大赛|2024-05-18|[牛客](https://ac.nowcoder.com/acm/contest/82345)|
-|B北京|[2024 北京市大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/beijing)|2024-05-19|[QOJ](https://qoj.ac/contest/1668), [PTA](https://pintia.cn/market/item/1794312172238471168)|
-|G广西|[第七届广西大学生程序设计大赛](https://board.xcpcio.com/provincial-contest/2024/guangxi)|2024-05-19|[PTA](https://pintia.cn/market/item/1793821896168361984)|
-|X西安|[第 49 届 ICPC 国际大学生程序设计竞赛邀请赛西安站](https://board.xcpcio.com/icpc/49th/xian-invitational)|2024-05-19|【待补充】|
-|K昆明|[第 49 届 ICPC 国际大学生程序设计竞赛邀请赛昆明站](https://board.xcpcio.com/icpc/49th/kunming-invitational)|2024-05-26|【待补充】|
-|G广东|[第二十一届广东省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/guangdong)|2024-05-26|【待补充】|
-|H河北|[2024 CCPC 河北省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/hebei)|2024-05-26|【待补充】|
-|S山东|[2024 CCPC 全国邀请赛（山东）暨山东省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/shandong)|2024-05-26|【待补充】|
-|J江西|[]()|2024-06-02|【待补充】|
+|浙江|“睿琪杯” [浙江省第 21 届大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/zhejiang)|2024-04-13|【待补充】|
+|黑龙江|第十九届黑龙江省大学生程序设计竞赛|2024-04-14|[PTA](https://pintia.cn/market/item/1793901564338823168)|
+|湖北邀请赛|[The 2024 International Collegiate Programming Contest in Hubei Province, China](https://board.xcpcio.com/provincial-contest/2024/hubei)|2024-04-27|[GYM](https://codeforces.com/gym/105139)|
+|武汉邀请赛|[2024 ICPC National Invitational Collegiate Programming Contest, Wuhan Site](https://board.xcpcio.com/icpc/49th/wuhan-invitational)|2024-05-02|[GYM](https://codeforces.com/gym/105143)|
+|内蒙古|“华讯杯”内蒙古自治区第十七届大学生程序设计竞赛|2024-05-12|[PTA](https://pintia.cn/market/item/1793842121618161664)|
+|江苏|“华为杯” [2024 Jiangsu Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2024/jiangsu)|2024-05-12|[GYM](https://codeforces.com/gym/105161)|
+|河南邀请赛|[2024 National Invitational of CCPC (Zhengzhou)](https://board.xcpcio.com/provincial-contest/2024/henan)<br/>*同时也被称呼为*<br/>*2024 CCPC Henan Provincial Collegiate Programming Contest*|2024-05-12|[GYM](https://codeforces.com/gym/105158)|
+|吉林邀请赛|The 2024 CCPC National Invitational Contest (Changchun)<br/>*同时也被称呼为*<br/>*The 17th Jilin Provincial Collegiate Programming Contest*|2024-05-18|[GYM](https://codeforces.com/gym/105170)|
+|新疆|2024年国际大学生程序设计竞赛（ACM-ICPC）新疆赛区大赛|2024-05-18|[牛客](https://ac.nowcoder.com/acm/contest/82345)|
+|北京|[2024 北京市大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/beijing)|2024-05-19|[QOJ](https://qoj.ac/contest/1668), [PTA](https://pintia.cn/market/item/1794312172238471168)|
+|广西|[第七届广西大学生程序设计大赛](https://board.xcpcio.com/provincial-contest/2024/guangxi)|2024-05-19|[PTA](https://pintia.cn/market/item/1793821896168361984)|
+|西安邀请赛|[第 49 届 ICPC 国际大学生程序设计竞赛邀请赛西安站](https://board.xcpcio.com/icpc/49th/xian-invitational)|2024-05-19|【待补充】|
+|东北四省邀请赛|The 2024 CCPC National Invitational Contest (Northeast)<br/>*同时也被称呼为*<br/>*The 18th Northeast Collegiate Programming Contest*|2024-05-19|[GYM](https://codeforces.com/gym/105173)|
+|昆明|[第 49 届 ICPC 国际大学生程序设计竞赛邀请赛昆明站](https://board.xcpcio.com/icpc/49th/kunming-invitational)|2024-05-26|【待补充】|
+|广东|[第二十一届广东省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/guangdong)|2024-05-26|[QOJ](https://qoj.ac/contest/1692)|
+|河北|[The 8th Hebei Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2024/hebei)|2024-05-26|[GYM](https://codeforces.com/gym/105184)|
+|山东|[2024 CCPC 全国邀请赛（山东）暨山东省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/shandong)|2024-05-26|【待补充】|
+|江西|[2024 (ICPC) Jiangxi Provincial Contest -- Official Contest](https://board.xcpcio.com/provincial-contest/2024/jiangxi)|2024-06-02|[GYM](https://codeforces.com/gym/105231)|
+|陕西|[第 12 届陕西省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/shaanxi)|2024-06-02|【待补充】|
+|四川|[The 2024 Sichuan Provincial Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2024/sichuan)|2024-06-16|[GYM](https://codeforces.com/gym/105222)|
+|上海|“华为智联杯”[The 2024 Shanghai Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2024/shanghai)|2024-06-16|[GYM](https://codeforces.com/gym/105229)|
 
 ### ICPC 49th
 
