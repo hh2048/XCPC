@@ -1,5 +1,6 @@
 /**   线段树（SegmentTree+Info 初始赋值+单点修改+查找前驱后继）
  *    2023-07-17: https://ac.nowcoder.com/acm/contest/view-submission?submissionId=62804432
+ *    2024-06-25: https://codeforces.com/contest/1982/submission/267353839
 **/
 template<class Info>
 struct SegmentTree {
@@ -65,8 +66,11 @@ struct SegmentTree {
         return rangeQuery(1, 0, n, l, r);
     }
     template<class F>
-    int findFirst(int p, int l, int r, int x, int y, F pred) {
-        if (l >= y || r <= x || !pred(info[p])) {
+    int findFirst(int p, int l, int r, int x, int y, F &&pred) {
+        if (l >= y || r <= x) {
+            return -1;
+        }
+        if (l >= x && r <= y && !pred(info[p])) {
             return -1;
         }
         if (r - l == 1) {
@@ -80,12 +84,15 @@ struct SegmentTree {
         return res;
     }
     template<class F>
-    int findFirst(int l, int r, F pred) {
+    int findFirst(int l, int r, F &&pred) {
         return findFirst(1, 0, n, l, r, pred);
     }
     template<class F>
-    int findLast(int p, int l, int r, int x, int y, F pred) {
-        if (l >= y || r <= x || !pred(info[p])) {
+    int findLast(int p, int l, int r, int x, int y, F &&pred) {
+        if (l >= y || r <= x) {
+            return -1;
+        }
+        if (l >= x && r <= y && !pred(info[p])) {
             return -1;
         }
         if (r - l == 1) {
@@ -99,7 +106,7 @@ struct SegmentTree {
         return res;
     }
     template<class F>
-    int findLast(int l, int r, F pred) {
+    int findLast(int l, int r, F &&pred) {
         return findLast(1, 0, n, l, r, pred);
     }
 };

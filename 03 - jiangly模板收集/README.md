@@ -8,23 +8,15 @@
 
 # 01 - 杂类
 
-## 01 - int128 输出流
+- [01 - int128 输出流](https://github.com/hh2048/XCPC/blob/main/03%20-%20jiangly%E6%A8%A1%E6%9D%BF%E6%94%B6%E9%9B%86/01%20-%20%E6%9D%82%E7%B1%BB/01%20-%20int128%20%E8%BE%93%E5%87%BA%E6%B5%81%E8%87%AA%E5%AE%9A%E4%B9%89.cpp)
 
-[2023-03-20](https://codeforces.com/contest/1806/submission/198413531)
+### [02 - 库函数重载](https://github.com/hh2048/XCPC/blob/main/03%20-%20jiangly%E6%A8%A1%E6%9D%BF%E6%94%B6%E9%9B%86/01%20-%20%E6%9D%82%E7%B1%BB/02%20-%20%E5%B8%B8%E7%94%A8%E5%BA%93%E5%87%BD%E6%95%B0%E9%87%8D%E8%BD%BD.cpp)
 
-## 02 - 库函数重载
+### [03 - 字符调整](https://github.com/hh2048/XCPC/blob/main/03%20-%20jiangly%E6%A8%A1%E6%9D%BF%E6%94%B6%E9%9B%86/01%20-%20%E6%9D%82%E7%B1%BB/03%20-%20%E5%AD%97%E7%AC%A6%E8%B0%83%E6%95%B4.cpp)
 
-上取整下取整 [2023-10-15](https://codeforces.com/contest/293/submission/228297248)
+### 04 - 二分算法
 
-最大值赋值 [2023-09-30](https://codeforces.com/contest/1874/submission/226069129)
-
-精确开平方 [2024-03-02](https://qoj.ac/submission/343317)，[2023-09-19](https://qoj.ac/submission/183430)
-
-## 03 - 字符调整
-
-大小写转换、获取字母序 [2024-03-16](https://qoj.ac/submission/355156)
-
-## 04 - 实数域二分
+#### [二分算法（整数域）](https://github.com/hh2048/XCPC/blob/main/03%20-%20jiangly%E6%A8%A1%E6%9D%BF%E6%94%B6%E9%9B%86/01%20-%20%E6%9D%82%E7%B1%BB/04A%20-%20%E4%BA%8C%E5%88%86%E7%AE%97%E6%B3%95%EF%BC%88%E6%95%B4%E6%95%B0%E5%9F%9F%EF%BC%89.cpp)
 
 [2023-10-21](https://qoj.ac/submission/222042)
 
