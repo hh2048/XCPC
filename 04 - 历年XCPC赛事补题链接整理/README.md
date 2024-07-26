@@ -43,7 +43,7 @@
 |河北|[The 8th Hebei Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2024/hebei)|2024-05-26|[GYM](https://codeforces.com/gym/105184)|
 |山东|[2024 CCPC 全国邀请赛（山东）暨山东省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/shandong)|2024-05-26|【待补充】|
 |江西|[2024 (ICPC) Jiangxi Provincial Contest -- Official Contest](https://board.xcpcio.com/provincial-contest/2024/jiangxi)|2024-06-02|[GYM](https://codeforces.com/gym/105231)|
-|陕西|[第 12 届陕西省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/shaanxi)|2024-06-02|【待补充】|
+|陕西|[2024 ICPC ShaanXi Provincial Contest](https://board.xcpcio.com/provincial-contest/2024/shaanxi)|2024-06-02|[GYM](https://codeforces.com/gym/105257)|
 |四川|[The 2024 Sichuan Provincial Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2024/sichuan)|2024-06-16|[GYM](https://codeforces.com/gym/105222)|
 |上海|“华为智联杯”[The 2024 Shanghai Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2024/shanghai)|2024-06-16|[GYM](https://codeforces.com/gym/105229)|
 
