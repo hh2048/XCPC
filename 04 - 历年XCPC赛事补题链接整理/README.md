@@ -36,7 +36,7 @@
 |新疆|2024年国际大学生程序设计竞赛（ACM-ICPC）新疆赛区大赛|2024-05-18|[牛客](https://ac.nowcoder.com/acm/contest/82345)|
 |北京|[2024 北京市大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/beijing)|2024-05-19|[QOJ](https://qoj.ac/contest/1668), [PTA](https://pintia.cn/market/item/1794312172238471168)|
 |广西|[第七届广西大学生程序设计大赛](https://board.xcpcio.com/provincial-contest/2024/guangxi)|2024-05-19|[PTA](https://pintia.cn/market/item/1793821896168361984)|
-|西安邀请赛|[第 49 届 ICPC 国际大学生程序设计竞赛邀请赛西安站](https://board.xcpcio.com/icpc/49th/xian-invitational)|2024-05-19|【待补充】|
+|西安邀请赛|[第 49 届 ICPC 国际大学生程序设计竞赛邀请赛西安站](https://board.xcpcio.com/icpc/49th/xian-invitational)|2024-05-19|[洛谷](https://www.luogu.com.cn/contest/173404)|
 |东北四省邀请赛|The 2024 CCPC National Invitational Contest (Northeast)<br/>*同时也被称呼为*<br/>*The 18th Northeast Collegiate Programming Contest*|2024-05-19|[GYM](https://codeforces.com/gym/105173)|
 |昆明|[第 49 届 ICPC 国际大学生程序设计竞赛邀请赛昆明站](https://board.xcpcio.com/icpc/49th/kunming-invitational)|2024-05-26|【待补充】|
 |广东|[第二十一届广东省大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/guangdong)|2024-05-26|[QOJ](https://qoj.ac/contest/1692)|
@@ -319,7 +319,7 @@
 |:--:|:--:|:--:|
 |秦皇岛|2019 China Collegiate Programming Contest Qinhuangdao Onsite|[GYM](https://codeforces.com/gym/102361)|
 |哈尔滨|The 2019 China Collegiate Programming Contest Harbin Site|[GYM](https://codeforces.com/gym/102394)|
-|厦门|【used in a Moscow workshop camp】||
+|厦门|第五届中国大学生程序设计竞赛 厦门站（CCPC 2019 Xiamen Site）<br/>*同时也被称呼为*<br/>*Moscow International Workshops 2019. Day 6. CCPC Contest*|[QOJ](https://qoj.ac/contest/1733)|
 |**决赛**|2019 China Collegiate Programming Contest Final (CCPC-Final 2019)|[GYM](https://codeforces.com/gym/102431)|
 
 ## 2018 赛季
