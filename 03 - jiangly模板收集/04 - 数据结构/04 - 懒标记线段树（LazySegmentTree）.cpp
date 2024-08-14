@@ -3,6 +3,7 @@
  *    2023-03-12: https://codeforces.com/contest/1804/submission/197106837
  *    2023-07-17: https://ac.nowcoder.com/acm/contest/view-submission?submissionId=62804432
  *    2023-11-12: https://qoj.ac/submission/249505
+ *    2024-08-14:  https://ac.nowcoder.com/acm/contest/view-submission?submissionId=70980889&returnHomeType=1&uid=329687984
 **/
 template<class Info, class Tag>
 struct LazySegmentTree {
@@ -116,8 +117,11 @@ struct LazySegmentTree {
     }
     
     template<class F>
-    int findFirst(int p, int l, int r, int x, int y, F pred) {
-        if (l >= y || r <= x || !pred(info[p])) {
+    int findFirst(int p, int l, int r, int x, int y, F &&pred) {
+        if (l >= y || r <= x) {
+            return -1;
+        }
+        if (l >= x && r <= y && !pred(info[p])) {
             return -1;
         }
         if (r - l == 1) {
@@ -132,12 +136,15 @@ struct LazySegmentTree {
         return res;
     }
     template<class F>
-    int findFirst(int l, int r, F pred) {
+    int findFirst(int l, int r, F &&pred) {
         return findFirst(1, 0, n, l, r, pred);
     }
     template<class F>
-    int findLast(int p, int l, int r, int x, int y, F pred) {
-        if (l >= y || r <= x || !pred(info[p])) {
+    int findLast(int p, int l, int r, int x, int y, F &&pred) {
+        if (l >= y || r <= x) {
+            return -1;
+        }
+        if (l >= x && r <= y && !pred(info[p])) {
             return -1;
         }
         if (r - l == 1) {
@@ -152,7 +159,7 @@ struct LazySegmentTree {
         return res;
     }
     template<class F>
-    int findLast(int l, int r, F pred) {
+    int findLast(int l, int r, F &&pred) {
         return findLast(1, 0, n, l, r, pred);
     }
     
