@@ -27,7 +27,7 @@
 |:--:|:--:|:--:|:--:|
 |浙江|“睿琪杯” [浙江省第 21 届大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2024/zhejiang)|2024-04-13|【待补充】|
 |黑龙江|第十九届黑龙江省大学生程序设计竞赛|2024-04-14|[PTA](https://pintia.cn/market/item/1793901564338823168)|
-|湖北邀请赛|[The 2024 International Collegiate Programming Contest in Hubei Province, China](https://board.xcpcio.com/provincial-contest/2024/hubei)|2024-04-27|[GYM](https://codeforces.com/gym/105139)|
+|湖北邀请赛|[The 2024 International Collegiate Programming Contest in Hubei Province, China](https://board.xcpcio.com/provincial-contest/2024/hubei)|2024-04-27|[GYM](https://codeforces.com/gym/105139), [洛谷](https://www.luogu.com.cn/contest/188938)|
 |武汉邀请赛|[2024 ICPC National Invitational Collegiate Programming Contest, Wuhan Site](https://board.xcpcio.com/icpc/49th/wuhan-invitational)|2024-05-02|[GYM](https://codeforces.com/gym/105143)|
 |内蒙古|“华讯杯”内蒙古自治区第十七届大学生程序设计竞赛|2024-05-12|[PTA](https://pintia.cn/market/item/1793842121618161664)|
 |江苏|“华为杯” [2024 Jiangsu Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2024/jiangsu)|2024-05-12|[GYM](https://codeforces.com/gym/105161)|
@@ -186,15 +186,15 @@
 |广东|GDCPC广东省大学生程序设计竞赛|2021-06-20|[牛客](https://ac.nowcoder.com/acm/contest/17797)|
 |上海|“科大讯飞杯”[The 2021 Shanghai Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2021/shanghai)|2021-07-11|[GYM](https://codeforces.com/gym/103186)|
 |辽宁|2021辽宁省大学生程序设计竞赛|2021-10-23|[牛客](https://ac.nowcoder.com/acm/contest/22352)|
-|江西|2021 ICPC 江西省大学生程序设计竞赛|2021-10-23|[江西](https://ac.nowcoder.com/acm/contest/21592)|
+|江西|2021 ICPC 江西省大学生程序设计竞赛|2021-10-23|[牛客](https://ac.nowcoder.com/acm/contest/21592), [GYM](https://codeforces.com/gym/103366)|
 |河南|[2021 年河南省第三届 CCPC 大学生程序设计竞赛](https://board.xcpcio.com/provincial-contest/2021/henan)|2021-10-30|【待补充】|
 |新疆|2021 CCPC 新疆省赛|2021-10-31|[牛客](https://ac.nowcoder.com/acm/contest/22754)|
 |河南|河南省第十三届ICPC大学生程序设计竞赛（重现赛）|2021-11-03|[牛客](https://ac.nowcoder.com/acm/contest/17148)|
 |吉林|[The 15th Jilin Provincial Collegiate Programming Contest](https://board.xcpcio.com/provincial-contest/2021/jilin)|2021-11-30|[GYM](https://codeforces.com/gym/103486)|
 |湖北|2021 Hubei Provincial Collegiate Programming Contest|2021-12-05|[GYM](https://codeforces.com/gym/103104)|
 |江苏|[2021 年江苏省大学生程序设计大赛](https://board.xcpcio.com/provincial-contest/2021/jiangsu)|2021-12-25|[GYM](https://codeforces.com/gym/103495)|
-|*山东*|“山大地纬杯”第十二届山东省ICPC大学生程序设计竞赛|2022-05-22|[牛客](https://ac.nowcoder.com/acm/contest/34980)|
-|*陕西邀请赛*|2021年ICPC国际大学生程序设计竞赛暨陕西省第九届大学生程序设计竞赛|2022-05-28|[牛客](https://ac.nowcoder.com/acm/contest/35232)|
+|山东|“山大地纬杯”第十二届山东省ICPC大学生程序设计竞赛|2022-05-22|[牛客](https://ac.nowcoder.com/acm/contest/34980)|
+|陕西邀请赛|2021年ICPC国际大学生程序设计竞赛暨陕西省第九届大学生程序设计竞赛|2022-05-28|[牛客](https://ac.nowcoder.com/acm/contest/35232)|
 
 ### ICPC 46th
 
