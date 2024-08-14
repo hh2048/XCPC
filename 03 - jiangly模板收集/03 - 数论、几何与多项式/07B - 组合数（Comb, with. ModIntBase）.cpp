@@ -1,5 +1,5 @@
-/**   组合数（Comb, with. MInt & MLong）
- *    2023-08-26: https://codeforces.com/contest/1864/submission/220584872
+/**   组合数（Comb, with. ModIntBase）
+ *    2024-08-06: https://codeforces.com/contest/1999/submission/274744751
 **/
 struct Comb {
     int n;
@@ -13,7 +13,6 @@ struct Comb {
     }
     
     void init(int m) {
-        m = std::min(m, Z::getMod() - 1);
         if (m <= n) return;
         _fac.resize(m + 1);
         _invfac.resize(m + 1);
@@ -47,4 +46,3 @@ struct Comb {
         return fac(n) * invfac(m) * invfac(n - m);
     }
 } comb;
-

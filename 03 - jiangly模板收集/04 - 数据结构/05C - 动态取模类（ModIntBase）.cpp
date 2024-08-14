@@ -1,6 +1,5 @@
 /**   动态取模类（ModIntBase）
  *    2024-08-14: https://ac.nowcoder.com/acm/contest/view-submission?submissionId=70980889&returnHomeType=1&uid=329687984
- *    2024-08-14: https://ac.nowcoder.com/acm/contest/view-submission?submissionId=70982358&returnHomeType=1&uid=329687984
 **/
 // TODO: Dynamic ModInt
  

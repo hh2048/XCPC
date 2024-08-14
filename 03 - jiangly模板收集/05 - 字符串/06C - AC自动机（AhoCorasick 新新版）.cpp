@@ -1,3 +1,6 @@
+/**   AC自动机（AhoCorasick 新新版）
+ *    2024-04-09: https://www.luogu.com.cn/record/155114676 【模板】
+**/
 struct AhoCorasick {
     static constexpr int ALPHABET = 26;
     struct Node {

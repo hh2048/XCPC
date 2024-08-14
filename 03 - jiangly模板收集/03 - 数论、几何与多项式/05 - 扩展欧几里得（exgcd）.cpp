@@ -1,14 +1,36 @@
 /**   扩展欧几里得（exgcd）
- *    2023-10-09: https://atcoder.jp/contests/tenka1-2017/submissions/46411797
+ *    2024-08-07: https://codeforces.com/contest/1993/submission/275110715
 **/
-int exgcd(int a, int b, int &x, int &y) {
-    if (!b) {
-        x = 1, y = 0;
+i64 exgcd(i64 a, i64 b, i64 &x, i64 &y) {
+    if (b == 0) {
+        x = 1;
+        y = 0;
         return a;
     }
-    int g = exgcd(b, a % b, y, x);
+    i64 g = exgcd(b, a % b, y, x);
     y -= a / b * x;
     return g;
+}
+ 
+// ax + b = 0 (mod m)
+std::pair<i64, i64> sol(i64 a, i64 b, i64 m) {
+    assert(m > 0);
+    b *= -1;
+    i64 x, y;
+    i64 g = exgcd(a, m, x, y);
+    if (g < 0) {
+        g *= -1;
+        x *= -1;
+        y *= -1;
+    }
+    if (b % g != 0) {
+        return {-1, -1};
+    }
+    x = x * (b / g) % (m / g);
+    if (x < 0) {
+        x += m / g;
+    }
+    return {x, m / g};
 }
 
 /**   扩展欧几里得（exgcd）

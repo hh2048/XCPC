@@ -1,3 +1,6 @@
+/**   分数四则运算（Frac）
+ *    2024-07-30: https://qoj.ac/submission/498911
+**/
 template<class T>
 struct Frac {
     T num;

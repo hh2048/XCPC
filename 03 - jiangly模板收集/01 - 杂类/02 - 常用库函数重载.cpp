@@ -64,3 +64,26 @@ i64 get(i64 n) {
     }
     return u;
 }
+
+/**   求 Log
+ *    2024-07-23: https://codeforces.com/contest/1995/submission/272110180
+**/
+int logi(int a, int b) {
+    int t = 0;
+    i64 v = 1;
+    while (v < b) {
+        v *= a;
+        t++;
+    }
+    return t;
+}
+ 
+int llog(int a, int b) {
+    if (a <= b) {
+        int l = logi(a, b);
+        return (l == 0 ? 0 : std::__lg(2 * l - 1));
+    }
+    int l = logi(b, a + 1) - 1;
+    assert(l > 0);
+    return -std::__lg(l);
+}
