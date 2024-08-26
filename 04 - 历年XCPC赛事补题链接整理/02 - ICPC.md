@@ -137,14 +137,17 @@
 |北京预选赛|ACM-ICPC国际大学生程序设计竞赛北京赛区(2017)网络赛|2017-09-23||[hihocoder](https://hihocoder.com/contest/acmicpc2017beijingonline)【已无法使用】|
 |北京|ACM-ICPC北京赛区2017网络同步赛|2017-11-19|[官网](http://acm.pku.edu.cn/icpc_pku2017/)|[hihocoder](https://hihocoder.com/contest/icpcbeijing2017)【已无法使用】|
 |青岛预选赛|2017 ACM/ICPC Asia Regional Qingdao Online|2017-09-17||[HDU](https://acm.hdu.edu.cn/search.php?field=problem&key=2017+ACM%2FICPC+Asia+Regional+Qingdao+Online&source=1&searchmode=source)|
-|青岛|2017 ACM/ICPC Asia Regional Qingdao Online|2017-11-05|[知乎](https://www.zhihu.com/question/66941603/answer/255634676)<br/>[出题人节奏](https://www.zhihu.com/question/67698902/answer/256242927)|[HDU](https://acm.hdu.edu.cn/search.php?field=problem&key=2017+ACM%2FICPC+Asia+Regional+Qingdao+Online&source=1&searchmode=source), [计蒜客](https://www.jisuanke.com/contest/965)|
-|西安预选赛||2017-05-20|||
+|山东-青岛|2017 ACM/ICPC Asia Regional Qingdao Online|2017-11-05|[知乎](https://www.zhihu.com/question/66941603/answer/255634676)<br/>[出题人节奏](https://www.zhihu.com/question/67698902/answer/256242927)|[计蒜客](https://www.jisuanke.com/contest/965)|
+|西安预选赛|2017 ACM-ICPC 亚洲区（西安赛区）网络赛|2017-09-16||[计蒜客](https://www.jisuanke.com/contest/876)|
 |西安|2017 ACM-ICPC Asia Xi'an Regional Contest|2017-10-29|[贴吧](https://tieba.baidu.com/p/5392356692), [知乎](https://www.zhihu.com/question/66959760/answer/252006565)|[Vjudge](https://vjudge.net/contest/432765), [计蒜客](https://www.jisuanke.com/contest/966)|
+|新疆预选赛|2017 ACM-ICPC 亚洲区（乌鲁木齐赛区）网络赛|2017-09-09||[计蒜客](https://www.jisuanke.com/contest/870)|
 |新疆-乌鲁木齐|ACM-ICPC 2017 Asia Urumqi|2017-12-03|[知乎](https://www.zhihu.com/question/263448107)|[计蒜客](https://www.jisuanke.com/contest/969)|
-|沈阳|The 2017 ACM-ICPC Asia Shenyang Regional Contest|||[Vjudge](https://vjudge.net/contest/196923), [HDU](https://acm.hdu.edu.cn/search.php?field=problem&key=2017ACM%2FICPC%D1%C7%D6%DE%C7%F8%C9%F2%D1%F4%D5%BE-%D6%D8%CF%D6%C8%FC%A3%A8%B8%D0%D0%BB%B6%AB%B1%B1%B4%F3%D1%A7%A3%A9&source=1&searchmode=source), [计蒜客](https://www.jisuanke.com/contest/942)|
-|广西邀请赛|2017ACM/ICPC广西邀请赛-重现赛（感谢广西大学）|2017-08-27||[HDU](https://acm.hdu.edu.cn/search.php?field=problem&key=2017ACM%2FICPC%B9%E3%CE%F7%D1%FB%C7%EB%C8%FC-%D6%D8%CF%D6%C8%FC%A3%A8%B8%D0%D0%BB%B9%E3%CE%F7%B4%F3%D1%A7%A3%A9&source=1&searchmode=source)|
+|沈阳预选赛|2017 ACM/ICPC Asia Regional Shenyang Online|2017-09-10|[知乎](https://www.zhihu.com/question/65154670/answer/228225923)|[HDU](https://acm.hdu.edu.cn/search.php?field=problem&key=2017+ACM%2FICPC+Asia+Regional+Shenyang+Online&source=1&searchmode=source)|
+|沈阳|The 2017 ACM-ICPC Asia Shenyang Regional Contest|2017-10-22|[知乎](https://www.zhihu.com/question/66931740/answer/249931079)|[Vjudge](https://vjudge.net/contest/196923), [HDU](https://acm.hdu.edu.cn/search.php?field=problem&key=2017ACM%2FICPC%D1%C7%D6%DE%C7%F8%C9%F2%D1%F4%D5%BE-%D6%D8%CF%D6%C8%FC%A3%A8%B8%D0%D0%BB%B6%AB%B1%B1%B4%F3%D1%A7%A3%A9&source=1&searchmode=source), [计蒜客](https://www.jisuanke.com/contest/942)|
+|**广西邀请赛**|2017ACM/ICPC广西邀请赛-重现赛（感谢广西大学）|2017-08-27||[HDU](https://acm.hdu.edu.cn/search.php?field=problem&key=2017ACM%2FICPC%B9%E3%CE%F7%D1%FB%C7%EB%C8%FC-%D6%D8%CF%D6%C8%FC%A3%A8%B8%D0%D0%BB%B9%E3%CE%F7%B4%F3%D1%A7%A3%A9&source=1&searchmode=source)|
+|广西预选赛|2017 ACM-ICPC 亚洲区（南宁赛区）网络赛|2017-09-24||[计蒜客](https://www.jisuanke.com/contest/877)|
 |广西-南宁|ACM-ICPC 2017 Asia Nanning|2017-11-26|[知乎](https://www.baidu.com/link?url=UKeYrCSRmxRkm3jElLN1GB4ksY_G7pf88_L_gRveTZYP0ywfianVbmQL7--XWVmS8dSgeYhNNj8gke6fp1Zpw9fOXUNX5YTU-LMw4DgGGMm&wd=&eqid=d6318750000611620000000366cb6f1f)|[计蒜客](https://www.jisuanke.com/contest/968), [Vjudge](https://vjudge.net/contest/229239)【已无法使用】|
-|沈阳|2017ACM/ICPC亚洲区沈阳站-重现赛（感谢东北大学）|2017-10-22|[知乎](https://www.baidu.com/link?url=R0qKyBjmOy19vKIxNV8-B0XYtX-6S7Kk6iGzrB1Pz4zEY7Yy5iPMjLVt0PGUgD9sA0DMga6HIp89VAAlZ231iZKF-sopQCjN4U5AqIASSba&wd=&eqid=cbad70100003204e0000000366cb6e8b)|[HDU](https://acm.hdu.edu.cn/search.php?field=problem&key=2017ACM%2FICPC%D1%C7%D6%DE%C7%F8%C9%F2%D1%F4%D5%BE-%D6%D8%CF%D6%C8%FC%A3%A8%B8%D0%D0%BB%B6%AB%B1%B1%B4%F3%D1%A7%A3%A9&source=1&searchmode=source)|
+|香港预选赛||2017-09-10||【HDU，页面疑似被隐藏】|
+|香港|ACM-ICPC 2017 Asia HongKong|2017-11-19|[知乎](https://www.zhihu.com/question/68239069/answer/261865400)|[计蒜客](https://www.jisuanke.com/contest/967)|
 |**决赛**||||
-|香港||||
 |台湾花莲|2017 ACM ICPC Asia Hua-Lien Regional|||[Vjudge](https://vjudge.net/contest/226220)【已无法使用】|
