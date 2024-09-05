@@ -14,16 +14,84 @@
 
 ## 2023.9-2024 赛季 9th
 
-|<div style="width:100px;">简称</div>|<div style="width:450px;">官方名称</div>|<div style="width:100px;">举办时间</div>|<div style="width:200px;">承办</div>|<div style="width:70px;">评价</div>|<div style="width:70px;">补题链接</div>|
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|网络预选赛|[The 2023 CCPC Online Contest](https://board.xcpcio.com/ccpc/9th/online-qualification)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 3: Binjiang*|2023-08-20|在线-PTA|[知乎](https://www.zhihu.com/question/615324626)|[GYM](https://codeforces.com/gym/104651), [QOJ](https://contest.ucup.ac/contest/1358)|
-|秦皇岛|[The 2023 CCPC (Qinhuangdao) Onsite](https://board.xcpcio.com/ccpc/9th/qinhuangdao)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 9: Qinhuangdao*|2023-10-15|东北大学秦皇岛分校|[知乎](https://www.zhihu.com/question/626101474)|[GYM](https://codeforces.com/gym/104787)|
-|女生专场/重庆|[2023年中国大学生程序设计竞赛女生专场](https://board.xcpcio.com/ccpc/9th/girl)|2023-10-21|重庆对外经贸学院|[知乎](https://www.zhihu.com/question/626823770)|[PTA](https://pintia.cn/market/item/1715964967755325440)|
-|高职专场/嘉兴|[2023年中国大学生程序设计竞赛高职专场](https://board.xcpcio.com/ccpc/9th/vocational)|2023-10-21|嘉兴职业技术学院|-|[PTA](https://pintia.cn/market/item/1715966057963986944)|
-|桂林|[2023 China Collegiate Programming Contest (CCPC) Guilin Onsite](https://board.xcpcio.com/ccpc/9th/guilin)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 8: Guilin*|2023-10-29|桂林电子科技大学|[知乎](https://www.zhihu.com/question/628013771)|[GYM](https://codeforces.com/gym/104768)|
-|哈尔滨|[The 9th CCPC (Harbin) Onsite](https://board.xcpcio.com/ccpc/9th/harbin)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 10: Harbin*|2023-11-05|哈尔滨工程大学|[知乎](https://www.zhihu.com/question/629040821)|[GYM](https://codeforces.com/gym/104813)|
-|深圳|[第九届中国大学生程序设计竞赛 深圳站（CCPC 2023 Shenzhen Site）](https://board.xcpcio.com/ccpc/9th/shenzhen)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 25: Shenzhen*|2023-11-12|深圳技术大学|[知乎](https://www.zhihu.com/question/628651873)|[QOJ](https://qoj.ac/contest/1540)|
-|**决赛/成都**|[第九届中国大学生程序设计竞赛总决赛（CCPC Final 2023）](https://board.xcpcio.com/ccpc/9th/final)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 28: Chengdu*|2024-03-31|电子科技大学|[知乎](https://www.zhihu.com/question/650633555)|[QOJ](https://qoj.ac/contest/1596)|
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><div style="width:100px;">简称</div></th>
+<th style="text-align:center"><div style="width:450px;">官方名称</div></th>
+<th style="text-align:center"><div style="width:100px;">举办时间</div></th>
+<th style="text-align:center"><div style="width:200px;">承办</div></th>
+<th style="text-align:center"><div style="width:70px;">评价</div></th>
+<th style="text-align:center"><div style="width:70px;">补题链接</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">网络预选赛</td>
+<td style="text-align:center"><a href="https://board.xcpcio.com/ccpc/9th/online-qualification">The 2023 CCPC Online Contest</a><br/><em>同时也被称呼为<br/>The 2nd Universal Cup. Stage 3: Binjiang</em></td>
+<td style="text-align:center">2023-08-20</td>
+<td style="text-align:center">在线-PTA</td>
+<td style="text-align:center"><a href="https://www.zhihu.com/question/615324626">知乎</a></td>
+<td style="text-align:center"><a href="https://codeforces.com/gym/104651">GYM</a>, <a href="https://contest.ucup.ac/contest/1358">QOJ</a></td>
+</tr>
+<tr>
+<td style="text-align:center">秦皇岛</td>
+<td style="text-align:center"><a href="https://board.xcpcio.com/ccpc/9th/qinhuangdao">The 2023 CCPC (Qinhuangdao) Onsite</a><br/><em>同时也被称呼为<br/>The 2nd Universal Cup. Stage 9: Qinhuangdao</em></td>
+<td style="text-align:center">2023-10-15</td>
+<td style="text-align:center">东北大学秦皇岛分校</td>
+<td style="text-align:center"><a href="https://www.zhihu.com/question/626101474">知乎</a></td>
+<td style="text-align:center"><a href="https://codeforces.com/gym/104787">GYM</a></td>
+</tr>
+<tr>
+<td style="text-align:center">女生专场/重庆</td>
+<td style="text-align:center"><a href="https://board.xcpcio.com/ccpc/9th/girl">2023年中国大学生程序设计竞赛女生专场</a></td>
+<td style="text-align:center">2023-10-21</td>
+<td style="text-align:center">重庆对外经贸学院</td>
+<td style="text-align:center"><a href="https://www.zhihu.com/question/626823770">知乎</a></td>
+<td style="text-align:center"><a href="https://pintia.cn/market/item/1715964967755325440">PTA</a></td>
+</tr>
+<tr>
+<td style="text-align:center">高职专场/嘉兴</td>
+<td style="text-align:center"><a href="https://board.xcpcio.com/ccpc/9th/vocational">2023年中国大学生程序设计竞赛高职专场</a></td>
+<td style="text-align:center">2023-10-21</td>
+<td style="text-align:center">嘉兴职业技术学院</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center"><a href="https://pintia.cn/market/item/1715966057963986944">PTA</a></td>
+</tr>
+<tr>
+<td style="text-align:center">桂林</td>
+<td style="text-align:center"><a href="https://board.xcpcio.com/ccpc/9th/guilin">2023 China Collegiate Programming Contest (CCPC) Guilin Onsite</a><br/><em>同时也被称呼为<br/>The 2nd Universal Cup. Stage 8: Guilin</em></td>
+<td style="text-align:center">2023-10-29</td>
+<td style="text-align:center">桂林电子科技大学</td>
+<td style="text-align:center"><a href="https://www.zhihu.com/question/628013771">知乎</a></td>
+<td style="text-align:center"><a href="https://codeforces.com/gym/104768">GYM</a></td>
+</tr>
+<tr>
+<td style="text-align:center">哈尔滨</td>
+<td style="text-align:center"><a href="https://board.xcpcio.com/ccpc/9th/harbin">The 9th CCPC (Harbin) Onsite</a><br/><em>同时也被称呼为<br/>The 2nd Universal Cup. Stage 10: Harbin</em></td>
+<td style="text-align:center">2023-11-05</td>
+<td style="text-align:center">哈尔滨工程大学</td>
+<td style="text-align:center"><a href="https://www.zhihu.com/question/629040821">知乎</a></td>
+<td style="text-align:center"><a href="https://codeforces.com/gym/104813">GYM</a></td>
+</tr>
+<tr>
+<td style="text-align:center">深圳</td>
+<td style="text-align:center"><a href="https://board.xcpcio.com/ccpc/9th/shenzhen">第九届中国大学生程序设计竞赛 深圳站（CCPC 2023 Shenzhen Site）</a><br/><em>同时也被称呼为<br/>The 2nd Universal Cup. Stage 25: Shenzhen</em></td>
+<td style="text-align:center">2023-11-12</td>
+<td style="text-align:center">深圳技术大学</td>
+<td style="text-align:center"><a href="https://www.zhihu.com/question/628651873">知乎</a></td>
+<td style="text-align:center"><a href="https://qoj.ac/contest/1540">QOJ</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>决赛/成都</strong></td>
+<td style="text-align:center"><a href="https://board.xcpcio.com/ccpc/9th/final">第九届中国大学生程序设计竞赛总决赛（CCPC Final 2023）</a><br/><em>同时也被称呼为<br/>The 2nd Universal Cup. Stage 28: Chengdu</em></td>
+<td style="text-align:center">2024-03-31</td>
+<td style="text-align:center">电子科技大学</td>
+<td style="text-align:center"><a href="https://www.zhihu.com/question/650633555">知乎</a></td>
+<td style="text-align:center"><a href="https://qoj.ac/contest/1596">QOJ</a></td>
+</tr>
+</tbody>
+</table>
 
 ## 2022.9-2023 赛季 8th
 
