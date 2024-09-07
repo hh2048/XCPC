@@ -26,6 +26,7 @@
 
 ## 引用与交叉验证
 
+1. [ACM/ICPC 信息站](http://acmicpc.info/) 收录了2021年疫情前的大量赛事信息，提供交叉验证
 1. [ProtectEMmm](https://vjudge.net/article/3389)在 VJ 上对于2022赛季ICPC/CCPC赛事的整理
 2. [ProtectEMmm](https://vjudge.net/article/3893)在 VJ 上对于2021赛季ICPC/CCPC赛事的整理
 3. [qq1735705660](https://vjudge.net/article/2446)在 VJ 上对于2019赛季ICPC/CCPC赛事的整理
