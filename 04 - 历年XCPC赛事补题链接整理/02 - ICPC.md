@@ -2,70 +2,74 @@
 
 ## 2024.9-2025 赛季 49th
 
-|<div style="width:100px;"><div style="width:100px;">简称</div></div>|官方名称|<div style="width:100px;">举办时间</div>|<div style="width:70px;">补题链接</div>|
-|:--:|:--:|:--:|:--:|
-|网络预选赛(I)|[]()|2024-09-15|【待补充】|
-|网络预选赛(II)|[]()|2024-09-21|【待补充】|
-|香港|[]()|2024-10-20|【待补充】|
-|成都|[]()|2024-10-27|【待补充】|
-|南京|[]()|2024-11-03|【待补充】|
-|杭州|[]()|2024-11-10|【待补充】|
-|上海|[]()|2024-11-17|【待补充】|
-|沈阳|[]()|2024-11-24|【待补充】|
-|昆明|[]()|2024-12-01|【待补充】|
-|**总决赛（西安）**|[]()|2024-12-15|【待补充】|
+|<div style="width:100px;">简称</div>|<div style="width:450px;">官方名称</div>|<div style="width:100px;">举办时间</div>|<div style="width:200px;">承办</div>|<div style="width:70px;">补题链接</div>|
+|:--:|:--:|:--:|:--:|:--:|
+|网络预选赛(I) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/158944.htm)|[2024 ICPC Asia EC 网络预选赛](https://pintia.cn/rankings/1831362571373408256)|2024-09-15|在线-PTA|【待补充】|
+|网络预选赛(II)|[]()|2024-09-21||【待补充】|
+|香港|[]()|2024-10-20||【待补充】|
+|成都|[]()|2024-10-27||【待补充】|
+|南京|[]()|2024-11-03||【待补充】|
+|杭州|[]()|2024-11-10||【待补充】|
+|上海|[]()|2024-11-17||【待补充】|
+|沈阳|[]()|2024-11-24||【待补充】|
+|昆明|[]()|2024-12-01||【待补充】|
+|**决赛/西安**|[]()|2024-12-15||【待补充】|
+|台湾网络预选赛 [$^\bullet$](https://topc.icpc.tw/)|ICPC Asia Taiwan Online Programming Contest|2024-09-07|线上-|【待补充】|
+|台湾台中 [$^\bullet$](https://hpc.asia.edu.tw/icpc2024)|The 2024 ICPC Asia Taichung Regional Programming Contest|2024-11-17|亞洲大學|【待补充】|
 
 ## 2023.9-2024 赛季 48th
 
-|<div style="width:100px;">简称</div>|官方名称|<div style="width:100px;">举办时间</div>|<div style="width:70px;">补题链接</div>|
-|:--:|:--:|:--:|:--:|
-|网络预选赛(I)|[The 2023 ICPC Asia EC Regionals Online Contest (I)](https://board.xcpcio.com/icpc/48th/online-qualification-1)|2023-09-17|[PTA](https://pintia.cn/market/item/1703381331863785472), [GYM](https://codeforces.com/gym/104639)|
-|网络预选赛(II)|[The 2023 ICPC Asia Regionals Online Contest (II)](https://board.xcpcio.com/icpc/48th/online-qualification-2)|2023-09-23|[PTA](https://pintia.cn/market/item/1705511462254264320)|
-|西安|[第 48 届 ICPC 国际大学生程序设计竞赛区域赛西安站](https://board.xcpcio.com/icpc/48th/xian)<br/>【ucpc还在鸽！我的凹包呢？】|2023-10-22|【待补充】|
-|南京|[The 2023 ICPC Asia Nanjing Regional Contest](https://board.xcpcio.com/icpc/48th/nanjing)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 11: Nanjing*|2023-11-05|[GYM](https://codeforces.com/gym/104821), [QOJ](https://qoj.ac/contest/1435)|
-|沈阳|[The 2023 ICPC Asia Shenyang Regional Contest](https://board.xcpcio.com/icpc/48th/shenyang)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 13: Shenyang*|2023-11-12|[GYM](https://codeforces.com/gym/104869), [QOJ](https://qoj.ac/contest/1449)|
-|澳门|[The 2023 ICPC Asia Macau Regional Contest](https://board.xcpcio.com/icpc/48th/macau)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 15: Macau*|2023-11-19|[GYM](https://codeforces.com/gym/104891), [QOJ](https://qoj.ac/contest/1459)|
-|合肥|[The 2023 ICPC Asia Hefei Regional Contest](https://board.xcpcio.com/icpc/48th/hefei)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 12: Hefei*|2023-11-26|[GYM](https://codeforces.com/gym/104857), [QOJ](https://qoj.ac/contest/1440)|
-|济南|[The 2023 ICPC Asia Jinan Regional Contest](https://board.xcpcio.com/icpc/48th/jinan)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 17: Jinan*|2023-12-03|[GYM](https://codeforces.com/gym/104901), [QOJ](https://qoj.ac/contest/1472)|
-|杭州|[The 2023 ICPC Asia Hangzhou Regional Contest](https://board.xcpcio.com/icpc/48th/hangzhou)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 22: Hangzhou*|2023-12-10|[GYM](https://codeforces.com/gym/104976), [QOJ](https://qoj.ac/contest/1516)|
-|**总决赛（上海）**|[The 2023 ICPC Asia East Continent Final Contest](https://board.xcpcio.com/icpc/48th/ecfinal)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 23: Shanghai*|2024-01-13|[QOJ](https://contest.ucup.ac/contest/1522)|
-|台湾网络预选赛|2023 ICPC Asia Taiwan Online Programming Contest||[GYM](https://codeforces.com/gym/104619)|
-|台湾||||
+|<div style="width:100px;">简称</div>|<div style="width:450px;">官方名称</div>|<div style="width:100px;">举办时间</div>|<div style="width:200px;">承办</div>|<div style="width:70px;">补题链接</div>|
+|:--:|:--:|:--:|:--:|:--:|
+|[网络预选赛(I)](https://www.zhihu.com/question/622493599)|[The 2023 ICPC Asia EC Regionals Online Contest (I)](https://board.xcpcio.com/icpc/48th/online-qualification-1)|2023-09-17|在线-PTA|[PTA](https://pintia.cn/market/item/1703381331863785472), [GYM](https://codeforces.com/gym/104639)|
+|[网络预选赛(II)](https://www.zhihu.com/question/623080860)|[The 2023 ICPC Asia Regionals Online Contest (II)](https://board.xcpcio.com/icpc/48th/online-qualification-2)|2023-09-23|在线-PTA|[PTA](https://pintia.cn/market/item/1705511462254264320)|
+|[西安](https://www.zhihu.com/question/626553045) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/151088.htm)|[第 48 届 ICPC 国际大学生程序设计竞赛区域赛西安站](https://board.xcpcio.com/icpc/48th/xian)<br/>【ucpc还在鸽！我的凹包呢？】|2023-10-22|西北工业大学|【待补充】|
+|[南京](https://www.zhihu.com/question/627281278)[$^\bullet$](https://icpc.pku.edu.cn/ssxx/151089.htm)|[The 2023 ICPC Asia Nanjing Regional Contest](https://board.xcpcio.com/icpc/48th/nanjing) <br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 11: Nanjing*|2023-11-05|南京航空航天大学|[GYM](https://codeforces.com/gym/104821), [QOJ](https://qoj.ac/contest/1435)|
+|[沈阳](https://www.zhihu.com/question/628657108) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/151091.htm)|[The 2023 ICPC Asia Shenyang Regional Contest](https://board.xcpcio.com/icpc/48th/shenyang)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 13: Shenyang*|2023-11-12|东北大学|[GYM](https://codeforces.com/gym/104869), [QOJ](https://qoj.ac/contest/1449)|
+|[澳门](https://www.zhihu.com/question/630837656) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/151090.htm)|[The 2023 ICPC Asia Macau Regional Contest](https://board.xcpcio.com/icpc/48th/macau)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 15: Macau*|2023-11-19|澳门大学|[GYM](https://codeforces.com/gym/104891), [QOJ](https://qoj.ac/contest/1459)|
+|[合肥](https://www.zhihu.com/question/629714089) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/151092.htm)|[The 2023 ICPC Asia Hefei Regional Contest](https://board.xcpcio.com/icpc/48th/hefei)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 12: Hefei*|2023-11-26|中国科学技术大学|[GYM](https://codeforces.com/gym/104857), [QOJ](https://qoj.ac/contest/1440)|
+|[济南](https://www.zhihu.com/question/631214119) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/151094.htm)|[The 2023 ICPC Asia Jinan Regional Contest](https://board.xcpcio.com/icpc/48th/jinan)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 17: Jinan*|2023-12-03|齐鲁工业大学|[GYM](https://codeforces.com/gym/104901), [QOJ](https://qoj.ac/contest/1472)|
+|[杭州](https://www.zhihu.com/question/629959597) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/151093.htm)|[The 2023 ICPC Asia Hangzhou Regional Contest](https://board.xcpcio.com/icpc/48th/hangzhou)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 22: Hangzhou*|2023-12-10|杭州师范大学|[GYM](https://codeforces.com/gym/104976), [QOJ](https://qoj.ac/contest/1516)|
+|**[决赛/上海](https://www.zhihu.com/question/634199857)** [$^\bullet$](https://icpc.pku.edu.cn/ssxx/151095.htm)|[The 2023 ICPC Asia East Continent Final Contest](https://board.xcpcio.com/icpc/48th/ecfinal)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 23: Shanghai*|2024-01-13|上海大学|[QOJ](https://contest.ucup.ac/contest/1522)|
+|台湾网络预选赛 [$^\bullet$](https://topc2023.icpc.tw)|2023 ICPC Asia Taiwan Online Programming Contest|2023-09-16|线上-|[GYM](https://codeforces.com/gym/104619)|
+|台湾桃园 [$^\bullet$](https://icpc2023.ntub.edu.tw)|The 2023 ICPC Asia Taoyuan Regional Programming Contest|2023-10-22|桃園市立綜合體育館|【待补充】|
 
 ## 2022.9-2023 赛季 47th
 
-|<div style="width:100px;">简称</div>|官方名称|<div style="width:100px;">举办时间</div>|链接|
-|:--:|:--:|:--:|:--:|
-|网络预选赛(I)|[The 2022 ICPC Asia Regionals Online Contest (I)](https://board.xcpcio.com/icpc/47th/online-qualification-1)|2022-09-17|[PTA](https://pintia.cn/market/item/1571156622976593920)|
-|网络预选赛(II)|[The 2022 ICPC Asia Regionals Online Contest (II)](https://board.xcpcio.com/icpc/47th/online-qualification-2)|2022-09-25|[PTA](https://pintia.cn/market/item/1574061957311737856)|
-|沈阳|[The 2022 ICPC Asia Shenyang Regional Contest](https://board.xcpcio.com/icpc/47th/shenyang)<br/>*同时也被称呼为<br/>The 1st Universal Cup. Stage 1: Shenyang*|2022-11-06|[GYM](https://codeforces.com/gym/104160), [QOJ](https://qoj.ac/contest/1096)|
-|西安|[The 2022 ICPC Asia Xian Regional Contest](https://board.xcpcio.com/icpc/47th/xian)|2022-11-13|[GYM](https://codeforces.com/gym/104077), [QOJ](https://qoj.ac/contest/1051)|
-|合肥|[第 47 届国际大学生程序设计竞赛亚洲区域赛合肥站](https://board.xcpcio.com/icpc/47th/hefei)<br/>【这一场出了大锅，应该不会再有了】|2022-11-20|【待补充】|
-|济南|[2022 International Collegiate Programming Contest, Jinan Site](https://board.xcpcio.com/icpc/47th/jinan)|2022-11-27|[GYM](https://codeforces.com/gym/104076), [QOJ](https://qoj.ac/contest/1053)|
-|杭州|[The 2022 ICPC Asia Hangzhou Regional Programming Contest](https://board.xcpcio.com/icpc/47th/hangzhou)|2022-12-04|[GYM](https://codeforces.com/gym/104090), [QOJ](https://qoj.ac/contest/1071)|
-|南京|[The 2022 ICPC Asia Nanjing Regional Contest](https://board.xcpcio.com/icpc/47th/nanjing)<br/>*同时也被称呼为<br/>The 1st Universal Cup. Stage 0: Nanjing (Trial Contest)*|2022-12-18|[GYM](https://codeforces.com/gym/104128), [QOJ](https://qoj.ac/contest/1093)|
-|香港|[The 2023 ICPC Asia Hong Kong Regional Programming Contest](https://board.xcpcio.com/icpc/47th/hongkong)<br/>*同时也被称呼为<br/>The 1st Universal Cup. Stage 2: Hong Kong,<br/>Petrozavodsk Winter 2023. Day 3. 2023 ICPC Asia Hong Kong Regional.*|2023-01-14|[GYM](https://codeforces.com/gym/104172), [QOJ](https://qoj.ac/contest/1099)|
-|**决赛（上海）**|[The 2022 ICPC Asia East Continent Final Contest (EC-Final 2022)](https://board.xcpcio.com/icpc/47th/ec-final)<br/>*同时也被称呼为<br/>The 1st Universal Cup. Stage 11: Shanghai*|2023-03-25|[QOJ](https://qoj.ac/contest/1197)|
-|台湾网络预选赛|2022 ICPC Asia Taiwan Online Programming Contest||[GYM](https://codeforces.com/gym/103990)|
-|台湾桃园|The 2022 ICPC Asia Taoyuan Regional Programming Contest<br/>*同时也被称呼为<br/>The 1st Universal Cup. Stage 6: Taiwan*||[QOJ](https://qoj.ac/contest/1124)|
+> 受新冠疫情影响，本年度赛事存在不同程度推迟问题。
+
+|<div style="width:100px;">简称</div>|<div style="width:450px;">官方名称</div>|<div style="width:100px;">举办时间</div>|<div style="width:200px;">承办</div>|<div style="width:70px;">补题链接</div>|
+|:--:|:--:|:--:|:--:|:--:|
+|[网络预选赛(I)](https://www.zhihu.com/question/553066510) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/142615.htm)|[The 2022 ICPC Asia Regionals Online Contest (I)](https://board.xcpcio.com/icpc/47th/online-qualification-1)|2022-09-17|在线-PTA|[PTA](https://pintia.cn/market/item/1571156622976593920)|
+|[网络预选赛(II)](https://www.zhihu.com/question/554154511)|[The 2022 ICPC Asia Regionals Online Contest (II)](https://board.xcpcio.com/icpc/47th/online-qualification-2)|2022-09-25|在线-PTA|[PTA](https://pintia.cn/market/item/1574061957311737856)|
+|[沈阳](https://www.zhihu.com/question/560967346) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/142605.htm)|[The 2022 ICPC Asia Shenyang Regional Contest](https://board.xcpcio.com/icpc/47th/shenyang)<br/>*同时也被称呼为<br/>The 1st Universal Cup. Stage 1: Shenyang*|2022-11-06|线上-东北大学|[GYM](https://codeforces.com/gym/104160), [QOJ](https://qoj.ac/contest/1096)|
+|[西安](https://www.zhihu.com/question/565572514) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/142606.htm)|[The 2022 ICPC Asia Xian Regional Contest](https://board.xcpcio.com/icpc/47th/xian)|2022-11-13|线上-西北工业大学|[GYM](https://codeforces.com/gym/104077), [QOJ](https://qoj.ac/contest/1051)|
+|[合肥](https://www.zhihu.com/question/566672928) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/142607.htm)|[第 47 届国际大学生程序设计竞赛亚洲区域赛合肥站](https://board.xcpcio.com/icpc/47th/hefei)<br/>【这一场出了大锅，应该不会再有了】|2022-11-20|线上-中国科学技术大学|【待补充】|
+|[济南](https://www.zhihu.com/question/568201615) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/142608.htm)|[2022 International Collegiate Programming Contest, Jinan Site](https://board.xcpcio.com/icpc/47th/jinan)|2022-11-27|线上-齐鲁工业大学|[GYM](https://codeforces.com/gym/104076), [QOJ](https://qoj.ac/contest/1053)|
+|[杭州](https://www.zhihu.com/question/569342284) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/142611.htm)|[The 2022 ICPC Asia Hangzhou Regional Programming Contest](https://board.xcpcio.com/icpc/47th/hangzhou)|2022-12-04|线上-杭州师范大学|[GYM](https://codeforces.com/gym/104090), [QOJ](https://qoj.ac/contest/1071)|
+|[南京](https://www.zhihu.com/question/572113636) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/142604.htm)|[The 2022 ICPC Asia Nanjing Regional Contest](https://board.xcpcio.com/icpc/47th/nanjing)<br/>*同时也被称呼为<br/>The 1st Universal Cup. Stage 0: Nanjing (Trial Contest)*|2022-12-18|线上-南京航空航天大学|[GYM](https://codeforces.com/gym/104128), [QOJ](https://qoj.ac/contest/1093)|
+|[香港](https://www.zhihu.com/question/578727505) [$^\bullet$](https://icpc2023.cse.cuhk.edu.hk/)|[The 2023 ICPC Asia Hong Kong Regional Programming Contest](https://board.xcpcio.com/icpc/47th/hongkong)<br/>*同时也被称呼为<br/>The 1st Universal Cup. Stage 2: Hong Kong,<br/>Petrozavodsk Winter 2023. Day 3. 2023 ICPC Asia Hong Kong Regional.*|2023-01-14|香港中文大学|[GYM](https://codeforces.com/gym/104172), [QOJ](https://qoj.ac/contest/1099)|
+|**[决赛/上海](https://www.zhihu.com/question/543929336)** [$^\bullet$](https://icpc.pku.edu.cn/ssxx/142613.htm)|[The 2022 ICPC Asia East Continent Final Contest (EC-Final 2022)](https://board.xcpcio.com/icpc/47th/ec-final)<br/>*同时也被称呼为<br/>The 1st Universal Cup. Stage 11: Shanghai*|2023-03-25|上海大学|[QOJ](https://qoj.ac/contest/1197)|
+|台湾网络预选赛 [$^\bullet$](https://topc2022.icpc.tw)|2022 ICPC Asia Taiwan Online Programming Contest|2021-10-22|在线-|[GYM](https://codeforces.com/gym/103990)|
+|台湾桃园 [$^\bullet$](https://icpc2022.ntub.edu.tw)|The 2022 ICPC Asia Taoyuan Regional Programming Contest<br/>*同时也被称呼为<br/>The 1st Universal Cup. Stage 6: Taiwan*|2022-11-20|桃園市武漢國民中學|[QOJ](https://qoj.ac/contest/1124)|
 
 ## 2021.9-2022 赛季 46th
 
 > 受新冠疫情影响，本年度赛事存在不同程度推迟问题。
 
-|<div style="width:100px;">简称</div>|官方名称|<div style="width:100px;">举办时间</div>|<div style="width:70px;">补题链接</div>|
-|:--:|:--:|:--:|:--:|
-|网络预选赛(I)|The 2021 ICPC Asia Regionals Online Contest (I)|2021-09-19|[PTA](https://pintia.cn/market/item/1439765428045058048)|
-|网络预选赛(II)|The 2021 ICPC Asia Regionals Online Contest (II)|2021-09-25|[PTA](https://pintia.cn/market/item/1442013218528759808)|
-|济南|[The 2021 ICPC Asia Jinan Regional Contest](https://board.xcpcio.com/icpc/46th/jinan)|2021-11-14|[PTA](https://pintia.cn/market/item/1459833348620926976)|
-|沈阳|[The 2021 ICPC Asia Shenyang Regional Contest](2021-11-21)|2021-11-21|[GYM](https://codeforces.com/gym/103427), [QOJ](https://qoj.ac/contest/1252), [牛客](https://ac.nowcoder.com/acm/contest/24346)|
-|上海|[The 2021 ICPC Asia Shanghai Regional Programming Contest](https://board.xcpcio.com/icpc/46th/shanghai)|2021-11-28|[GYM](https://codeforces.com/gym/103446), [牛客](https://ac.nowcoder.com/acm/contest/24872)|
-|南京|[The 2021 ICPC Asia Nanjing Regional Contest](https://board.xcpcio.com/icpc/46th/nanjing)<br/>*同时也被称呼为*<br/>*XXII Open Cup named after E.V. Pankratiev, Grand Prix of Nanjing*|2021-12-04|[GYM](https://codeforces.com/gym/103470), [QOJ](https://qoj.ac/contest/1236)|
-|澳门|[第46屆ICPC 東亞洲區域賽（澳門）](https://board.xcpcio.com/icpc/46th/macau)<br/>*同时也被称呼为*<br/>*Moscow Pre-Finals Workshops 2022 Day 3*|2022-04-03|[GYM](https://codeforces.com/gym/104373), [牛客](https://ac.nowcoder.com/acm/contest/31454), [QOJ](https://qoj.ac/contest/911)|
-|昆明|[第46届ICPC亚洲区域赛（昆明）](https://board.xcpcio.com/icpc/46th/kunming)|2022-04-16|[牛客](https://ac.nowcoder.com/acm/contest/32708)|
-|**决赛（西安）**|[2021 ICPC Asia East Continent Final](https://board.xcpcio.com/icpc/46th/ec-final)<br/>*同时也被称呼为*<br/>*XXII Open Cup named after E.V. Pankratiev, Grand Prix of China*|2022-07-20|[GYM](https://codeforces.com/gym/103861), [QOJ](https://qoj.ac/contest/1041)|
-|台湾网络预选赛|2021 ICPC Asia Taiwan Online Programming Contest||[GYM](https://codeforces.com/gym/103373)|
-|台湾台北|The 2021 ICPC Asia Taipei Regional Programming Contest||[GYM](https://codeforces.com/gym/103443)|
+|<div style="width:100px;">简称</div>|<div style="width:450px;">官方名称</div>|<div style="width:100px;">举办时间</div>|<div style="width:200px;">承办</div>|<div style="width:70px;">补题链接</div>|
+|:--:|:--:|:--:|:--:|:--:|
+|[网络预选赛(I)](https://www.zhihu.com/question/487764423) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/130591.htm)|The 2021 ICPC Asia Regionals Online Contest (I)|2021-09-19|在线-PTA|[PTA](https://pintia.cn/market/item/1439765428045058048)|
+|[网络预选赛(II)](https://www.zhihu.com/question/488853376) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/130706.htm)|The 2021 ICPC Asia Regionals Online Contest (II)|2021-09-25|在线-PTA|[PTA](https://pintia.cn/market/item/1442013218528759808)|
+|[济南](https://www.zhihu.com/question/494904201) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/130711.htm)|[The 2021 ICPC Asia Jinan Regional Contest](https://board.xcpcio.com/icpc/46th/jinan)|2021-11-14|在线-齐鲁工业大学|[PTA](https://pintia.cn/market/item/1459833348620926976)|
+|[沈阳](https://www.zhihu.com/question/500358591) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/130710.htm)|[The 2021 ICPC Asia Shenyang Regional Contest](2021-11-21)|2021-11-21|在线-东北大学|[GYM](https://codeforces.com/gym/103427), [QOJ](https://qoj.ac/contest/1252), [牛客](https://ac.nowcoder.com/acm/contest/24346)|
+|[上海](https://www.zhihu.com/question/502032873) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/130712.htm)|[The 2021 ICPC Asia Shanghai Regional Programming Contest](https://board.xcpcio.com/icpc/46th/shanghai)|2021-11-28|在线-上海大学|[GYM](https://codeforces.com/gym/103446), [牛客](https://ac.nowcoder.com/acm/contest/24872)|
+|[南京](https://www.zhihu.com/question/498925531) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/130713.htm)|[The 2021 ICPC Asia Nanjing Regional Contest](https://board.xcpcio.com/icpc/46th/nanjing)<br/>*同时也被称呼为*<br/>*XXII Open Cup named after E.V. Pankratiev, Grand Prix of Nanjing*|2021-12-04|在线-南京航空航天大学|[GYM](https://codeforces.com/gym/103470), [QOJ](https://qoj.ac/contest/1236)|
+|[澳门](https://www.zhihu.com/question/462046077) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/130716.htm)|[第46屆ICPC 東亞洲區域賽（澳門）](https://board.xcpcio.com/icpc/46th/macau)<br/>*同时也被称呼为*<br/>*Moscow Pre-Finals Workshops 2022 Day 3*|2022-04-03|在线-澳门大学<br/>香港城市大学|[GYM](https://codeforces.com/gym/104373), [牛客](https://ac.nowcoder.com/acm/contest/31454), [QOJ](https://qoj.ac/contest/911)|
+|[昆明](https://www.zhihu.com/question/435057733) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/130715.htm)|[第46届ICPC亚洲区域赛（昆明）](https://board.xcpcio.com/icpc/46th/kunming)|2022-04-16|在线-昆明理工大学|[牛客](https://ac.nowcoder.com/acm/contest/32708)|
+|**[决赛/西安](https://www.zhihu.com/question/543699999)** [$^\bullet$](https://icpc.pku.edu.cn/ssxx/130714.htm)|[2021 ICPC Asia East Continent Final](https://board.xcpcio.com/icpc/46th/ec-final)<br/>*同时也被称呼为*<br/>*XXII Open Cup named after E.V. Pankratiev, Grand Prix of China*|2022-07-20|西北工业大学|[GYM](https://codeforces.com/gym/103861), [QOJ](https://qoj.ac/contest/1041)|
+|台湾网络预选赛 [$^\bullet$](https://topc2021.icpc.tw)|2021 ICPC Asia Taiwan Online Programming Contest|2021-10-23|在线-|[GYM](https://codeforces.com/gym/103373)|
+|台湾台北 [$^\bullet$](https://icpc2021.ntub.edu.tw)|The 2021 ICPC Asia Taipei Regional Programming Contest|2021-11-28|國立台北商業大學|[GYM](https://codeforces.com/gym/103443)|
 
 ## 2020.9-2021 赛季 45th
 

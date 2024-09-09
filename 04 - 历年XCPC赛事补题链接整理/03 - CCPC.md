@@ -121,4 +121,4 @@
 
 |<div style="width:100px;">简称</div>|<div style="width:450px;">官方名称</div>|<div style="width:100px;">举办时间</div>|<div style="width:200px;">承办</div>|<div style="width:70px;">评价</div>|<div style="width:70px;">补题链接</div>|
 |:--:|:--:|:--:|:--:|:--:|:--:|
-|**决赛**|The 2015 China Collegiate Programming Contest (CCPC 2015)|2015-10-18|南阳理工学院|[知乎](https://www.zhihu.com/question/36617747)|[GYM](https://codeforces.com/gym/103964), [HDU](https://acm.hdu.edu.cn/search.php?field=problem&key=The+2015+China+Collegiate+Programming+Contest&source=1&searchmode=source)|
+|**决赛/南阳**|[The 2015 China Collegiate Programming Contest (CCPC 2015)](https://acm.sdut.edu.cn/acmss/ccpc/2015/nanyang/index.html)|2015-10-18|南阳理工学院|[知乎](https://www.zhihu.com/question/36617747)|[GYM](https://codeforces.com/gym/103964), [HDU](https://acm.hdu.edu.cn/search.php?field=problem&key=The+2015+China+Collegiate+Programming+Contest&source=1&searchmode=source)|
