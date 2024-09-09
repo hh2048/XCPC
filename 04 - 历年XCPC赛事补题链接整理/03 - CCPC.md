@@ -4,7 +4,7 @@
 
 |<div style="width:100px;">简称</div>|<div style="width:450px;">官方名称</div>|<div style="width:100px;">举办时间</div>|<div style="width:200px;">承办</div>|<div style="width:70px;">评价</div>|<div style="width:70px;">补题链接</div>|
 |:--:|:--:|:--:|:--:|:--:|:--:|
-|网络预选赛|[]()|2024-09-08|||【待补充】|
+|网络预选赛|[The 2024 CCPC Online Contest](https://pintia.cn/rankings/1830898870598004736)|2024-09-08|在线-PTA|[知乎](https://www.zhihu.com/question/666375462)|[GYM](https://codeforces.com/gym/105336)|
 |哈尔滨|[]()|2024-10-20|东北林业大学||【待补充】|
 |济南|[]()|2024-10-27|山东大学||【待补充】|
 |女生专场|[]()|2024-11-03|重庆对外经贸学院||【待补充】|
