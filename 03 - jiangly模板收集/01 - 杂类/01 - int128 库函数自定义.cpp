@@ -1,5 +1,6 @@
 /**   int128 库函数自定义
  *    2024-08-14: https://ac.nowcoder.com/acm/contest/view-submission?submissionId=70979004&returnHomeType=1&uid=329687984
+ *    2024-09-17: https://qoj.ac/submission/571481
 **/
 using i128 = __int128;
  
@@ -35,4 +36,12 @@ i128 sqrti128(i128 n) {
         }
     }
     return lo;
+}
+
+i128 gcd(i128 a, i128 b) {
+    while (b) {
+        a %= b;
+        std::swap(a, b);
+    }
+    return a;
 }
