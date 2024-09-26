@@ -1,4 +1,6 @@
 /**   自适应辛普森法 Simpson
+ *    2020-09-25: https://codeforces.com/gym/100198/submission/93747918
+ *    2021-01-28: https://codeforces.com/gym/100553/submission/105639142
  *    2023-09-02: https://qoj.ac/submission/161388
 **/
 const double Pi = std::acos(-1.0);
