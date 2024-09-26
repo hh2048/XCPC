@@ -68,7 +68,7 @@
 |网络预选赛|2020中国大学生程序设计竞赛（CCPC） - 网络选拔赛|2020-09-20|在线-HDU|[知乎](https://www.zhihu.com/question/422026748)|[HDU](https://acm.hdu.edu.cn/search.php?field=problem&key=2020%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%B3%CC%D0%F2%C9%E8%BC%C6%BE%BA%C8%FC%A3%A8CCPC%A3%A9+-+%CD%F8%C2%E7%D1%A1%B0%CE%C8%FC&source=1&searchmode=source)|
 |女生专场|[CCPC2020-第六届中国大学生程序设计竞赛（女生专场）](https://board.xcpcio.com/ccpc/2020/wfinal)|2020-10-18|在线-东北大学秦皇岛分校|同|同|
 |秦皇岛|[2020 China Collegiate Programming Contest Qinhuangdao Site](https://board.xcpcio.com/ccpc/2020/qinhuangdao)|2020-10-18|在线-东北大学秦皇岛分校|[知乎](https://www.zhihu.com/question/426081900)|[GYM](https://codeforces.com/gym/102769)|
-|威海|[2020 China Collegiate Programming Contest, Weihai Site](https://board.xcpcio.com/ccpc/2020/weihai)|2020-10-25|在线-哈尔滨工业大学（威海）|[知乎](https://www.zhihu.com/question/426601290)|[GYM](https://codeforces.com/gym/102798)|
+|威海|[2020 China Collegiate Programming Contest, Weihai Site](https://board.xcpcio.com/ccpc/2020/weihai)<br/>*同时也被称呼为*<br/>*XXI Open Cup named after E.V. Pankratiev, Grand Prix of Weihai*|2020-10-25|在线-哈尔滨工业大学（威海）|[知乎](https://www.zhihu.com/question/426601290)|[GYM](https://codeforces.com/gym/102798), [QOJ](https://qoj.ac/contest/1793)|
 |绵阳|[2020 China Collegiate Programming Contest - Mianyang Site](https://board.xcpcio.com/ccpc/2020/mianyang)|2020-11-01|在线-西南科技大学|[知乎](https://www.zhihu.com/question/427002931)|[GYM](https://codeforces.com/gym/102822)|
 |长春|[2020 China Collegiate Programming Contest Changchun Onsite](https://board.xcpcio.com/ccpc/2020/changchun)|2020-11-08|在线-长春理工大学|[知乎](https://www.zhihu.com/question/427096184)|[GYM](https://codeforces.com/gym/102832)|
 |**决赛/北京**|[第六届中国大学生程序设计竞赛（CCPC 2020）](https://board.xcpcio.com/ccpc/2020/final)<br/>*同时也被称呼为*<br/>*XXI Open Cup named after E.V. Pankratiev, Grand Prix of Beijing*|2021-05-30|北京邮电大学|[知乎](https://www.zhihu.com/question/457002340)|[QOJ](https://qoj.ac/contest/845)|
@@ -82,7 +82,7 @@
 |女生专场|2019中国大学生程序设计竞赛-女生专场（重现赛）-感谢南京晓庄学院|2019-06-02|南京晓庄学院|[知乎](https://www.zhihu.com/question/326107185)|[HDU](https://acm.hdu.edu.cn/search.php?field=problem&key=2019%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%B3%CC%D0%F2%C9%E8%BC%C6%BE%BA%C8%FC-%C5%AE%C9%FA%D7%A8%B3%A1%A3%A8%D6%D8%CF%D6%C8%FC%A3%A9-%B8%D0%D0%BB%C4%CF%BE%A9%CF%FE%D7%AF%D1%A7%D4%BA&source=1&searchmode=source)|
 |网络预选赛|2019中国大学生程序设计竞赛（CCPC） - 网络选拔赛|2019-08-23|在线-HDU|[知乎](https://www.zhihu.com/question/342335520)|[HDU](https://acm.hdu.edu.cn/search.php?field=problem&key=2019%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%B3%CC%D0%F2%C9%E8%BC%C6%BE%BA%C8%FC%A3%A8CCPC%A3%A9+-+%CD%F8%C2%E7%D1%A1%B0%CE%C8%FC&source=1&searchmode=source)|
 |秦皇岛|2019 China Collegiate Programming Contest Qinhuangdao Onsite|2019-09-22|东北大学秦皇岛分校|[知乎](https://www.zhihu.com/question/346899662)|[GYM](https://codeforces.com/gym/102361)|
-|哈尔滨|The 2019 China Collegiate Programming Contest Harbin Site|2019-10-13|东北林业大学|[知乎](https://www.zhihu.com/question/350280736)|[GYM](https://codeforces.com/gym/102394)|
+|哈尔滨|The 2019 China Collegiate Programming Contest Harbin Site|2019-10-13|东北林业大学|[知乎](https://www.zhihu.com/question/350280736)|[GYM](https://codeforces.com/gym/102394), [QOJ](https://qoj.ac/contest/1797)|
 |厦门|第五届中国大学生程序设计竞赛 厦门站（CCPC 2019 Xiamen Site）<br/>*同时也被称呼为*<br/>*Moscow International Workshops 2019. Day 6. CCPC Contest*|2019-10-20|厦门理工学院|[知乎](https://www.zhihu.com/question/350311486)|[QOJ](https://qoj.ac/contest/1733)|
 |**决赛/北京**|2019 China Collegiate Programming Contest Final (CCPC-Final 2019)|2019-11-17|中国传媒大学|[知乎](https://www.zhihu.com/question/351731654)|[GYM](https://codeforces.com/gym/102431)|
 

@@ -4,8 +4,8 @@
 
 |<div style="width:100px;">简称</div>|<div style="width:450px;">官方名称</div>|<div style="width:100px;">举办时间</div>|<div style="width:200px;">承办</div>|<div style="width:70px;">补题链接</div>|
 |:--:|:--:|:--:|:--:|:--:|
-|网络预选赛(I) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/158944.htm)|[2024 ICPC Asia EC 网络预选赛](https://pintia.cn/rankings/1831362571373408256)|2024-09-15|在线-PTA|【待补充】|
-|网络预选赛(II)|[]()|2024-09-21||【待补充】|
+|网络预选赛(I) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/158944.htm)|[2024 ICPC Asia EC 网络预选赛](https://pintia.cn/rankings/1831362571373408256)|2024-09-15|在线-PTA|[QOJ](https://qoj.ac/contest/1797)|
+|网络预选赛(II)|[]()|2024-09-21||[QOJ](https://qoj.ac/contest/1799)|
 |香港|[]()|2024-10-20||【待补充】|
 |成都|[]()|2024-10-27||【待补充】|
 |南京|[]()|2024-11-03||【待补充】|
@@ -23,7 +23,7 @@
 |:--:|:--:|:--:|:--:|:--:|
 |[网络预选赛(I)](https://www.zhihu.com/question/622493599)|[The 2023 ICPC Asia EC Regionals Online Contest (I)](https://board.xcpcio.com/icpc/48th/online-qualification-1)|2023-09-17|在线-PTA|[PTA](https://pintia.cn/market/item/1703381331863785472), [GYM](https://codeforces.com/gym/104639)|
 |[网络预选赛(II)](https://www.zhihu.com/question/623080860)|[The 2023 ICPC Asia Regionals Online Contest (II)](https://board.xcpcio.com/icpc/48th/online-qualification-2)|2023-09-23|在线-PTA|[PTA](https://pintia.cn/market/item/1705511462254264320)|
-|[西安](https://www.zhihu.com/question/626553045) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/151088.htm)|[第 48 届 ICPC 国际大学生程序设计竞赛区域赛西安站](https://board.xcpcio.com/icpc/48th/xian)<br/>【ucpc还在鸽！我的凹包呢？】|2023-10-22|西北工业大学|【待补充】|
+|[西安](https://www.zhihu.com/question/626553045) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/151088.htm)|[The 2023 ICPC Asia Xi'an Regional Contest](https://board.xcpcio.com/icpc/48th/xian)<br/>*同时也被称呼为*<br/>*The 3rd Universal Cup. Stage 9: Xi'an*<br/>【一年之期已到，恭迎凹包归位】|2023-10-22|西北工业大学|[QOJ](XXI Open Cup named after E.V. Pankratiev, Grand Prix of Weihai)|
 |[南京](https://www.zhihu.com/question/627281278)[$^\bullet$](https://icpc.pku.edu.cn/ssxx/151089.htm)|[The 2023 ICPC Asia Nanjing Regional Contest](https://board.xcpcio.com/icpc/48th/nanjing) <br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 11: Nanjing*|2023-11-05|南京航空航天大学|[GYM](https://codeforces.com/gym/104821), [QOJ](https://qoj.ac/contest/1435)|
 |[沈阳](https://www.zhihu.com/question/628657108) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/151091.htm)|[The 2023 ICPC Asia Shenyang Regional Contest](https://board.xcpcio.com/icpc/48th/shenyang)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 13: Shenyang*|2023-11-12|东北大学|[GYM](https://codeforces.com/gym/104869), [QOJ](https://qoj.ac/contest/1449)|
 |[澳门](https://www.zhihu.com/question/630837656) [$^\bullet$](https://icpc.pku.edu.cn/ssxx/151090.htm)|[The 2023 ICPC Asia Macau Regional Contest](https://board.xcpcio.com/icpc/48th/macau)<br/>*同时也被称呼为<br/>The 2nd Universal Cup. Stage 15: Macau*|2023-11-19|澳门大学|[GYM](https://codeforces.com/gym/104891), [QOJ](https://qoj.ac/contest/1459)|
