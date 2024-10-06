@@ -120,6 +120,7 @@ struct Graph {
 
 /**   一般图最大匹配（Graph 带花树算法）【久远】
  *    2021-12-24: https://codeforces.com/contest/1615/submission/140509278
+ *    2022-08-28: https://codeforces.com/gym/103260/submission/169975982
 **/
 struct Graph {
     int n;
