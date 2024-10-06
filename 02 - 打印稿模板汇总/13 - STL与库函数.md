@@ -1,12 +1,13 @@
 ## STL 与库函数
 
-### pb_ds 库头文件
+### pb_ds 库
+
+其中 `gp_hash_table` 使用的最多，其等价于 `unordered_map` ，内部是无序的。
 
 ```c++
 #include <bits/extc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 template<class S, class T> using omap = __gnu_pbds::gp_hash_table<S, T, myhash>;
-template<class S, class T> using umap = unordered_map<S, T, myhash>;
 ```
 
 ### 查找后继 lower\_bound、upper\_bound
@@ -25,7 +26,7 @@ upper_bound(a, a + n, k) - lower_bound(a, a + n, k) //查找k在a中出现了几
 
 ```c++
 mt19937 rnd(chrono::steady_clock::now().time_since_epoch().count());
-shuffle(ver.begin(), ver.end(), rnd); gt
+shuffle(ver.begin(), ver.end(), rnd);
 ```
 
 ### 二分搜索 binary\_search
@@ -60,23 +61,16 @@ unique(a + start, a + end);
 a.erase(unique(ALL(a)), a.end());
 ```
 
-### 位运算函数 \__builtin\_
+### bit 库与位运算函数 \__builtin\_
 
 ```c++
-// 样例：x = 1即(1)，x = 8即(1000)，x = 15即(1111)
+__builtin_popcount(x) // 返回x二进制下含1的数量，例如x=15=(1111)时答案为4
 
-// 返回x二进制下含1的数量
-cout << __builtin_popcount(x); // 例如x=15时答案为4
+__builtin_ffs(x) // 返回x右数第一个1的位置(1-idx)，1(1) 返回 1，8(1000) 返回 4，26(11010) 返回 2
 
-// 返回x二进制下最后一个1的位置（从1开始计算）
-cout << __builtin_ffs(x); // 例如x=1答案为1，x=8答案为4
+__builtin_ctz(x) // 返回x二进制下后导0的个数，1(1) 返回 0，8(1000) 返回 3
 
-// 返回x二进制下后导0的个数
-cout << __builtin_ctz(x); // 例如x=1答案为0，x=8答案为3
-
-// 返回x二进制下第一个1的位置（原函数是求前导0的个数）
-cout << 31 - __builtin_clz(x); // x = 9(1001) 返回 3
-cout << 63 - __builtin_clzll(x);
+bit_width(x) // 返回x二进制下的位数，9(1001) 返回 4，26(11010) 返回 5
 ```
 
 注：以上函数的 $\tt{}long\ long$ 版本只需要在函数后面加上 `ll` 即可（例如 `__builtin_popcountll(x)` )， $\tt{}unsigned\ long\ long$ 加上 `ull` 。
@@ -196,6 +190,14 @@ UUU::iterator it;
 vector<int>::iterator it; //创建一个正向迭代器，++ 操作时指向下一个
 vector<int>::reverse_iterator it; //创建一个反向迭代器，++ 操作时指向上一个
 ```
+
+### 其他函数
+
+`exp2(x)` ：返回 $2^x$ 
+
+`log2(x)` ：返回 $\log_2(x)$
+
+`gcd(x, y) / lcm(x, y)` ：以 $\log$ 的复杂度返回 $\gcd(|x|, |y|)$ 与 ${\tt lcm}(|x|, |y|)$ ，且返回值符号也为正数。
 
 ## 容器与成员函数
 
@@ -333,7 +335,7 @@ upper_cound(x); //返回第一个>x的迭代器【迭代器！！！】
 ```c++
 auto it = s.find(x); // 建立一个迭代器
 prev(it) / next(it); // 默认返回迭代器it的前/后一个迭代器
-pre(it, 2) / next(it, 2); // 可选参数可以控制返回前/后任意个迭代器
+prev(it, 2) / next(it, 2); // 可选参数可以控制返回前/后任意个迭代器
 
 /* 以下是一些应用 */
 auto pre = prev(s.lower_bound(x)); // 返回第一个<x的迭代器
