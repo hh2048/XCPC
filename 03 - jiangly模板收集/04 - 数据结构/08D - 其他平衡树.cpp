@@ -1,3 +1,6 @@
+/**   其他平衡树
+ *    2023-07-31: https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63162242
+**/
 struct Node {
     Node *l = nullptr;
     Node *r = nullptr;
@@ -92,4 +95,3 @@ Node *merge(Node *t1, Node *t2, int l, int r) {
     pull(t1);
     return t1;
 }
-

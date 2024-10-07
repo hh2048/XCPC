@@ -1,3 +1,6 @@
+/**   其他平衡树
+ *    2023-08-04: https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63246177
+**/
 struct Node {
     Node *l = nullptr;
     Node *r = nullptr;
@@ -54,4 +57,3 @@ std::array<int, 3> query2(Node *t1, Node *t2, int l, int r, int k) {
         return query2(t1 ? t1->l : t1, t2 ? t2->l : t2, l, m, k - cnt);
     }
 }
-

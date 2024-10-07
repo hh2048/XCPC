@@ -1,4 +1,4 @@
-/**   立体几何
+/**   立体几何（Point）
  *    2023-09-25 (i64): https://qoj.ac/submission/188519
  *    2023-09-28 (double): https://qoj.ac/submission/190463
 **/

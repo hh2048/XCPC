@@ -1,4 +1,4 @@
-/**   静态凸包（with. std::complex）
+/**   静态凸包（with. complex）
  *    2022-02-04: https://loj.ac/s/1370861
 **/
 using Point = std::complex<i64>;

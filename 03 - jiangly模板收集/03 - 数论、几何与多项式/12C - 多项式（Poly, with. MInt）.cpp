@@ -1,4 +1,4 @@
-/**   多项式相关（Poly, with. MInt & MLong）
+/**   多项式（Poly, with. MInt & MLong）
  *    2023-09-20: https://atcoder.jp/contests/arc163/submissions/45737810
  *    2024-07-28: https://codeforces.com/contest/1991/submission/273204889
 **/

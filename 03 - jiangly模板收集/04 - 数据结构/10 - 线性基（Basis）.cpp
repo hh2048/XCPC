@@ -1,3 +1,6 @@
+/**   线性基（Basis）
+ *    2023-12-03: https://codeforces.com/contest/1902/submission/235594491
+**/
 struct Basis {
     int a[20] {};
     int t[20] {};

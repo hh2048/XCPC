@@ -1,3 +1,8 @@
+/**   取模类（MLong & MInt 新版）
+ *    2023-08-14: https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63433564
+ *
+ *    根据输入内容动态修改 MOD 的方法：Z::setMod(p) 。
+**/
 template<class T>
 constexpr T power(T a, i64 b) {
     T res = 1;
@@ -214,4 +219,3 @@ constexpr MInt<P> CInv = MInt<P>(V).inv();
 
 constexpr int P = 1000000007;
 using Z = MInt<P>;
-

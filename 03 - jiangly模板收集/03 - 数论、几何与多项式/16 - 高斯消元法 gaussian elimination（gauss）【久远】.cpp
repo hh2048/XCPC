@@ -1,4 +1,3 @@
-```c++
 /**   高斯消元法（gaussian elimination）【久远】
  *    2020-08-30: https://codeforces.com/gym/102129/submission/91334513
 **/
@@ -45,9 +44,6 @@ std::vector<int> gauss(std::vector<std::vector<int>> a, std::vector<int> b) {
     }
     return b;
 }
-```
-
-```c++
 /**   高斯消元法（gaussian elimination）【久远】
  *    2020-12-02: https://www.codechef.com/viewsolution/39942900
 **/
@@ -66,4 +62,3 @@ std::vector<double> gauss(std::vector<std::vector<double>> a, std::vector<double
     }
     return b;
 }
-```

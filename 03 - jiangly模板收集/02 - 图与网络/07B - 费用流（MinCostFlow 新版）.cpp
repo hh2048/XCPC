@@ -1,4 +1,4 @@
-/**   MinCostFlow 新版
+/**   费用流（MinCostFlow 新版）
  *    2023-11-09: https://qoj.ac/submission/244680
 **/
 template<class T>

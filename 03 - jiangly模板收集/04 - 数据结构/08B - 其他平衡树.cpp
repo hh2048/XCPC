@@ -1,3 +1,6 @@
+/**   其他平衡树
+ *    2023-08-26: https://codeforces.com/contest/1864/submission/220558951
+**/
 struct Node {
     Node *l = nullptr;
     Node *r = nullptr;
@@ -38,4 +41,3 @@ int query(Node *t1, Node *t2, int l, int r, int x) {
     }
     return res;
 }
-

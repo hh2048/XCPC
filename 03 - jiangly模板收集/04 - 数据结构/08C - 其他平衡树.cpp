@@ -1,3 +1,6 @@
+/**   其他平衡树
+ *    2023-04-03: https://codeforces.com/contest/38/submission/200537139
+**/
 struct Info {
     int imp = 0;
     int id = 0;
@@ -111,4 +114,3 @@ void dfs(Node *t) {
     std::cout << t->info.id << " ";
     dfs(t->r);
 }
-

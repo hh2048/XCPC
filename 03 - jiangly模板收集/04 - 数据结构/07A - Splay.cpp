@@ -1,3 +1,6 @@
+/**   Splay
+ *    2023-02-15: https://atcoder.jp/contests/joi2023ho/submissions/38901674
+**/
 struct Node {
     Node *l = nullptr;
     Node *r = nullptr;
@@ -190,4 +193,3 @@ Tree *merge(Tree *l, Tree *r) {
     r->p = i;
     return i;
 }
-

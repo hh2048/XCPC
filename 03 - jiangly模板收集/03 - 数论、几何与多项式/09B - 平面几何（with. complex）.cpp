@@ -1,4 +1,4 @@
-/**   平面几何（with. std::complex）
+/**   平面几何（with. complex）
  *    2023-09-04: https://qoj.ac/submission/164445
 **/
 using Point = std::complex<long double>;

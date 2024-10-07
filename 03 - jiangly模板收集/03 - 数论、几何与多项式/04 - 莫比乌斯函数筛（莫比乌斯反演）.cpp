@@ -1,4 +1,4 @@
-/**   莫比乌斯函数筛（莫比乌斯函数/反演）
+/**   莫比乌斯函数筛（莫比乌斯反演）
  *    2023-03-04: https://atcoder.jp/contests/tupc2022/submissions/39391116
  *    2023-04-07: https://yukicoder.me/submissions/857472
 **/

@@ -1,3 +1,6 @@
+/**   素数测试与因式分解（Miller-Rabin & Pollard-Rho）
+ *    2023-05-16: https://cf.dianhsu.com/gym/104354/submission/206130894
+**/
 i64 mul(i64 a, i64 b, i64 m) {
     return static_cast<__int128>(a) * b % m;
 }
@@ -86,4 +89,3 @@ std::vector<i64> factorize(i64 n) {
     std::sort(p.begin(), p.end());
     return p;
 }
-

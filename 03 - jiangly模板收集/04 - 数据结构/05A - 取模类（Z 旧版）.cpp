@@ -1,3 +1,6 @@
+/**   取模类（Z 旧版）
+ *    2022-06-12: https://codeforces.com/contest/1697/submission/160317720
+**/
 constexpr int P = 998244353;
 using i64 = long long;
 // assume -P <= x < 2P
@@ -79,4 +82,3 @@ struct Z {
         return os << a.val();
     }
 };
-
