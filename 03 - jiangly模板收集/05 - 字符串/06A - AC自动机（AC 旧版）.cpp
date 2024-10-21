@@ -1,3 +1,6 @@
+/**   AC自动机（AC 旧版）
+ *    2021-07-07: https://codeforces.com/contest/710/submission/121661266
+**/
 constexpr int N = 3e5 + 30, A = 26;
 
 struct Node {
@@ -73,4 +76,3 @@ struct AC {
         return ans;
     }
 };
-

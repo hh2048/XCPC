@@ -1,3 +1,6 @@
+/**   后缀自动机（SuffixAutomaton 旧版）
+ *    2022-08-17: https://ac.nowcoder.com/acm/contest/view-submission?submissionId=53409023&returnHomeType=1&uid=329687984
+**/
 struct SuffixAutomaton {
     static constexpr int ALPHABET_SIZE = 26, N = 5e5;
     struct Node {

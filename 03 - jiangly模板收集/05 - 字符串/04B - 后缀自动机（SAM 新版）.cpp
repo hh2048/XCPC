@@ -75,4 +75,3 @@ struct SAM {
         return t.size();
     }
 };
-

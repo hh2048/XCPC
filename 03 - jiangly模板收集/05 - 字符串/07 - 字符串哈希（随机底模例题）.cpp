@@ -1,3 +1,7 @@
+/**   字符串哈希（随机底模例题）
+ *    2022-06-09: https://codeforces.com/contest/1598/submission/160006998
+**/
+
 #include <bits/stdc++.h>
 
 using i64 = long long;
@@ -111,4 +115,3 @@ int main() {
     
     return 0;
 }
-

@@ -1,5 +1,5 @@
-/**   AC自动机（AhoCorasick 新新版）
- *    2024-04-09: https://www.luogu.com.cn/record/155114676 【模板】
+/**   AC自动机（AhoCorasick, with vector 新版）
+ *    2023-04-07: https://codeforces.com/contest/1801/submission/201155712
 **/
 struct AhoCorasick {
     static constexpr int ALPHABET = 26;
@@ -7,7 +7,7 @@ struct AhoCorasick {
         int len;
         int link;
         std::array<int, ALPHABET> next;
-        Node() : len{0}, link{0}, next{} {}
+        Node() : link{}, next{} {}
     };
     
     std::vector<Node> t;
@@ -27,10 +27,9 @@ struct AhoCorasick {
         return t.size() - 1;
     }
     
-    int add(const std::string &a) {
+    int add(const std::vector<int> &a) {
         int p = 1;
-        for (auto c : a) {
-            int x = c - 'a';
+        for (auto x : a) {
             if (t[p].next[x] == 0) {
                 t[p].next[x] = newNode();
                 t[t[p].next[x]].len = t[p].len + 1;
@@ -38,6 +37,14 @@ struct AhoCorasick {
             p = t[p].next[x];
         }
         return p;
+    }
+    
+    int add(const std::string &a, char offset = 'a') {
+        std::vector<int> b(a.size());
+        for (int i = 0; i < a.size(); i++) {
+            b[i] = a[i] - offset;
+        }
+        return add(b);
     }
     
     void work() {
@@ -61,6 +68,10 @@ struct AhoCorasick {
     
     int next(int p, int x) {
         return t[p].next[x];
+    }
+    
+    int next(int p, char c, char offset = 'a') {
+        return next(p, c - 'a');
     }
     
     int link(int p) {
