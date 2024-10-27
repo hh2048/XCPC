@@ -27,3 +27,9 @@ $2020-2024{\rm,\ Created\ \pmb{and}\ maintained\ \pmb{by}\ \mathcal{Wida}.}$
 - [一些个人的博客以及可能有用笔记搬运](https://github.com/hh2048/XCPC/blob/main/05%20-%20个人博客搬运)
 
 ~~在我退役前会持续维护更新，大约一周一次~~ 已经退役哩，大家有缘再见。
+
+## ⭐ Star History
+
+<a href="https://github.com/hh2048/xcpc">
+        <img width="500" alt="Star History Chart" src="https://api.star-history.com/svg?repos=hh2048/xcpc&type=Timeline">
+</a>
