@@ -1,5 +1,6 @@
-/**   动态取模类（ModIntBase）
+/**   取模运算类（ModIntBase）
  *    2024-08-14: https://ac.nowcoder.com/acm/contest/view-submission?submissionId=70980889&returnHomeType=1&uid=329687984
+ *    2024-10-11: https://qoj.ac/submission/629765
 **/
 // TODO: Dynamic ModInt
  
@@ -30,11 +31,11 @@ template<typename U, U P>
 requires std::unsigned_integral<U>
 struct ModIntBase {
 public:
-    constexpr ModIntBase() : x {0} {}
-     
+    constexpr ModIntBase() : x(0) {}
+    
     template<typename T>
     requires std::integral<T>
-    constexpr ModIntBase(T x_) : x {norm(x_ % T {P})} {}
+    constexpr ModIntBase(T x_) : x(norm(x_ % T {P})) {}
      
     constexpr static U norm(U x) {
         if ((x >> (8 * sizeof(U) - 1) & 1) == 1) {

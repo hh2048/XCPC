@@ -1,13 +1,14 @@
-/**   后缀数组（SA及其应用 新版）
- *    2023-09-24: https://qoj.ac/submission/187270
- *    2024-04-07: https://qoj.ac/submission/381482
+/**   后缀数组（SuffixArray）
+ *    2023-03-14: https://atcoder.jp/contests/discovery2016-qual/submissions/39727257
+ *    2023-09-05: https://qoj.ac/submission/164483
+ *    2024-04-09: https://qoj.ac/submission/384415 【模板】
+ *    2024-10-18: https://qoj.ac/submission/649558
 **/
-struct SA {
+struct SuffixArray {
     int n;
     std::vector<int> sa, rk, lc;
-
-    SA(std::string s) {
-        n = s.size();
+    SuffixArray(const std::string &s) {
+        n = s.length();
         sa.resize(n);
         lc.resize(n - 1);
         rk.resize(n);
@@ -54,51 +55,10 @@ struct SA {
             if (rk[i] == 0) {
                 j = 0;
             } else {
-                for (j -= j > 0; i + j < n && sa[rk[i] - 1] + j < n && s[i + j] == s[sa[rk[i] - 1] + j]; ) {
-                    j++;
-                }
+                for (j -= (j > 0); i + j < n && sa[rk[i] - 1] + j < n && s[i + j] == s[sa[rk[i] - 1] + j]; j++)
+                    ;
                 lc[rk[i] - 1] = j;
             }
         }
     }
 };
-
-void solve() {
-    constexpr int K = 21;
-    std::vector st(K, std::vector<int>(l - 1));
-    st[0] = lc;
-    for (int j = 0; j < K - 1; j++) {
-        for (int i = 0; i + (2 << j) <= l - 1; i++) {
-            st[j + 1][i] = std::min(st[j][i], st[j][i + (1 << j)]);
-        }
-    }
-    
-    auto rmq = [&](int l, int r) {
-        int k = std::__lg(r - l);
-        return std::min(st[k][l], st[k][r - (1 << k)]);
-    };
-
-    auto lcp = [&](int i, int j) {
-        if (i == j || i == n || j == n) {
-            return std::min(n - i, n - j);
-        }
-        int a = rk[i];
-        int b = rk[j];
-        if (a > b) {
-            std::swap(a, b);
-        }
-        return std::min({n - i, n - j, rmq(a, b)});
-    };
-    
-    auto lcs = [&](int i, int j) {
-        if (i == j || i == 0 || j == 0) {
-            return std::min(i, j);
-        }
-        int a = rk[n + n - i];
-        int b = rk[n + n - j];
-        if (a > b) {
-            std::swap(a, b);
-        }
-        return std::min({i, j, rmq(a, b)});
-    };
-}

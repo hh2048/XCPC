@@ -1,4 +1,4 @@
-/**   多项式（Poly, with. Z）
+/**   多项式（Poly, with Z）
  *    2023-02-06: https://atcoder.jp/contests/arc155/submissions/38664055
 **/
 constexpr int P = 998244353;

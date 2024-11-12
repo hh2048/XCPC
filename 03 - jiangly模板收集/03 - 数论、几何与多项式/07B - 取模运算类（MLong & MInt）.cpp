@@ -1,4 +1,4 @@
-/**   取模类（MLong & MInt 新版）
+/**   取模运算类（MLong & MInt）
  *    2023-08-14: https://ac.nowcoder.com/acm/contest/view-submission?submissionId=63433564
  *
  *    根据输入内容动态修改 MOD 的方法：Z::setMod(p) 。

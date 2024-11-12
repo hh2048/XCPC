@@ -1,4 +1,4 @@
-/**   取模类（Z 旧版）
+/**   取模运算类（Z）
  *    2022-06-12: https://codeforces.com/contest/1697/submission/160317720
 **/
 constexpr int P = 998244353;

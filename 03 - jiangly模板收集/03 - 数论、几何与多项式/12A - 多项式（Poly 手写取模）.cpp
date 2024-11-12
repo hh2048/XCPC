@@ -1,4 +1,4 @@
-/**   多项式（Poly，旧版）
+/**   多项式（Poly 手写取模）
  *    2021-06-16: https://codeforces.com/gym/103119/submission/119653035
 **/
 constexpr int C = 1024;
