@@ -1,10 +1,8 @@
 /**   大数快速动态取模类（Barrett & DynModInt, with ModIntBase）
  *    2024-10-22: https://qoj.ac/submission/665008
  *    2024-11-06: https://qoj.ac/submission/716968
+ *    2025-01-19: https://codeforces.com/contest/2060/submission/301874355
 **/
-using u32 = unsigned;
-using u64 = unsigned long long;
-using u128 = unsigned __int128;
 template<class T>
 constexpr T power(T a, u64 b, T res = 1) {
     for (; b != 0; b /= 2, a *= a) {
@@ -14,19 +12,19 @@ constexpr T power(T a, u64 b, T res = 1) {
     }
     return res;
 }
-
+ 
 template<u32 P>
 constexpr u32 mulMod(u32 a, u32 b) {
     return u64(a) * b % P;
 }
-
+ 
 template<u64 P>
 constexpr u64 mulMod(u64 a, u64 b) {
     u64 res = a * b - u64(1.L * a * b / P - 0.5L) * P;
     res %= P;
     return res;
 }
-
+ 
 constexpr i64 safeMod(i64 x, i64 m) {
     x %= m;
     if (x < 0) {
@@ -34,7 +32,7 @@ constexpr i64 safeMod(i64 x, i64 m) {
     }
     return x;
 }
-
+ 
 constexpr std::pair<i64, i64> invGcd(i64 a, i64 b) {
     a = safeMod(a, b);
     if (a == 0) {
@@ -43,7 +41,7 @@ constexpr std::pair<i64, i64> invGcd(i64 a, i64 b) {
     
     i64 s = b, t = a;
     i64 m0 = 0, m1 = 1;
-
+ 
     while (t) {
         i64 u = s / t;
         s -= t * u;
@@ -59,7 +57,7 @@ constexpr std::pair<i64, i64> invGcd(i64 a, i64 b) {
     
     return {s, m0};
 }
-
+ 
 template<std::unsigned_integral U, U P>
 struct ModIntBase {
 public:
@@ -143,27 +141,30 @@ public:
         return os << a.val();
     }
     
-    friend constexpr std::strong_ordering operator<=>(ModIntBase lhs, ModIntBase rhs) {
+    friend constexpr bool operator==(const ModIntBase &lhs, const ModIntBase &rhs) {
+        return lhs.val() == rhs.val();
+    }
+    friend constexpr std::strong_ordering operator<=>(const ModIntBase &lhs, const ModIntBase &rhs) {
         return lhs.val() <=> rhs.val();
     }
     
 private:
     U x;
 };
-
+ 
 template<u32 P>
 using ModInt = ModIntBase<u32, P>;
 template<u64 P>
 using ModInt64 = ModIntBase<u64, P>;
-
+ 
 struct Barrett {
 public:
     Barrett(u32 m_) : m(m_), im((u64)(-1) / m_ + 1) {}
-
+ 
     constexpr u32 mod() const {
         return m;
     }
-
+ 
     constexpr u32 mul(u32 a, u32 b) const {
         u64 z = a;
         z *= b;
@@ -176,12 +177,12 @@ public:
         }
         return v;
     }
-
+ 
 private:
     u32 m;
     u64 im;
 };
-
+ 
 template<u32 Id>
 struct DynModInt {
 public:
@@ -190,7 +191,7 @@ public:
     constexpr DynModInt(T x_) : x(x_ % mod()) {}
     template<std::signed_integral T>
     constexpr DynModInt(T x_) {
-        int v = x_ %= int(mod());
+        int v = x_ % int(mod());
         if (v < 0) {
             v += mod();
         }
@@ -270,7 +271,10 @@ public:
         return os << a.val();
     }
     
-    friend constexpr std::strong_ordering operator<=>(DynModInt lhs, DynModInt rhs) {
+    friend constexpr bool operator==(const DynModInt &lhs, const DynModInt &rhs) {
+        return lhs.val() == rhs.val();
+    }
+    friend constexpr std::strong_ordering operator<=>(const DynModInt &lhs, const DynModInt &rhs) {
         return lhs.val() <=> rhs.val();
     }
     
@@ -278,9 +282,10 @@ private:
     u32 x;
     static Barrett bt;
 };
-
+ 
 template<u32 Id>
 Barrett DynModInt<Id>::bt = 998244353;
 
+using Z = ModInt<998244353>;
 // using Z = ModInt<1000000007>;
-using Z = DynModInt<0>;
+// using Z = DynModInt<0>;
