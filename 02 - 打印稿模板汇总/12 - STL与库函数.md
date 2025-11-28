@@ -1,6 +1,8 @@
-## STL 与库函数
+## 第十二章：STL与库函数
 
-### pb_ds 库
+### 库函数
+
+#### pb_ds 库
 
 其中 `gp_hash_table` 使用的最多，其等价于 `unordered_map` ，内部是无序的。
 
@@ -10,7 +12,7 @@
 template<class S, class T> using omap = __gnu_pbds::gp_hash_table<S, T, myhash>;
 ```
 
-### 查找后继 lower\_bound、upper\_bound
+#### 查找后继 lower\_bound、upper\_bound
 
 `lower` 表示 $\ge$ ，`upper` 表示 $>$ 。使用前记得**先进行排序**。
 
@@ -22,14 +24,14 @@ cout << lower_bound(a, a + n, x) - a; //在a数组中查找第一个>=x的元素
 upper_bound(a, a + n, k) - lower_bound(a, a + n, k) //查找k在a中出现了几次
 ```
 
-### 数组打乱 shuffle
+#### 数组打乱 shuffle
 
 ```c++
 mt19937 rnd(chrono::steady_clock::now().time_since_epoch().count());
 shuffle(ver.begin(), ver.end(), rnd);
 ```
 
-### 二分搜索 binary\_search
+#### 二分搜索 binary\_search
 
 用于查找某一元素是否在容器中，相当于 find 函数。在使用前需要**先进行排序**。
 
@@ -38,7 +40,7 @@ shuffle(ver.begin(), ver.end(), rnd);
 cout << binary_search(a + start, a + end, x);
 ```
 
-### 批量递增赋值函数 iota
+#### 批量递增赋值函数 iota
 
 对容器递增初始化。
 
@@ -47,7 +49,7 @@ cout << binary_search(a + start, a + end, x);
 iota(a + start, a + end, x);
 ```
 
-### 数组去重函数 unique
+#### 数组去重函数 unique
 
 在使用前需要**先进行排序**。
 
@@ -61,7 +63,7 @@ unique(a + start, a + end);
 a.erase(unique(ALL(a)), a.end());
 ```
 
-### bit 库与位运算函数 \__builtin\_
+#### bit 库与位运算函数 \__builtin\_
 
 ```c++
 __builtin_popcount(x) // 返回x二进制下含1的数量，例如x=15=(1111)时答案为4
@@ -75,7 +77,7 @@ bit_width(x) // 返回x二进制下的位数，9(1001) 返回 4，26(11010) 返�
 
 注：以上函数的 $\tt{}long\ long$ 版本只需要在函数后面加上 `ll` 即可（例如 `__builtin_popcountll(x)` )， $\tt{}unsigned\ long\ long$ 加上 `ull` 。
 
-### 数字转字符串函数
+#### 数字转字符串函数
 
 `itoa` 虽然能将整数转换成任意进制的字符串，但是其不是标准的C函数，且为Windows独有，且不支持 `long long` ，建议手写。
 
@@ -96,7 +98,7 @@ cout << ans << endl; /*1100*/
 // 长整型函数名ltoa，最高支持到int型上限2^31。ultoa同理。
 ```
 
-### 字符串转数字
+#### 字符串转数字
 
 ```c++
 // stoi直接使用
@@ -121,7 +123,7 @@ cout << atoi("abc12") << endl; /*0*/
 // 长整型函数名atoll，最高支持到long long型上限2^63。
 ```
 
-### 全排列算法 next\_permutation、prev\_permutation
+#### 全排列算法 next\_permutation、prev\_permutation
 
 在提及这个函数时，我们先需要补充几点字典序相关的知识。
 
@@ -145,7 +147,7 @@ do {
 } while (next_permutation(a.begin(), a.end()));
 ```
 
-### 字符串转换为数值函数 sto
+#### 字符串转换为数值函数 sto
 
 可以快捷的将**一串字符串**转换为**指定进制的数字**。
 
@@ -158,7 +160,7 @@ do {
 - `stoll(字符串, 0, x进制)` ：将一串 $\tt{}x$ 进制的字符串转换为 $\tt{}long\ long$ 型数字。
 - $\tt{}stoull，stod，stold$ 同理。
 
-### 数值转换为字符串函数 to\_string
+#### 数值转换为字符串函数 to\_string
 
 允许将**各种数值类型**转换为字符串类型。
 
@@ -167,21 +169,21 @@ do {
 string s = to_string(num);
 ```
 
-### 判断非递减 is\_sorted
+#### 判断非递减 is\_sorted
 
 ```c++
 //a数组[start,end)区间是否是非递减的，返回bool型
 cout << is_sorted(a + start, a + end);
 ```
 
-### 累加 accumulate
+#### 累加 accumulate
 
 ```c++
 //将a数组[start,end)区间的元素进行累加，并输出累加和+x的值
 cout << accumulate(a + start, a + end, x);
 ```
 
-### 迭代器 iterator
+#### 迭代器 iterator
 
 ```c++
 //构建一个UUU容器的正向迭代器，名字叫it
@@ -191,7 +193,7 @@ vector<int>::iterator it; //创建一个正向迭代器，++ 操作时指向下�
 vector<int>::reverse_iterator it; //创建一个反向迭代器，++ 操作时指向上一个
 ```
 
-### 其他函数
+#### 其他函数
 
 `exp2(x)` ：返回 $2^x$ 
 
@@ -199,9 +201,9 @@ vector<int>::reverse_iterator it; //创建一个反向迭代器，++ 操作时�
 
 `gcd(x, y) / lcm(x, y)` ：以 $\log$ 的复杂度返回 $\gcd(|x|, |y|)$ 与 ${\tt lcm}(|x|, |y|)$ ，且返回值符号也为正数。
 
-## 容器与成员函数
+### 容器与成员函数
 
-### 元组 tuple
+#### 元组 tuple
 
 ```c++
 //获取obj对象中的第index个元素——get<index>(obj)
@@ -210,7 +212,7 @@ tuple<string, int, int> Student = {"Wida", 23, 45000);
 cout << get<0>(Student) << endl; //获取Student对象中的第一个元素，这里的输出结果应为“Wida”
 ```
 
-### 数组 array
+#### 数组 array
 
 ```c++
 array<int, 3> x; // 建立一个包含三个元素的数组x
@@ -219,7 +221,7 @@ array<int, 3> x; // 建立一个包含三个元素的数组x
 cout << x[0]; // 获取数组重的第一个元素
 ```
 
-### 变长数组 vector
+#### 变长数组 vector
 
 ```c++
 resize(n) // 重设容器大小，但是不改变已有元素的值
@@ -234,7 +236,7 @@ vector dis(n + 1, vector<int>(m + 1));
 vector dis(m + 1, vector(n + 1, vector<int>(n + 1)));
 ```
 
-### 栈  stack
+#### 栈  stack
 
 栈顶入，栈顶出。先进后出。
 
@@ -246,7 +248,7 @@ top() //获取栈顶元素
 pop() //弹出栈顶元素
 ```
 
-### 队列 queue
+#### 队列 queue
 
 队尾进，队头出。先进先出。
 
@@ -264,7 +266,7 @@ queue<int> q;
 q = queue<int>();
 ```
 
-### 双向队列 deque
+#### 双向队列 deque
 
 ```c++
 size() / empty() / clear()
@@ -275,7 +277,7 @@ begin() / end()
 []
 ```
 
-### 优先队列 priority\_queue
+#### 优先队列 priority\_queue
 
 默认升序（大根堆），自定义排序需要重载 `<` 。
 
@@ -298,7 +300,7 @@ struct Node {
 };
 ```
 
-### 字符串 string
+#### 字符串 string
 
 ```c++
 size() / empty() / clear()
@@ -313,7 +315,7 @@ find(x) / rfind(x); //顺序、逆序查找x，返回下标，没找到时返回
 //注意，没有count函数
 ```
 
-### 有序、多重有序集合 set、multiset
+#### 有序、多重有序集合 set、multiset
 
 默认升序（大根堆），$\tt set$ 去重，$\tt multiset$ 不去重，$\mathcal O(\log N)$ 。
 
@@ -363,7 +365,7 @@ for (int i = 0; i < len; ++ i) {
 //}
 ```
 
-### map、multimap
+#### map、multimap
 
 默认升序（大根堆），$\tt map$ 去重，$\tt mulitmap$ 不去重，$\mathcal O(logS)$ ，其中 $S$ 为元素数量。
 
@@ -405,7 +407,7 @@ struct fff {
 map<fff, int> mp;
 ```
 
-### bitset
+#### bitset
 
 将数据转换为二进制，从高位到低位排序，以 $0$ 为最低位。当位数相同时支持全部的位运算。
 
@@ -448,7 +450,7 @@ cout << (B1 == B2) << "\n"; //比较是否相等
 cout << B1 << " " << B2 << "\n"; //你可以直接使用cout输出
 ```
 
-### 哈希系列 unordered
+#### 哈希系列 unordered
 
 通常指代 unordered_map、unordered_set、unordered_multimap、unordered_multiset，与原版相比不进行排序。
 
@@ -519,9 +521,9 @@ namespace std {
 unordered_set<vector<int> > S;
 ```
 
-## 程序标准化
+### 程序标准化
 
-### 使用 Lambda 函数
+#### 使用 Lambda 函数
 
 - `function` 统一写法
 
@@ -558,7 +560,7 @@ auto dfs = [&](auto self, int x) -> bool {
 dfs(dfs, 1);
 ```
 
-### 使用构造函数
+#### 使用构造函数
 
 可以将一些必要的声明和预处理放在构造函数，在编译时，无论放置在程序的哪个位置，都会先于主函数进行。下方是我将输入流控制声明的过程。
 
