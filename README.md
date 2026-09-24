@@ -8,7 +8,7 @@ $\textcolor{#70695d}{\LARGE {\pmb {\mathfrak{and\ that\ has\ made\ all\ the\ dif
 
 $\mathcal{{\pmb ZJSU\ -AA\ Lab}}$
 
-$2020-2024{\rm,\ Created\ \pmb{and}\ maintained\ \pmb{by}\ \mathcal{Wida}.}$
+$2020-2026{\rm,\ Created\ \pmb{and}\ maintained\ \pmb{by}\ \mathcal{Wida}.}$
 
 </br>
 
@@ -26,10 +26,11 @@ $2020-2024{\rm,\ Created\ \pmb{and}\ maintained\ \pmb{by}\ \mathcal{Wida}.}$
 - [历年XCPC赛事补题链接整理](https://github.com/hh2048/XCPC/blob/main/04%20-%20历年XCPC赛事补题链接整理/README.md)
 - [一些个人的博客以及可能有用笔记搬运](https://github.com/hh2048/XCPC/blob/main/05%20-%20个人博客搬运)
 
-~~在我退役前会持续维护更新，大约一周一次~~ 已经退役哩，大家有缘再见。
+~~在我退役前会持续维护更新，大约一周一次~~
+~~已经退役哩，大家有缘再见。~~
+
+2026-09-22 更新预告：非常惊喜的发现，即便是退役之后，依然有这么多人关注我的模板库；近期将会带来一轮大型更新，也是 AI 时代以来的第一次。会引入这两年来在牛客工作产出的模板题、收获的新知识、以及一些思考；也极大程度借助 AI，对内容进行了重构、润色、优化与扩充。敬请期待。**太长不看：感谢催更，近期有大动作**。
 
 ## ⭐ Star History
 
-<a href="https://github.com/hh2048/xcpc">
-        <img width="500" alt="Star History Chart" src="https://api.star-history.com/svg?repos=hh2048/xcpc&type=Timeline">
-</a>
+<a href="https://github.com/hh2048/xcpc"><img width="500" alt="Star History Chart" src="https://api.star-history.com/svg?repos=hh2048/xcpc&type=Timeline"></a>
