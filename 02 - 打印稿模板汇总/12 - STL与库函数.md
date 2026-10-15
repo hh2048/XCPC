@@ -911,22 +911,47 @@ template<class S, class T> using gpmap = gp_hash_table<S, T>;
 
 #### order statistics tree
 
-有序树，支持“第 k 小元素”和“小于 x 的元素个数”。但是常数较大，通常不推荐使用：这个写法的好处是非常短，但是**常数和拓展性都不如手写一棵平衡树**。常见用法如下，复杂度均为 $\mathcal O(\log \text{SIZE})$。
+可以看作是简易的平衡树，按值维护**有序集合（自动去重）**，支持在线插入、删除、排名与第 $k$ 小。空间复杂度 $\mathcal O(n)$，单次操作复杂度 $\mathcal O(\log n)$，但**常数较大**，需要复杂增广、区间标记或持久化时**优先手写结构**。常用操作如下：
 
 ```c++
+#include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
+
 template<class T>
-using ordered_set = __gnu_pbds::tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
+using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
 
 ordered_set<int> os;
+os.insert(x);
+os.emplace(x);
+
+os.size();
+os.empty();
+os.clear();
+os.erase(x); // 删除等于 x 的元素
+os.erase(it); // 删除迭代器 it 指向的元素
+
+os.find_by_order(k); // 返回严格排名为 k 的元素迭代器
+os.order_of_key(x); // 返回严格排在 x 前面的元素数（x 的排名）
+os.lower_bound(x); // 返回第一个 >= x 的迭代器
+os.upper_bound(x); // 返回第一个 > x 的迭代器
+```
+
+通常会被用来快速的替代一下平衡树，详情可见数据结构一章。
+
+```c++
 os.insert(5);
 os.insert(1);
 os.insert(7);
+os.insert(5); // 相同键只保留一份
 
 auto it = os.find_by_order(1); // 下标从 0 开始；越界时返回 end()
 if (it != os.end()) cout << *it << '\n'; // 5
 
-int rank = os.order_of_key(6); // 小于 6 的元素个数：2
+cout << os.order_of_key(6) << '\n'; // 小于 6 的元素个数：2
+
+os.erase(5); // 其余按值查找、删除及前后继写法与 set 相同
+cout << os.order_of_key(6) << '\n'; // 小于 6 的元素个数：1
 ```
 
 ### 程序标准化
